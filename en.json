@@ -2,5 +2,6 @@
     "test": "Test",
     "one": "One",
     "two": "Two",
-    "three": "Three"
+    "three": "Three",
+    "hello": "Hello"
 }
