@@ -1,18 +1,34 @@
 {
-    "landingpage": {
-        "mainTitle": "Wir bündeln Kräfte für mehr SARS-CoV-2 Tests",
-        "subTitle": "Die digitale Plattform für ein starkes Diagnostiknetzwerk",
-        "Joinbutton": "Jetzt mitmachen",
-        "selected": "Ausgewählt für",
-        "collaboration": "In Zusammenarbeit mit",
-        "supported": "Gefördert vom",
-        "titleGroups": "Gemeinsam entfesseln wir die geballte Kraft der Wissenschaft",
-        "qualif-vol": "Qualifizierte Freiwillige",
-        "res-lab": "Forschungslabore",
-        "diag-cent": "Diagnostikzentren",
-        "searchButton": "Suche nach Ressourcen",
-        "text4": "Testkapazitäten und Unterstützung",
-        "testsweek": "Tests pro Woche"
+  "general": {
+    "btn_search": "Suche nach Ressourcen",
+    "dCenter": "Diagnostikzentrum | Diagnostikzentren",
+    "qVolunteer": "Qualifizierte:r Freiwillige:r | Qualifizierte Freiwillige",
+    "rLab": "Forschungslabor | Forschungslabore",
+    "volunteer": "Freiwillige:r | Freiwillige"
+  },
+  "landingpage": {
+    "coverage": {
+      "referenceRKI": "Situationsbericht des RKI vom {date_de} zu COVID-19",
+      "referenceRegistered": "Auf unserer Plattform registriert",
+      "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostikzentren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
+      "testsPerWeek": "Tests pro Woche in Deutschland",
+      "title": "Testkapazitäten und Unterstützung"
+    },
+    "details": {
+      "desc": {
+        "dCenter": "Aktive Diagnostikzentren, die derzeit SARS-CoV-2 Tests anbieten, d.h. Proben verarbeiten und Analysen durchführen",
+        "qVolunteers": "Wissenschaftliche Mitarbeiter oder Technische Assistenten mit Ausbildung und Erfahrung in der Anwendung von Laborgeräten, Probenvorbereitung oder Datenanalyse",
+        "rLab": "Akademische oder industrielle Forschungseinrichtungen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)"
+      },
+      "title": "Gemeinsam entfesseln wir die geballte Kraft der Wissenschaft"
+    },
+    "top": {
+      "btn_join": "Jetzt mitmachen",
+      "collaboration": "In Zusammenarbeit mit",
+      "mainTitle": "Wir bündeln Kräfte für mehr SARS-CoV-2 Tests",
+      "selected": "Ausgewählt für",
+      "sponsoredBy": "Gefördert vom",
+      "subTitle": "Die digitale Plattform für ein starkes Diagnostiknetzwerk"
     }
-    
+  }
 }
