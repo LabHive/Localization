@@ -15,7 +15,10 @@
     "signUp": "Registrieren",
     "login": "Login",
     "yes": "Ja",
-    "no": "Nein"
+    "no": "Nein",
+    "submit": "Abschicken",
+    "emailAddress": "E-Mail-Adresse",
+    "email": "E-Mail"
   },
   "landingpage": {
     "top": {
@@ -90,5 +93,11 @@
     },
     "notAvailableAnymore": "Nicht mehr verfügbar",
     "notAvailableAnymore_warning": "<p>Durch diesen Vorgang, wird die Person aus der Suche ausgeblendet. Sie bekommt von uns nun eine E-Mail zugesendet, in der wir sie darauf hinweisen, dass die Aktion für ihr Profil ausgelöst wurde.</p><p>Innerhalb von 3 Tagen kann sie diesen Vorgang bestätigen oder ablehen. Wenn keine Reaktion stattfindet, wird dieses Profil nach dieser Übergangsfrist nicht mehr in der Suche zu finden sein.</p><p>Vielen Dank für Ihre Mithilfe!</p><p>Wollen Sie diese Aktion durchführen?</p>"
+  },
+
+  "forgotPassword": {
+    "title": "Passwort vergessen",
+		"successMessage": "Sie werden von uns in Kürze eine @:general.email erhalten, sofern ein Konto für diese @:general.emailAddress im System hinterlegt ist.",
+		"pleaseEnterYourEmailMessage": "Bitte geben Sie Ihre @:general.emailAddress ein."
   }
 }

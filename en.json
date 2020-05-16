@@ -15,7 +15,10 @@
     "signUp": "Sign Up",
     "login": "Log In",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "submit": "Submit",
+    "emailAddress": "E-Mail address",
+    "email": "E-Mail"
   },
   "landingpage": {
     "top": {
@@ -90,5 +93,11 @@
     },
     "notAvailableAnymore": "Not available anymore",
     "notAvailableAnymore_warning": "<p>This action omits the person from search results. We will then send them an e-mail informing them that the option has been set for their profile.</p><p>Within 3 days they can confirm or dispute this. If no action is taken, after this time, the profile will no longer be found in the search.</p><p>Thank you very much for your help!</p><p>Do you want to proceed?</p>"
+  },
+
+  "forgotPassword": {
+    "title": "Forgot Password",
+		"successMessage": "If the @:general.emailAddress is registered, you will receive an @:general.email from us shortly.",
+		"pleaseEnterYourEmailMessage": "Please enter your @:general.emailAddress"
   }
 }
