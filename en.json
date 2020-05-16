@@ -74,6 +74,10 @@
     "3Password": "Sufficiently secure, with more characters your password will become even more secure",
     "4Password": "Your password is very secure"
   },
+  "resetPassword": {
+    "title": "Reset password",
+    "successMessage": "Password updated"
+  },
   "searchDetails": {
     "contactDetails": {
       "title": "Contact Details",

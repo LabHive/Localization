@@ -74,6 +74,10 @@
     "3Password": "Ausreichend sicher, mit mehr Zeichen wird ihr Passwort noch sicherer",
     "4Password": "Ihr Passwort ist sehr sicher"
   },
+  "resetPassword": {
+    "title": "Passwort zurücksetzen",
+    "successMessage": "Passwort aktualisiert"
+  },
   "searchDetails": {
     "contactDetails": {
       "title": "Kontaktinformationen",
