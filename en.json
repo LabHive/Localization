@@ -94,7 +94,7 @@
         "title": "Qualified Volunteers needed"
       },
       "equipment": {
-        "title": "@:general.equipment benötigt"
+        "title": "@:general.equipment needed"
       },
       "advice": {
         "title": "Advice needed"
@@ -105,7 +105,7 @@
         "title": "Offers Advice"
       },
       "equipment": {
-        "title": "@:general.equipment anzubieten"
+        "title": "Offers @:general.equipment"
       }
     },
     "notAvailableAnymore": "Not available anymore",
@@ -237,14 +237,14 @@
   },
   "checkboxes": {
     "qualifications": {
-      "jobTraining": "Berufsausbildung",
+      "jobTraining": "Job training",
       "mtla": "MTLA",
       "bta_cta": "BTA/CTA",
-      "bachelor": "Bachelor (abgeschlossen)",
-      "master": "Master (abgeschlossen)",
-      "doctorate": "Promotionsstudent:in",
+      "bachelor": "Bachelor (completed)",
+      "master": "Master (completed)",
+      "doctorate": "PhD Student",
       "postdoc": "Postdoc",
-      "groupLeader": "Gruppenleiter:in",
+      "groupLeader": "Group Leader",
       "other": "@:general.other"
     },
     "skills": {
