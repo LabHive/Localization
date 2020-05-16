@@ -88,7 +88,7 @@
     "qualifications": {
       "title": "Qualifications"
     },
-    "notAvailableAnymore": "Nicht mehr verfügbar",
-    "notAvailableAnymore_warning": "<p>Durch diesen Vorgang, wird die Person aus der Suche ausgeblendet. Sie bekommt von uns nun eine E-Mail zugesendet, in der wir sie darauf hinweisen, dass die Aktion für ihr Profil ausgelöst wurde.</p><p>Innerhalb von 3 Tagen kann sie diesen Vorgang bestätigen oder ablehen. Wenn keine Reaktion stattfindet, wird dieses Profil nach dieser Übergangsfrist nicht mehr in der Suche zu finden sein.</p><p>Vielen Dank für Ihre Mithilfe!</p><p>Wollen Sie diese Aktion durchführen?</p>"
+    "notAvailableAnymore": "Not available anymore",
+    "notAvailableAnymore_warning": "<p>This action omits the person from search results. We will then send them an e-mail informing them that the option has been set for their profile.</p><p>Within 3 days they can confirm or dispute this. If no action is taken, after this time, the profile will no longer be found in the search.</p><p>Thank you very much for your help!</p><p>Do you want to proceed?</p>"
   }
 }
