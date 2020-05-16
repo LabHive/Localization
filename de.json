@@ -6,24 +6,14 @@
     "rLab": "Forschungslabor | Forschungslabore",
     "volunteer": "Freiwillige:r | Freiwillige",
     "loading": "Bitte warten...",
-    "to_login": "Zum Login"
+    "to_login": "Zum Login",
+    "noResults": "Keine Ergebnisse gefunden",
+    "save": "Speichern",
+    "required": "Erforderlich",
+    "password": "Passwort",
+    "language": "Sprache"
   },
   "landingpage": {
-    "coverage": {
-      "referenceRKI": "Situationsbericht des RKI vom {date_de} zu COVID-19",
-      "referenceRegistered": "Auf unserer Plattform registriert",
-      "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostikzentren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
-      "testsPerWeek": "Tests pro Woche in Deutschland",
-      "title": "Testkapazitäten und Unterstützung"
-    },
-    "details": {
-      "desc": {
-        "dCenter": "Aktive Diagnostikzentren, die derzeit SARS-CoV-2 Tests anbieten, d.h. Proben verarbeiten und Analysen durchführen",
-        "qVolunteers": "Wissenschaftliche Mitarbeiter oder Technische Assistenten mit Ausbildung und Erfahrung in der Anwendung von Laborgeräten, Probenvorbereitung oder Datenanalyse",
-        "rLab": "Akademische oder industrielle Forschungseinrichtungen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)"
-      },
-      "title": "Gemeinsam entfesseln wir die geballte Kraft der Wissenschaft"
-    },
     "top": {
       "btn_join": "Jetzt mitmachen",
       "collaboration": "In Zusammenarbeit mit",
@@ -31,10 +21,43 @@
       "selected": "Ausgewählt für",
       "sponsoredBy": "Gefördert vom",
       "subTitle": "Die digitale Plattform für ein starkes Diagnostiknetzwerk"
+    },
+    "details": {
+      "title": "Gemeinsam entfesseln wir die geballte Kraft der Wissenschaft",
+      "desc": {
+        "dCenter": "Aktive Diagnostikzentren, die derzeit SARS-CoV-2 Tests anbieten, d.h. Proben verarbeiten und Analysen durchführen",
+        "qVolunteers": "Wissenschaftliche Mitarbeiter oder Technische Assistenten mit Ausbildung und Erfahrung in der Anwendung von Laborgeräten, Probenvorbereitung oder Datenanalyse",
+        "rLab": "Akademische oder industrielle Forschungseinrichtungen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)"
+      }
+    },  
+    "coverage": {
+      "referenceRKI": "Situationsbericht des RKI vom {date_de} zu COVID-19",
+      "referenceRegistered": "Auf unserer Plattform registriert",
+      "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostikzentren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
+      "testsPerWeek": "Tests pro Woche in Deutschland",
+      "title": "Testkapazitäten und Unterstützung"
     }
   },
   "activation": {
     "title": "Account aktivieren",
     "successMessage": "Aktivierung erfolgreich"
+  },
+
+  "admin": {
+    "title": "Nutzer Management"
+  },
+
+  "changePassword": {
+    "title": "Passwort ändern",
+    "successMessage": "Passwort wurde aktualisiert",
+    "currentPassword": "Aktuelles Passwort"
+  },
+
+  "passwordStrength": {
+    "0Password": "Zu kurz",
+    "1Password": "Zu kurz, bitte fügen Sie auch Zahlen und Sonderzeichen hinzu",
+    "2Password": "Bitte fügen Sie auch Zahlen und Sonderzeichen hinzu",
+    "3Password": "Ausreichend sicher, mit mehr Zeichen wird ihr Passwort noch sicherer",
+    "4Password": "Ihr Passwort ist sehr sicher"
   }
 }

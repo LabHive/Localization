@@ -6,24 +6,14 @@
     "rLab": "Research Laboratory | Research Laboratories",
     "volunteer": "Volunteer | Volunteers",
     "loading": "Please wait...",
-    "to_login": "Login"
+    "to_login": "Login",
+    "noResults": "No results found",
+    "save": "Save",
+    "required": "Required",
+    "password": "Password",
+    "language": "Language"
   },
   "landingpage": {
-    "coverage": {
-      "referenceRKI": "Daily situation report about COVID-19 by the RKI, {date_en}",
-      "referenceRegistered": "Registered on our platform",
-      "subTitle": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, equipment and personnel. Our platform promotes the development of a strong diagnostic network and facilitates efficient access to resources for diagnostic centers. Spread the test, beat the virus!",
-      "testsPerWeek": "Tests per Week in Germany",
-      "title": "Test capacity and support"
-    },
-    "details": {
-      "desc": {
-        "dCenter": "Active diffagnostic centers that currently offer SARS-CoV-2 tests including sample processing and analysis",
-        "qVolunteers": "Scientific staff or technical assistants with training and experience in the use of laboratory equipment, sample preparation or data analysis",
-        "rLab": "Academic or industrial research laboratories with access to reagents, devices, or suitable laboratory space (BSL-2/3)"
-      },
-      "title": "Together we unleash the united power of science"
-    },
     "top": {
       "btn_join": "Join now",
       "collaboration": "In collaboration with",
@@ -31,10 +21,43 @@
       "selected": "Selected for",
       "sponsoredBy": "Supported by",
       "subTitle": "The digital platform for a strong diagnostic network"
+    },
+    "details": {
+      "title": "Together we unleash the united power of science",
+      "desc": {
+        "dCenter": "Active diffagnostic centers that currently offer SARS-CoV-2 tests including sample processing and analysis",
+        "qVolunteers": "Scientific staff or technical assistants with training and experience in the use of laboratory equipment, sample preparation or data analysis",
+        "rLab": "Academic or industrial research laboratories with access to reagents, devices, or suitable laboratory space (BSL-2/3)"
+      }
+    },
+    "coverage": {
+      "referenceRKI": "Daily situation report about COVID-19 by the RKI, {date_en}",
+      "referenceRegistered": "Registered on our platform",
+      "subTitle": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, equipment and personnel. Our platform promotes the development of a strong diagnostic network and facilitates efficient access to resources for diagnostic centers. Spread the test, beat the virus!",
+      "testsPerWeek": "Tests per Week in Germany",
+      "title": "Test capacity and support"
     }
   },
   "activation": {
     "title": "Activate account",
     "successMessage": "Activation successful"
+  },
+
+  "admin": {
+    "title": "User Management"
+  },
+
+  "changePassword": {
+    "title": "Change @:general.password",
+    "successMessage": "Password updated",
+    "currentPassword": "Current @:general.password"
+  },
+
+  "passwordStrength": {
+    "0Password": "Too short",
+    "1Password": "Too short, please also add numbers and special characters",
+    "2Password": "Please also add numbers and special characters",
+    "3Password": "Sufficiently secure, with more characters your password will become even more secure",
+    "4Password": "Your password is very secure"
   }
 }
