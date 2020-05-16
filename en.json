@@ -104,6 +104,7 @@
 
   "login": {
     "title": "Login",
+    "adminTitle": "Admin-Login",
     "emptyField": "Please fill in the fields and try again!"
   }
 }

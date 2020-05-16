@@ -104,6 +104,7 @@
 
   "login": {
     "title": "Anmeldung",
+    "adminTitle": "Admin-Login",
     "emptyField": "Bitte die Felder ausfüllen und erneut probieren!"
   }
 }
