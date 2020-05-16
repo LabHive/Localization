@@ -9,6 +9,7 @@
     "to_login": "Zum Login",
     "noResults": "Keine Ergebnisse gefunden",
     "save": "Speichern",
+    "savedSuccessfully": "Erfolgreich gespeichert",
     "required": "Erforderlich",
     "password": "Passwort",
     "language": "Sprache",
@@ -37,7 +38,7 @@
         "qVolunteers": "Wissenschaftliche Mitarbeiter oder Technische Assistenten mit Ausbildung und Erfahrung in der Anwendung von Laborgeräten, Probenvorbereitung oder Datenanalyse",
         "rLab": "Akademische oder industrielle Forschungseinrichtungen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)"
       }
-    },  
+    },
     "coverage": {
       "referenceRKI": "Situationsbericht des RKI vom {date_de} zu COVID-19",
       "referenceRegistered": "Auf unserer Plattform registriert",
@@ -50,17 +51,14 @@
     "title": "Account aktivieren",
     "successMessage": "Aktivierung erfolgreich"
   },
-
   "admin": {
     "title": "Nutzer Management"
   },
-
   "changePassword": {
     "title": "Passwort ändern",
     "successMessage": "Passwort wurde aktualisiert",
     "currentPassword": "Aktuelles Passwort"
   },
-
   "passwordStrength": {
     "0Password": "Zu kurz",
     "1Password": "Zu kurz, bitte fügen Sie auch Zahlen und Sonderzeichen hinzu",
@@ -68,7 +66,6 @@
     "3Password": "Ausreichend sicher, mit mehr Zeichen wird ihr Passwort noch sicherer",
     "4Password": "Ihr Passwort ist sehr sicher"
   },
-
   "searchDetails": {
     "contactDetails": {
       "title": "Kontaktinformationen",
@@ -78,13 +75,23 @@
       "title": "Weitere Informationen"
     },
     "lookingFor": {
-      "skills": { "title": "Qualifizierte Freiwillige benötigt"},
-      "equipment": { "title": "Benötigt Equipment"},
-      "advice": { "title": "Benötigt Hilfe"}
+      "skills": {
+        "title": "Qualifizierte Freiwillige benötigt"
+      },
+      "equipment": {
+        "title": "Benötigt Equipment"
+      },
+      "advice": {
+        "title": "Benötigt Hilfe"
+      }
     },
     "offers": {
-      "advice": { "title": "Hilfe anzubieten" },
-      "equipment": { "title": "Equipment anzubieten"}
+      "advice": {
+        "title": "Hilfe anzubieten"
+      },
+      "equipment": {
+        "title": "Equipment anzubieten"
+      }
     },
     "skills": {
       "title": "Fähigkeiten"
@@ -95,16 +102,32 @@
     "notAvailableAnymore": "Nicht mehr verfügbar",
     "notAvailableAnymore_warning": "<p>Durch diesen Vorgang, wird die Person aus der Suche ausgeblendet. Sie bekommt von uns nun eine E-Mail zugesendet, in der wir sie darauf hinweisen, dass die Aktion für ihr Profil ausgelöst wurde.</p><p>Innerhalb von 3 Tagen kann sie diesen Vorgang bestätigen oder ablehen. Wenn keine Reaktion stattfindet, wird dieses Profil nach dieser Übergangsfrist nicht mehr in der Suche zu finden sein.</p><p>Vielen Dank für Ihre Mithilfe!</p><p>Wollen Sie diese Aktion durchführen?</p>"
   },
-
   "forgotPassword": {
     "title": "Passwort vergessen",
-		"successMessage": "Sie werden von uns in Kürze eine @:general.email erhalten, sofern ein Konto für diese @:general.emailAddress im System hinterlegt ist.",
-		"pleaseEnterYourEmailMessage": "Bitte geben Sie Ihre @:general.emailAddress ein."
+    "successMessage": "Sie werden von uns in Kürze eine @:general.email erhalten, sofern ein Konto für diese @:general.emailAddress im System hinterlegt ist.",
+    "pleaseEnterYourEmailMessage": "Bitte geben Sie Ihre @:general.emailAddress ein."
   },
-
   "login": {
     "title": "Anmeldung",
     "adminTitle": "Admin-Login",
     "emptyField": "Bitte die Felder ausfüllen und erneut probieren!"
+  },
+  "profile": {
+    "offer": {
+      "title": "Aktuelles Angebot",
+      "subTitle": "Wenn Sie Ressourcen abzugeben haben, können Sie diese hier angeben. Sie können dies später jederzeit in Ihrem Profil ändern. Klicken Sie unten auf “Weiter”, wenn Sie aktuell nichts abgeben können.",
+      "advice": "Anzubietende Beratung/Know-How",
+      "adviceDescription": "Genauere Informationen über die Themen, zu denen Sie Hilfe anbieten können",
+      "equipment": "Anzubietende Geräte/Reagenzien",
+      "equipmentDescription": "Genauere Informationen über die angebotenden Geräte. Welche Hersteller, Modelle, Anzahl, etc."
+    },
+    "request": {
+      "title": "Aktuelles Bedarf",
+      "subTitle": "Wenn Sie Ressourcen benötigen, können Sie diese hier angeben. Sie können dies später jederzeit in Ihrem Profil ändern. Klicken Sie unten auf “Weiter”, wenn Sie aktuell nichts benötigen. Qualifizierte Freiwillige finden Sie über die Suchfunktion.",
+      "advice": "Benötigte Beratung/Know-How",
+      "adviceDescription": "Genauere Informationen über die Themen, bei denen Sie Hilfe benötigen",
+      "equipment": "Benötigte Geräte/Reagenzien",
+      "equipmentDescription": "Genauere Informationen über die benötigten Geräte. Welche Hersteller, Anzahl, etc."
+    }
   }
 }

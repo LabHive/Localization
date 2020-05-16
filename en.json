@@ -9,6 +9,7 @@
     "to_login": "Login",
     "noResults": "No results found",
     "save": "Save",
+    "savedSuccessfully": "Saved successfully",
     "required": "Required",
     "password": "Password",
     "language": "Language",
@@ -50,17 +51,14 @@
     "title": "Activate account",
     "successMessage": "Activation successful"
   },
-
   "admin": {
     "title": "User Management"
   },
-
   "changePassword": {
     "title": "Change @:general.password",
     "successMessage": "Password updated",
     "currentPassword": "Current @:general.password"
   },
-
   "passwordStrength": {
     "0Password": "Too short",
     "1Password": "Too short, please also add numbers and special characters",
@@ -68,7 +66,6 @@
     "3Password": "Sufficiently secure, with more characters your password will become even more secure",
     "4Password": "Your password is very secure"
   },
-
   "searchDetails": {
     "contactDetails": {
       "title": "Contact Details",
@@ -78,13 +75,23 @@
       "title": "Other Information"
     },
     "lookingFor": {
-      "skills": { "title": "Qualified Volunteers needed"},
-      "equipment": { "title": "Equipment needed"},
-      "advice": { "title": "Advice needed"}
+      "skills": {
+        "title": "Qualified Volunteers needed"
+      },
+      "equipment": {
+        "title": "Equipment needed"
+      },
+      "advice": {
+        "title": "Advice needed"
+      }
     },
     "offers": {
-      "advice": { "title": "Offers Advice" },
-      "equipment": { "title": "Offers Equipment"}
+      "advice": {
+        "title": "Offers Advice"
+      },
+      "equipment": {
+        "title": "Offers Equipment"
+      }
     },
     "skills": {
       "title": "Skills"
@@ -95,16 +102,32 @@
     "notAvailableAnymore": "Not available anymore",
     "notAvailableAnymore_warning": "<p>This action omits the person from search results. We will then send them an e-mail informing them that the option has been set for their profile.</p><p>Within 3 days they can confirm or dispute this. If no action is taken, after this time, the profile will no longer be found in the search.</p><p>Thank you very much for your help!</p><p>Do you want to proceed?</p>"
   },
-
   "forgotPassword": {
     "title": "Forgot Password",
-		"successMessage": "If the @:general.emailAddress is registered, you will receive an @:general.email from us shortly.",
-		"pleaseEnterYourEmailMessage": "Please enter your @:general.emailAddress"
+    "successMessage": "If the @:general.emailAddress is registered, you will receive an @:general.email from us shortly.",
+    "pleaseEnterYourEmailMessage": "Please enter your @:general.emailAddress"
   },
-
   "login": {
     "title": "Login",
     "adminTitle": "Admin-Login",
     "emptyField": "Please fill in the fields and try again!"
+  },
+  "profile": {
+    "offer": {
+      "title": "Current Offers",
+      "subTitle": "If you can offer resources, you can enter them here. You can always change this later in your profile. Click on “Next” below if you do not have anything to share at present.",
+      "advice": "Offered Advice/Know-How",
+      "adviceDescription": "More detailed information on the areas in which you can offer help",
+      "equipment": "Offered Devices/Reagents",
+      "equipmentDescription": "More detailed information about the devices you can offer. Manufacturer, website of the devices, quantity, etc."
+    },
+    "request": {
+      "title": "Current Requests",
+      "subTitle": "If you need resources, you can list them here. You can always change this later in your profile. Click on “Next” below if currently you do not need anything. You will find qualified volunteers using the search feature.",
+      "advice": "Needed Advice/Know-How",
+      "adviceDescription": "More detailed information about the areas in which you need help",
+      "equipment": "Needed Devices/Reagents",
+      "equipmentDescription": "More detailed information about the devices required. Manufacturer, quantity, etc."
+    }
   }
 }
