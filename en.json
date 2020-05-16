@@ -1,7 +1,17 @@
 {
-    "test": "Test",
-    "one": "One",
-    "two": "Two",
-    "three": "Three",
-    "hello": "Hello"
+    "landingpage": {
+        "mainTitle": "We align efforts for more SARS-CoV-2 tests",
+        "subTitle": "The digital platform for a strong diagnostic network",
+        "Joinbutton": "Join now",
+        "selected": "Selected for",
+        "collaboration": "In collaboration with",
+        "supported": "Supported by",
+        "titleGroups": "Together we unleash the united power of science",
+        "qualif-vol": "Qualified volunteers",
+        "res-lab": "Research laboratories",
+        "diag-cent": "Diagnostic centers",
+        "searchButton": "Search For Resources",
+        "text4": "Test capacity and support",
+        "testsweek": "Tests per week"
+    }    
 }
