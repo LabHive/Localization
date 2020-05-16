@@ -20,7 +20,9 @@
     "no": "No",
     "submit": "Submit",
     "emailAddress": "E-Mail address",
-    "email": "E-Mail"
+    "email": "E-Mail",
+    "delete": "Delete",
+    "cancel": "Cancel"
   },
   "landingpage": {
     "top": {
@@ -130,6 +132,19 @@
       "adviceDescription": "More detailed information about the areas in which you need help",
       "equipment": "Needed Devices/Reagents",
       "equipmentDescription": "More detailed information about the devices required. Manufacturer, quantity, etc."
+    },
+    "delete": {
+      "btn_title": "Delete Profile",
+      "confirmation": "Do you really want to delete your profile?"
     }
+  },
+  "registration": {
+    "title": "Register",
+    "subtitle": "Please register to access all functionalities of LabHive.",
+    "complete": "Thank you for your registration!",
+    "labActivation": "Since you registered as diagnostic center or research laboratory, we verify your account manually. This takes some time, but you will receive an email, when it is done.",
+    "prospectiveRole": "Please select your user group.",
+    "yourMail": "your E-Mail address",
+    "confirmationMail": "We have sent a link to confirm the registration to <strong>{mail}</strong>. Please click on this link to activate your account."
   }
 }

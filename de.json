@@ -20,7 +20,9 @@
     "no": "Nein",
     "submit": "Abschicken",
     "emailAddress": "E-Mail-Adresse",
-    "email": "E-Mail"
+    "email": "E-Mail",
+    "delete": "Löschen",
+    "cancel": "Abbrechen"
   },
   "landingpage": {
     "top": {
@@ -130,6 +132,20 @@
       "adviceDescription": "Genauere Informationen über die Themen, bei denen Sie Hilfe benötigen",
       "equipment": "Benötigte Geräte/Reagenzien",
       "equipmentDescription": "Genauere Informationen über die benötigten Geräte. Welche Hersteller, Anzahl, etc."
+    },
+    "delete": {
+      "btn_title": "Profil löschen",
+      "confirmation": "Wollen Sie ihr Profil wirklich löschen?"
     }
+
+  },
+  "registration": {
+    "title": "Registrieren",
+    "subtitle": "Registrieren Sie sich, um alle Funktionalitäten von LabHive nutzen zu können.",
+    "complete": "Registrierung erfolgreich!",
+    "labActivation": "Da Sie sich als Diagnostikzentrum oder Forschungslabor registriert haben, verifizieren wir Ihren Account zusätzlich manuell. Dies kann eine Weile dauern. Wenn Ihr Account von uns verifiziert wurde und einsatzbereit ist, erhalten Sie eine E-Mail.",
+    "prospectiveRole": "Bitte wählen Sie Ihre Nutzergruppe.",
+    "yourMail": "deine E-Mail-Adresse",
+    "confirmationMail": "Wir haben einen Link zur Bestätigung der Registrierung an <strong>{mail}</strong> geschickt. Bitte klicken Sie auf diesen Link, um ihr Konto freizuschalten."
   }
 }
