@@ -10,6 +10,7 @@
     "noResults": "No results found",
     "save": "Save",
     "savedSuccessfully": "Saved successfully",
+    "executedSuccessfully": "Executed successfully",
     "required": "Required",
     "password": "Password",
     "language": "Language",
@@ -28,7 +29,9 @@
     "attention": "Attention",
     "skills": "Skills",
     "equipment": "Devices/Reagents",
-    "advice": "Advice/Know-How"
+    "advice": "Advice/Know-How",
+    "other": "Other",
+    "invalidRequest": "Invalid Request"
   },
   "landingpage": {
     "top": {
@@ -91,7 +94,7 @@
         "title": "Qualified Volunteers needed"
       },
       "equipment": {
-        "title": "Equipment needed"
+        "title": "@:general.equipment benötigt"
       },
       "advice": {
         "title": "Advice needed"
@@ -102,7 +105,7 @@
         "title": "Offers Advice"
       },
       "equipment": {
-        "title": "Offers Equipment"
+        "title": "@:general.equipment anzubieten"
       }
     },
     "notAvailableAnymore": "Not available anymore",
@@ -122,9 +125,7 @@
     "mail": "Receive no updates via email anymore.",
     "dataProcessing": "Sending my personal data to registered diagnostic centers and research laboratories.",
     "loginRequired": "Please log in and open the link again.",
-    "invalidAction": "Invalid request",
-    "title": "Revoke consent",
-    "successMessage": "Success!"
+    "title": "Revoke consent"
   },
   "profile": {
     "title": "Profile",
@@ -219,7 +220,20 @@
     "modeTitle": "What do you search for?",
     "filterOfferTitle": "What is needed?",
     "filterRequestTitle": "What can be offered?",
-    "enterZipcode": "Enter ZIP-Code"
+    "enterZipcode": "Enter ZIP-Code",
+    "title": "Search For Resources",
+    "noResults": "No results. Try other search criteria or stop by later",
+    "offersadvice": "@:searchDetails.offers.advice.title",
+    "lookingForadvice": "@:searchDetails.lookingFor.advice.title",
+    "offersequipment": "@:searchDetails.offers.equipment.title",
+    "lookingForequipment": "@:searchDetails.lookingFor.equipment.title",
+    "farAway": "far away",
+    "error": "An error occurred, please try it again later.",
+    "recentlyAdded": "Recently added",
+    "bsl1": "BSL1 Experience",
+    "bsl2": "BSL2 Experience",
+    "bsl3": "BSL3 Experience",
+    "bsl4": "BSL4 Experience"
   },
   "checkboxes": {
     "qualifications": {
@@ -231,7 +245,7 @@
       "doctorate": "Promotionsstudent:in",
       "postdoc": "Postdoc",
       "groupLeader": "Gruppenleiter:in",
-      "other": "Andere"
+      "other": "@:general.other"
     },
     "skills": {
       "bsl1": "Work under BSL1 safety standards",
@@ -243,7 +257,19 @@
       "sample_processing": "(Pre-)Processing of clinical samples",
       "elisa": "ELISA",
       "primerProduction": "Primer production",
-      "dataAnalysis": "Data analysis"
+      "dataAnalysis": "Data analysis",
+      "searchResult": {
+        "bsl1": "BSL1",
+        "bsl2": "BSL2",
+        "bsl3": "BSL3",
+        "bsl4": "BSL4",
+        "qpcr": "@:checkboxes.skills.qpcr",
+        "rnaExperience_isolation": "Work with RNA",
+        "sample_processing": "@:checkboxes.skills.sample_processing",
+        "elisa": "@:checkboxes.skills.elisa",
+        "primerProduction": "@:checkboxes.skills.primerProduction",
+        "dataAnalysis": "@:checkboxes.skills.dataAnalysis"
+      }
     },
     "equipment": {
       "calibratedPipetteSet": "Calibrated pipette set",
@@ -258,8 +284,53 @@
       "virology": "Virology",
       "protocolProduction": "Writing of protocols",
       "rnaExperience_isolation": "@:checkboxes.skills.rnaExperience_isolation",
-      "qPCR": "@:checkboxes.skills.qPCR",
+      "qPCR": "@:checkboxes.skills.qpcr",
       "elisa": "@:checkboxes.skills.elisa"
     }
+  },
+  "aboutUs": {
+    "ourStoryText": "LabHive comprises an interdisciplinary team of scientists, software developers and data protection experts. The idea for the platform originally emerged from two projects of the <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a> Hackathon of the German government. Both teams have volunteered their efforts to this initiative, and they have joined forces to help increase test capacity.",
+    "title": "Our Team"
+  },
+  "updateAvailability": {
+    "available": "Update availability status to: 'Currently available'",
+    "not_available": "Update availability status to: 'Not available'",
+    "update_notice": "You can change the status when you are logged in in your profile settings.",
+    "title": "Update Availability"
+  },
+  "backend": {
+    "formValidation": {
+      "invalid_email": "Invalid e-mail address",
+      "invalid_firstname": "Invalid first name (max. 200 characters)",
+      "invalid_lastname": "Invalid last name (max. 200 characters)",
+      "invalid_zipcode": "Invalid zip code (should be 5 digits)",
+      "invalid_city": "Invalid city (max. 200 characters)",
+      "invalid_street": "Invalid street (max. 200 characters)",
+      "invalid_phone": "Please use the format +4992 or 123 without - or /",
+      "invalid_description": "Invalid description (max. 2000 characters)",
+      "invalid_name": "Invalid laboratory name (max. 200 characters)",
+      "invalid_number": "Invalid number",
+      "invalid_search": "Invalid search parameter",
+      "invalid_role": "Invalid search type",
+      "invalid_skills": "Invalid skills",
+      "invalid_equipment": "Invalid equipment",
+      "invalid_advice": "Invalid request",
+      "invalid_consent": "Invalid consent",
+      "invalid_url": "URL must be shorter than 200 characters.",
+      "invalid_location": "Unfortunately we could not verify your address. Please check the address and make sure the spelling is correct."
+    },
+    "internal_error": "Something went wrong...",
+    "not_authorized": "Not authorized!",
+    "bad_request": "@:general.invalidRequest",
+    "invalid_password": "Invalid password!",
+    "invalid_login": "Invalid login details!",
+    "existing_user": "User already exists!",
+    "no_results": "No results were found...",
+    "tokenTooOld": "Please reset your password again, the reset link expired.",
+    "contact_support": "An error has occurred. Please contact support@labhive.de. We apologize for the inconvenience!",
+    "user_not_activated": "The user hasn't been activated yet. Please validate the e-mail address. If you registered as laboratory, you will be manually verified by us. When that has been done, you will receive an e-mail from us. If this takes longer than two working days, please contact us at support@labhive.de.",
+    "user_disabled": "Your account was deactivated. In case of questions, please contact support@labhive.de.",
+    "featureNotAvailableForRole": "This feature is not available for your user role.",
+    "success": "Executed successfully"
   }
 }
