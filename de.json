@@ -118,6 +118,14 @@
     "adminTitle": "Admin-Login",
     "emptyField": "Bitte die Felder ausfüllen und erneut probieren!"
   },
+  "revokeConsent": {
+    "mail": "Keine Updates per E-Mail erhalten.",
+    "dataProcessing": "Datenweitergabe, an Diagnostikzentren und Forschungslabore unterbinden.",
+    "loginRequired": "Bitte melden Sie sich an und rufen Sie den Link erneut auf.",
+    "invalidAction": "Ungültige Anfrage",
+    "title": "Einwilligung widerrufen",
+    "successMessage": "Erfolgreich ausführt."
+  },
   "profile": {
     "title": "Profil",
     "updated": "Profile aktualisiert",
@@ -213,7 +221,6 @@
     "filterRequestTitle": "Was kann abgegeben werden?",
     "enterZipcode": "PLZ eingeben"
   },
-
   "checkboxes": {
     "qualifications": {
       "jobTraining": "Berufsausbildung",

@@ -118,6 +118,14 @@
     "adminTitle": "Admin-Login",
     "emptyField": "Please fill in the fields and try again!"
   },
+  "revokeConsent": {
+    "mail": "Receive no updates via email anymore.",
+    "dataProcessing": "Sending my personal data to registered diagnostic centers and research laboratories.",
+    "loginRequired": "Please log in and open the link again.",
+    "invalidAction": "Invalid request",
+    "title": "Revoke consent",
+    "successMessage": "Success!"
+  },
   "profile": {
     "title": "Profile",
     "updated": "Profile updated successfully",
@@ -213,7 +221,6 @@
     "filterRequestTitle": "What can be offered?",
     "enterZipcode": "Enter ZIP-Code"
   },
-
   "checkboxes": {
     "qualifications": {
       "jobTraining": "Berufsausbildung",
