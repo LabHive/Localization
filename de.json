@@ -22,7 +22,13 @@
     "emailAddress": "E-Mail-Adresse",
     "email": "E-Mail",
     "delete": "Löschen",
-    "cancel": "Abbrechen"
+    "cancel": "Abbrechen",
+    "next": "Weiter",
+    "back": "Zurück",
+    "attention": "Achtung",
+    "skills": "Fähigkeiten",
+    "equipment": "Geräte/Reagenzien",
+    "advice": "Beratung/Know-How"
   },
   "landingpage": {
     "top": {
@@ -95,12 +101,6 @@
         "title": "Equipment anzubieten"
       }
     },
-    "skills": {
-      "title": "Fähigkeiten"
-    },
-    "qualifications": {
-      "title": "Qualifikation"
-    },
     "notAvailableAnymore": "Nicht mehr verfügbar",
     "notAvailableAnymore_warning": "<p>Durch diesen Vorgang, wird die Person aus der Suche ausgeblendet. Sie bekommt von uns nun eine E-Mail zugesendet, in der wir sie darauf hinweisen, dass die Aktion für ihr Profil ausgelöst wurde.</p><p>Innerhalb von 3 Tagen kann sie diesen Vorgang bestätigen oder ablehen. Wenn keine Reaktion stattfindet, wird dieses Profil nach dieser Übergangsfrist nicht mehr in der Suche zu finden sein.</p><p>Vielen Dank für Ihre Mithilfe!</p><p>Wollen Sie diese Aktion durchführen?</p>"
   },
@@ -120,32 +120,135 @@
     "offer": {
       "title": "Aktuelles Angebot",
       "subTitle": "Wenn Sie Ressourcen abzugeben haben, können Sie diese hier angeben. Sie können dies später jederzeit in Ihrem Profil ändern. Klicken Sie unten auf “Weiter”, wenn Sie aktuell nichts abgeben können.",
-      "advice": "Anzubietende Beratung/Know-How",
-      "adviceDescription": "Genauere Informationen über die Themen, zu denen Sie Hilfe anbieten können",
-      "equipment": "Anzubietende Geräte/Reagenzien",
+      "advice": "Anzubietende @:general.advice",
+      "adviceDescription": "Genauere Informationen über die Themen, zu denen Sie Hilfe anbieten können.",
+      "equipment": "Anzubietende @:general.equipment",
       "equipmentDescription": "Genauere Informationen über die angebotenden Geräte. Welche Hersteller, Modelle, Anzahl, etc."
     },
     "request": {
-      "title": "Aktuelles Bedarf",
+      "title": "Aktueller Bedarf",
       "subTitle": "Wenn Sie Ressourcen benötigen, können Sie diese hier angeben. Sie können dies später jederzeit in Ihrem Profil ändern. Klicken Sie unten auf “Weiter”, wenn Sie aktuell nichts benötigen. Qualifizierte Freiwillige finden Sie über die Suchfunktion.",
-      "advice": "Benötigte Beratung/Know-How",
-      "adviceDescription": "Genauere Informationen über die Themen, bei denen Sie Hilfe benötigen",
-      "equipment": "Benötigte Geräte/Reagenzien",
+      "advice": "Benötigte @:general.advice",
+      "adviceDescription": "Genauere Informationen über die Themen, bei denen Sie Hilfe benötigen.",
+      "equipment": "Benötigte @:general.equipment",
       "equipmentDescription": "Genauere Informationen über die benötigten Geräte. Welche Hersteller, Anzahl, etc."
     },
     "delete": {
       "btn_title": "Profil löschen",
       "confirmation": "Wollen Sie ihr Profil wirklich löschen?"
     }
-
   },
   "registration": {
     "title": "Registrieren",
     "subtitle": "Registrieren Sie sich, um alle Funktionalitäten von LabHive nutzen zu können.",
+    "submit": "Jetzt registrieren",
     "complete": "Registrierung erfolgreich!",
     "labActivation": "Da Sie sich als Diagnostikzentrum oder Forschungslabor registriert haben, verifizieren wir Ihren Account zusätzlich manuell. Dies kann eine Weile dauern. Wenn Ihr Account von uns verifiziert wurde und einsatzbereit ist, erhalten Sie eine E-Mail.",
     "prospectiveRole": "Bitte wählen Sie Ihre Nutzergruppe.",
     "yourMail": "deine E-Mail-Adresse",
-    "confirmationMail": "Wir haben einen Link zur Bestätigung der Registrierung an <strong>{mail}</strong> geschickt. Bitte klicken Sie auf diesen Link, um ihr Konto freizuschalten."
+    "confirmationMail": "Wir haben einen Link zur Bestätigung der Registrierung an <strong>{mail}</strong> geschickt. Bitte klicken Sie auf diesen Link, um ihr Konto freizuschalten.",
+    "progressResetWarning": "Es werden alle Daten zurückgesetzt. Trotzdem fortfahren?",
+    "usergroup": "Nutzergruppe",
+    "steps": {
+      "consent": {
+        "dataProcessingInformation": "<p>Durch das Abschließen der Registrierung werden Ihre Daten von LabHive verarbeitet. Ihre angegebenen Kontaktinformationen sind nur für registrierte und von uns verifizierte Forschungs- und Diagnostikzentren sichtbar.</p><p>Registrierte Helfer:innen haben keine Möglichkeit auf Suchanfragen von Seiten der Diagnostikzentren zu reagieren, um ein erhöhtes E-Mail Aufkommen für diese zu vermeiden. Als Diagnostikzentrum können Sie Helfer:innen über die Suchfunktion finden, deren Kontaktdaten sehen und diese kontaktieren.</p><p>Weitere Informationen finden Sie in unserer <a href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>",
+        "title": "Optionale Einwilligungen",
+        "mail": "<p>LabHive kann mir gelegentlich E-Mail-Benachrichtigungen über Updates und neue Funktionen der Website schicken.</p><p>Widersprechen Sie dem, erhalten Sie keine E-Mail-Benachrichtigungen von uns.</p>",
+        "volunteerDisclaimer": "Ob Sie als Freiwillige:r in Diagnostikzentren arbeiten dürfen, bzw. freigestellt werden, müssen Sie eigenverantwortlich mit Ihrem Arbeitgeber klären. Wenn Sie von einem Diagnostikzentrum angefragt werden, obliegt die Arbeitsrechtliche Regelung Ihnen, Ihrem Arbeitgeber und dem betreffenden Diagnostikzentrum. LabHive übernimmt hier keine Verantwortung.",
+        "search": "<p>LabHive kann meine Daten zum Zwecke der Zusammenarbeit mit registrierten und verifizierten Diagnostikzentren und Forschungslaboren, im Rahmen der SARS-CoV-2 Pandemie, über die Suchfunktion einsehbar machen.</p><p>Widersprechen Sie dem, ist die Verwendung unserer Plattform nur eingeschränkt möglich, wodurch Sie als Freiwillige:r nicht über die Suche gefunden werden können. Es gibt für Freiwillige keine Möglichkeit, Kontakt zu einem registrierten und verifizierten Diagnostikzentrum aufzunehmen.</p><p>Weitere Hinweise finden Sie in unserer <a target=\"_blank\" href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>"
+      },
+      "contact": {
+        "affiliation": "Ihre Affiliation",
+        "contactPerson": "Kontaktperson",
+        "title": "Affiliation & Kontaktperson",
+        "subTitle": "Bitte geben Sie Ihre Kontaktdaten an. <strong>Diese Daten benötigen wir, um Sie verifizieren zu können.</strong> Wir teilen personenbezogene Daten wie Name, E-Mail-Adresse und Telefonnummer nur mit anderen verifizierten Diagnostikzentren und Forschungslaboren.",
+        "title_volunteer": "Kontakt & Verfügbarkeit",
+        "subTitle_volunteer": "Bitte geben Sie Ihre Kontaktdaten und aktuelle Verfügbarkeit an. Wir teilen sensible Daten wie Nachname, E-Mail-Adresse und Telefonnummer nur mit verifizierten Diagnostikzentren und Forschungslaboren.",
+        "available": "Ja, ich bin derzeit zum Aushelfen verfügbar.",
+        "not_available": "Nein, ich bin derzeit nicht zum Aushelfen verfügbar.",
+        "textfieldPlaceholders": {
+          "firstName": "Vorname",
+          "lastName": "Nachname",
+          "zipcode": "Postleitzahl",
+          "phone": "Telefonnummer",
+          "address": "Adresse",
+          "city": "Stadt",
+          "street": "Strasse",
+          "instituteName": "Institut/Universität/Krankenhaus",
+          "instituteWebsite": "Website der Institution",
+          "labWebsite": "Labor-Webseite",
+          "labName": "Laborname"
+        }
+      },
+      "loginInformation": {
+        "title": "Login Informationen",
+        "subTitle": "Bitte geben Sie Ihre E-Mail-Adresse an und legen Sie ein Passwort fest.",
+        "textfieldPlaceholders": {
+          "officialEmail": "E-Mail-Adresse des Instituts"
+        }
+      },
+      "qualification": {
+        "title": "Qualifikation",
+        "subTitle": "Bitte geben Sie Ihre Qualifikation(en) an."
+      },
+      "skills": {
+        "description": "Weitere Informationen, andere Fähigkeiten, Verfügbarkeit, etc.",
+        "title": "Fähigkeiten",
+        "subTitle": "Bitte geben Sie Ihre Fähigkeiten an. Diese können später jederzeit im Profil geändert werden.",
+        "subTitle_update": "Bitte geben Sie Ihre Fähigkeiten an"
+      }
+    }
+  },
+  "search": {
+    "workers": "Arbeitskraft",
+    "searchInSurroundings": "Suche in der Umgebung",
+    "btn_offers": "Angebote",
+    "btn_requests": "Anfragen",
+    "modeTitle": "Wonach suchen Sie?",
+    "filterOfferTitle": "Was wird benötigt?",
+    "filterRequestTitle": "Was kann abgegeben werden?",
+    "enterZipcode": "PLZ eingeben"
+  },
+
+  "checkboxes": {
+    "qualifications": {
+      "jobTraining": "Berufsausbildung",
+      "mtla": "MTLA",
+      "bta_cta": "BTA/CTA",
+      "bachelor": "Bachelor (abgeschlossen)",
+      "master": "Master (abgeschlossen)",
+      "doctorate": "Promotionsstudent:in",
+      "postdoc": "Postdoc",
+      "groupLeader": "Gruppenleiter:in",
+      "other": "Andere"
+    },
+    "skills": {
+      "bsl1": "Arbeit unter BSL1 Sicherheitsstandards",
+      "bsl2": "Arbeit unter BSL2 Sicherheitsstandards",
+      "bsl3": "Arbeit unter BSL3 Sicherheitsstandards",
+      "bsl4": "Arbeit unter BSL4 Sicherheitsstandards",
+      "qpcr": "qPCR",
+      "rnaExperience_isolation": "Arbeit mit RNA (insbes. Isolation mit Kit)",
+      "sample_processing": "Vor/Aufbereitung klinischer Proben",
+      "elisa": "ELISA",
+      "primerProduction": "Primerherstellung",
+      "dataAnalysis": "Datenanalyse"
+    },
+    "equipment": {
+      "calibratedPipetteSet": "Kalibrierter Pipettensatz",
+      "rtThermocycler": "Thermocycler RT",
+      "qpcrThermocycler": "Thermocycler qPCR",
+      "reverseTransKit": "Reverse Transkriptase-Kit",
+      "pcrMasterMix": "PCR Master Mix",
+      "rnaExtractionDevice": "RNA-Extraktionsgerät",
+      "rnaExtractionKit": "RNA-Extraktionskit"
+    },
+    "advice": {
+      "virology": "Virologie",
+      "protocolProduction": "Protokollerstellung",
+      "rnaExperience_isolation": "@:checkboxes.skills.rnaExperience_isolation",
+      "qPCR": "@:checkboxes.skills.qPCR",
+      "elisa": "@:checkboxes.skills.elisa"
+    }
   }
 }
