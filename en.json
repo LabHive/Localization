@@ -13,7 +13,8 @@
     "password": "Password",
     "language": "Language",
     "signUp": "Sign Up",
-    "login": "Log In",
+    "login": "Login",
+    "login_verb": "Log in",
     "yes": "Yes",
     "no": "No",
     "submit": "Submit",
@@ -99,5 +100,10 @@
     "title": "Forgot Password",
 		"successMessage": "If the @:general.emailAddress is registered, you will receive an @:general.email from us shortly.",
 		"pleaseEnterYourEmailMessage": "Please enter your @:general.emailAddress"
+  },
+
+  "login": {
+    "title": "Login",
+    "emptyField": "Please fill in the fields and try again!"
   }
 }

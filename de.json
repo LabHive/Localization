@@ -14,6 +14,7 @@
     "language": "Sprache",
     "signUp": "Registrieren",
     "login": "Login",
+    "login_verb": "Einloggen",
     "yes": "Ja",
     "no": "Nein",
     "submit": "Abschicken",
@@ -99,5 +100,10 @@
     "title": "Passwort vergessen",
 		"successMessage": "Sie werden von uns in Kürze eine @:general.email erhalten, sofern ein Konto für diese @:general.emailAddress im System hinterlegt ist.",
 		"pleaseEnterYourEmailMessage": "Bitte geben Sie Ihre @:general.emailAddress ein."
+  },
+
+  "login": {
+    "title": "Anmeldung",
+    "emptyField": "Bitte die Felder ausfüllen und erneut probieren!"
   }
 }
