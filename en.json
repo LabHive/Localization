@@ -4,7 +4,9 @@
     "dCenter": "Diagnostic Center | Diagnostic Centers",
     "qVolunteer": "Qualified Volunteer | Qualified Volunteers",
     "rLab": "Research Laboratory | Research Laboratories",
-    "volunteer": "Volunteer | Volunteers"
+    "volunteer": "Volunteer | Volunteers",
+    "loading": "Please wait...",
+    "to_login": "Login"
   },
   "landingpage": {
     "coverage": {
@@ -30,5 +32,9 @@
       "sponsoredBy": "Supported by",
       "subTitle": "The digital platform for a strong diagnostic network"
     }
+  },
+  "activation": {
+    "title": "Activate account",
+    "successMessage": "Activation successful"
   }
 }

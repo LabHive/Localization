@@ -4,7 +4,9 @@
     "dCenter": "Diagnostikzentrum | Diagnostikzentren",
     "qVolunteer": "Qualifizierte:r Freiwillige:r | Qualifizierte Freiwillige",
     "rLab": "Forschungslabor | Forschungslabore",
-    "volunteer": "Freiwillige:r | Freiwillige"
+    "volunteer": "Freiwillige:r | Freiwillige",
+    "loading": "Bitte warten...",
+    "to_login": "Zum Login"
   },
   "landingpage": {
     "coverage": {
@@ -30,5 +32,9 @@
       "sponsoredBy": "Gefördert vom",
       "subTitle": "Die digitale Plattform für ein starkes Diagnostiknetzwerk"
     }
+  },
+  "activation": {
+    "title": "Account aktivieren",
+    "successMessage": "Aktivierung erfolgreich"
   }
 }
