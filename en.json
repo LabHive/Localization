@@ -113,6 +113,8 @@
     "emptyField": "Please fill in the fields and try again!"
   },
   "profile": {
+    "title": "Profile",
+    "updated": "Profile updated successfully",
     "offer": {
       "title": "Current Offers",
       "subTitle": "If you can offer resources, you can enter them here. You can always change this later in your profile. Click on “Next” below if you do not have anything to share at present.",

@@ -113,6 +113,8 @@
     "emptyField": "Bitte die Felder ausfüllen und erneut probieren!"
   },
   "profile": {
+    "title": "Profil",
+    "updated": "Profile aktualisiert",
     "offer": {
       "title": "Aktuelles Angebot",
       "subTitle": "Wenn Sie Ressourcen abzugeben haben, können Sie diese hier angeben. Sie können dies später jederzeit in Ihrem Profil ändern. Klicken Sie unten auf “Weiter”, wenn Sie aktuell nichts abgeben können.",
