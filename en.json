@@ -11,7 +11,11 @@
     "save": "Save",
     "required": "Required",
     "password": "Password",
-    "language": "Language"
+    "language": "Language",
+    "signUp": "Sign Up",
+    "login": "Log In",
+    "yes": "Yes",
+    "no": "No"
   },
   "landingpage": {
     "top": {
@@ -59,5 +63,32 @@
     "2Password": "Please also add numbers and special characters",
     "3Password": "Sufficiently secure, with more characters your password will become even more secure",
     "4Password": "Your password is very secure"
+  },
+
+  "searchDetails": {
+    "contactDetails": {
+      "title": "Contact Details",
+      "not_available": "Contact details are only available to registered diagnostic centers or research laboratories users."
+    },
+    "other": {
+      "title": "Other Information"
+    },
+    "lookingFor": {
+      "skills": { "title": "Qualified Volunteers needed"},
+      "equipment": { "title": "Equipment needed"},
+      "advice": { "title": "Advice needed"}
+    },
+    "offers": {
+      "advice": { "title": "Offers Advice" },
+      "equipment": { "title": "Offers Equipment"}
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "qualifications": {
+      "title": "Qualifications"
+    },
+    "notAvailableAnymore": "Nicht mehr verfügbar",
+    "notAvailableAnymore_warning": "<p>Durch diesen Vorgang, wird die Person aus der Suche ausgeblendet. Sie bekommt von uns nun eine E-Mail zugesendet, in der wir sie darauf hinweisen, dass die Aktion für ihr Profil ausgelöst wurde.</p><p>Innerhalb von 3 Tagen kann sie diesen Vorgang bestätigen oder ablehen. Wenn keine Reaktion stattfindet, wird dieses Profil nach dieser Übergangsfrist nicht mehr in der Suche zu finden sein.</p><p>Vielen Dank für Ihre Mithilfe!</p><p>Wollen Sie diese Aktion durchführen?</p>"
   }
 }
