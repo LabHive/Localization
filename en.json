@@ -275,6 +275,7 @@
             "calibratedPipetteSet": "Calibrated pipette set",
             "rtThermocycler": "Thermocycler RT",
             "qpcrThermocycler": "Thermocycler qPCR",
+            "primerProduction": "Primers for SARS-CoV-2",
             "reverseTransKit": "Reverse transcriptase kit",
             "pcrMasterMix": "PCR master mix",
             "rnaExtractionDevice": "RNA extraction device",
