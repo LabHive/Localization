@@ -332,5 +332,18 @@
         "user_disabled": "Your account was deactivated. In case of questions, please contact support@labhive.de.",
         "featureNotAvailableForRole": "This feature is not available for your user role.",
         "success": "Executed successfully."
+    },
+    "layout": {
+        "staging": "Only for test purposes, does not contain real data.",
+        "footer": {
+            "imprint": "Imprint",
+            "press": "Press",
+            "privacyPolicy": "Privacy Policy"
+        },
+        "navbar": {
+            "aboutLabhive": "About LabHive",
+            "aboutUs": "About The Team",
+            "signOut": "Logout"
+        }
     }
 }
