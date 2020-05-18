@@ -114,7 +114,7 @@
     "forgotPassword": {
         "title": "Forgot Password",
         "successMessage": "If the @:general.emailAddress is registered, you will receive an @:general.email from us shortly.",
-        "pleaseEnterYourEmailMessage": "Please enter your @:general.emailAddress."
+        "pleaseEnterYourEmailMessage": "Please enter your @:(general.emailAddress)."
     },
     "login": {
         "title": "Login",
