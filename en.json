@@ -279,7 +279,8 @@
             "reverseTransKit": "Reverse transcriptase kit",
             "pcrMasterMix": "PCR master mix",
             "rnaExtractionDevice": "RNA extraction device",
-            "rnaExtractionKit": "RNA extraction kit"
+            "rnaExtractionKit": "RNA extraction kit",
+            "pipetteTips": "Pipette tips"
         },
         "advice": {
             "virology": "Virology",
