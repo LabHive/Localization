@@ -172,7 +172,7 @@
             },
             "contact": {
                 "title": "Affiliation & Contact",
-                "subTitle": "Please enter your contact details. <strong>We need this data to be able to verify you.</strong> We only share personal data such as name, e-mail address and telephone number with other verified diagnostic centres and research laboratories.",
+                "subTitle": "Please enter your contact details. <strong>We need this data to be able to verify you.</strong> We only share personal data such as name, e-mail address and telephone number with other verified diagnostic centers and research laboratories.",
                 "affiliation": "Your Affiliation",
                 "contactPerson": "Contact Person",
                 "title_volunteer": "Contact & Availability",
@@ -205,7 +205,7 @@
                 "subTitle": "Please state your qualification(s)."
             },
             "skills": {
-                "description": "Further information, other skills, availability, etc.",
+                "description": "Further information on experience levels, additional skills, availability, etc.",
                 "title": "Skills",
                 "subTitle": "Please specify your skills, you can change them later in your profile at any time.",
                 "subTitle_update": "Please specify your skills"
@@ -238,7 +238,7 @@
     "checkboxes": {
         "qualifications": {
             "jobTraining": "Job training",
-            "mtla": "MTLA",
+            "mtla": "MTA/MTLA",
             "bta_cta": "BTA/CTA",
             "bachelor": "Bachelor (completed)",
             "master": "Master (completed)",
@@ -283,7 +283,7 @@
         },
         "advice": {
             "virology": "Virology",
-            "protocolProduction": "Writing of protocols",
+            "protocolProduction": "Establishing/Creating lab-protocols",
             "rnaExperience_isolation": "@:checkboxes.skills.rnaExperience_isolation",
             "qPCR": "@:checkboxes.skills.qpcr",
             "elisa": "@:checkboxes.skills.elisa"
