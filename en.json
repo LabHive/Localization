@@ -280,7 +280,8 @@
             "pcrMasterMix": "PCR master mix",
             "rnaExtractionDevice": "RNA extraction device",
             "rnaExtractionKit": "RNA extraction kit",
-            "pipetteTips": "Pipette tips"
+            "pipetteTips": "Pipette tips",
+            "pcrPlates": "PCR Plates"
         },
         "advice": {
             "virology": "Virology",
