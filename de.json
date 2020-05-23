@@ -136,7 +136,7 @@
             "advice": "Anzubietende @:general.advice",
             "adviceDescription": "Genauere Informationen über die Themen, zu denen Sie Hilfe anbieten können.",
             "equipment": "Anzubietende @:general.equipment",
-            "equipmentDescription": "Genauere Informationen über die angebotenden Geräte. Welche Hersteller, Modelle, Anzahl, etc."
+            "equipmentDescription": "Genauere Informationen über die angebotenden Geräte/Materialien. Welche Hersteller, Modelle, Anzahl, etc."
         },
         "request": {
             "title": "Aktueller Bedarf",
@@ -144,7 +144,7 @@
             "advice": "Benötigte @:general.advice",
             "adviceDescription": "Genauere Informationen über die Themen, bei denen Sie Hilfe benötigen.",
             "equipment": "Benötigte @:general.equipment",
-            "equipmentDescription": "Genauere Informationen über die benötigten Geräte. Welche Hersteller, Anzahl, etc."
+            "equipmentDescription": "Genauere Informationen über die benötigten Geräte/Materialien. Welche Hersteller, Anzahl, etc."
         },
         "delete": {
             "btn_title": "Profil löschen",
