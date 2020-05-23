@@ -136,7 +136,7 @@
             "advice": "Offered @:general.advice",
             "adviceDescription": "More detailed information on the areas in which you can offer help.",
             "equipment": "Offered @:general.equipment",
-            "equipmentDescription": "More detailed information about the devices you can offer. Manufacturer, website of the devices, quantity, etc."
+            "equipmentDescription": "More detailed information about the devices/materials you can offer. Manufacturer, website of the devices, quantity, etc."
         },
         "request": {
             "title": "Current Requests",
@@ -144,7 +144,7 @@
             "advice": "Needed @:general.advice",
             "adviceDescription": "More detailed information about the areas in which you need help.",
             "equipment": "Needed @:general.equipment",
-            "equipmentDescription": "More detailed information about the devices required. Manufacturer, quantity, etc."
+            "equipmentDescription": "More detailed information about the devices/materials required. Manufacturer, quantity, etc."
         },
         "delete": {
             "btn_title": "Delete Profile",
