@@ -47,13 +47,13 @@
             "desc": {
                 "dCenter": "Active diffagnostic centers that currently offer SARS-CoV-2 tests including sample processing and analysis",
                 "qVolunteers": "Scientific staff or technical assistants with training and experience in the use of laboratory equipment, sample preparation or data analysis",
-                "rLab": "Academic or industrial research laboratories with access to reagents, devices, or suitable laboratory space (BSL-2/3)"
+                "rLab": "Academic or industrial research laboratories with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)"
             }
         },
         "coverage": {
             "referenceRKI": "Daily situation report about COVID-19 by the RKI, {date_en}",
             "referenceRegistered": "Registered on our platform",
-            "subTitle": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, equipment and personnel. Our platform promotes the development of a strong diagnostic network and facilitates efficient access to resources for diagnostic centers. Spread the test, beat the virus!",
+            "subTitle": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, material, equipment and personnel. Our platform promotes the development of a strong diagnostic network and facilitates efficient access to resources for diagnostic centers. Spread the test, beat the virus!",
             "testsPerWeek": "Tests per Week in Germany",
             "title": "Test capacity and support"
         }
