@@ -337,7 +337,7 @@
         "success": "Executed successfully."
     },
     "layout": {
-        "staging": "Only for test purposes, does not contain real data.",
+        "staging": "Only for test purposes, does not contain real data.\nLive Version at https://labhive.de",
         "footer": {
             "imprint": "Imprint",
             "press": "Press",
