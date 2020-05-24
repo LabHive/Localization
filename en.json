@@ -205,7 +205,7 @@
                 "subTitle": "Please state your qualification(s). Select all that apply."
             },
             "skills": {
-                "description": "Further information on experience levels, additional skills, availability, etc.\nThis description is publicly available.",
+                "description": "Further information on experience levels, additional skills, availability, etc. This description is publicly available.",
                 "title": "Skills",
                 "subTitle": "Please specify your skills, you can change them later in your profile at any time.",
                 "subTitle_update": "Please specify your skills"
