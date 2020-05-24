@@ -205,7 +205,7 @@
                 "subTitle": "Bitte geben Sie alle auf Sie zutreffenden Qualifikation(en) an."
             },
             "skills": {
-                "description": "Weitere Informationen zu Erfahrungslevel, ggf. weiteren Fähigkeiten, Verfügbarkeit, etc. \n*Diese Beschreibung ist öffentlich einsehbar.*",
+                "description": "Weitere Informationen zu Erfahrungslevel, ggf. weiteren Fähigkeiten, Verfügbarkeit, etc. \nDiese Beschreibung ist öffentlich einsehbar.",
                 "title": "Fähigkeiten",
                 "subTitle": "Bitte geben Sie Ihre Fähigkeiten an. Diese können später jederzeit im Profil geändert werden.",
                 "subTitle_update": "Bitte geben Sie Ihre Fähigkeiten an"
