@@ -53,7 +53,7 @@
         "coverage": {
             "referenceRKI": "Situationsbericht des RKI vom {date_de} zu COVID-19",
             "referenceRegistered": "Auf unserer Plattform registriert",
-            "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostikzentren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
+            "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Materialien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostikzentren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
             "testsPerWeek": "Tests pro Woche in Deutschland",
             "title": "Testkapazitäten und Unterstützung"
         }
@@ -202,7 +202,7 @@
             },
             "qualification": {
                 "title": "Qualifikation",
-                "subTitle": "Bitte geben Sie Ihre Qualifikation(en) an."
+                "subTitle": "Bitte geben Sie alle auf Sie zutreffenden Qualifikation(en) an."
             },
             "skills": {
                 "description": "Weitere Informationen zu Erfahrungslevel, ggf. weiteren Fähigkeiten, Verfügbarkeit, etc.",
@@ -242,7 +242,7 @@
             "bta_cta": "BTA/CTA",
             "bachelor": "Bachelor (abgeschlossen)",
             "master": "Master (abgeschlossen)",
-            "doctorate": "Promotionsstudent:in",
+            "doctorate": "Promovend:in",
             "postdoc": "Postdoc",
             "groupLeader": "Gruppenleiter:in",
             "other": "@:general.other"
