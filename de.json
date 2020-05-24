@@ -136,7 +136,7 @@
             "advice": "Anzubietende @:general.advice",
             "adviceDescription": "Genauere Informationen über die Themen, zu denen Sie Hilfe anbieten können.",
             "equipment": "Anzubietende @:general.equipment",
-            "equipmentDescription": "Genauere Informationen über die angebotenden Geräte/Materialien. Welche Hersteller, Modelle, Anzahl, etc."
+            "equipmentDescription": "Genauere Informationen über die angebotenen Geräte/Materialien. Link zum Produkt auf der Hersteller-Website, Bestellnummer, Anzahl, Beschreibung, etc."
         },
         "request": {
             "title": "Aktueller Bedarf",
@@ -144,7 +144,7 @@
             "advice": "Benötigte @:general.advice",
             "adviceDescription": "Genauere Informationen über die Themen, bei denen Sie Hilfe benötigen.",
             "equipment": "Benötigte @:general.equipment",
-            "equipmentDescription": "Genauere Informationen über die benötigten Geräte/Materialien. Welche Hersteller, Anzahl, etc."
+            "equipmentDescription": "Genauere Informationen über die benötigten Geräte/Materialien. Link zum Produkt auf der Hersteller-Website, Bestellnummer, Anzahl, Beschreibung, etc."
         },
         "delete": {
             "btn_title": "Profil löschen",
@@ -202,10 +202,10 @@
             },
             "qualification": {
                 "title": "Qualifikation",
-                "subTitle": "Bitte geben Sie alle auf Sie zutreffenden Qualifikation(en) an."
+                "subTitle": "Bitte geben Sie *alle* auf Sie zutreffenden Qualifikation(en) an."
             },
             "skills": {
-                "description": "Weitere Informationen zu Erfahrungslevel, ggf. weiteren Fähigkeiten, Verfügbarkeit, etc.",
+                "description": "Weitere Informationen zu Erfahrungslevel, ggf. weiteren Fähigkeiten, Verfügbarkeit, etc. \n*Diese Beschreibung ist öffentlich einsehbar.*",
                 "title": "Fähigkeiten",
                 "subTitle": "Bitte geben Sie Ihre Fähigkeiten an. Diese können später jederzeit im Profil geändert werden.",
                 "subTitle_update": "Bitte geben Sie Ihre Fähigkeiten an"
