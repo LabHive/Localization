@@ -337,7 +337,7 @@
         "success": "Erfolgreich ausgeführt."
     },
     "layout": {
-        "staging": "Dient nur zu Testzwecken, enthält keine echten Daten!\nAktuelle Version unter https://labhive.de",
+        "staging": "Dient nur zu Testzwecken, enthält keine echten Daten!\nAktuelle Version unter <a href=\"https://labhive.de\">https://labhive.de</a>",
         "footer": {
             "imprint": "Impressum",
             "press": "Presse",
