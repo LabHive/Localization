@@ -61,6 +61,9 @@
             "title": "Testkapazitäten und Unterstützung"
         }
     },
+    "press": {
+        "btn_download": "Download Presskit"
+    },
     "activation": {
         "title": "Account aktivieren",
         "successMessage": "Aktivierung erfolgreich"
