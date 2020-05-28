@@ -40,14 +40,28 @@
             "mainTitle": "The digital platform for a strong diagnostic network",
             "selected": "Selected for",
             "sponsoredBy": "Supported by",
-            "subTitle": "LabHive helps diagnostic centers, research laboratories and qualified volunteers to align efforts for more SARS-CoV-2 tests"
+            "subTitle": "Support diagnostic centers, research laboratories and qualified volunteers to align efforts for more SARS-CoV-2 tests"
         },
         "details": {
-            "title": "Together we unleash the united power of science",
-            "desc": {
-                "dCenter": "Active diagnostic centers that currently offer SARS-CoV-2 tests including sample processing and analysis",
-                "qVolunteers": "Scientific staff or technical assistants with training and experience in the use of laboratory equipment, sample preparation or data analysis",
-                "rLab": "Academic or industrial research laboratories with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)"
+            "title": "How LabHive works",
+            "text": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, equipment and personnel. LabHive facilitates efficient access to resources for diagnostic centers.",
+            "diagnosticCenters": {
+                "subtitle": "Search for resources",
+                "title": "Diagnostic centers",
+                "text": "can search our curated data base for devices, reagents, advice and know-how offered by other diagnostic centers and research laboratories. Also, qualified volunteers can be filtered by skills and contacted to assist with testing.",
+                "button": "Search for resources"
+            },
+            "researchLabs": {
+                "subtitle": "Offer available resources",
+                "title": "Research laboratories",
+                "text": "and diagnostic centers can list available resources such as devices, reagents, advice and know-how in our data base. Diagnostic centers can then use the search tool in LabHive to find these resources and contact the offering institution.",
+                "button": "List available resources"
+            },
+            "volunteers": {
+                "subtitle": "Help with your skills",
+                "title": "Qualified volunteers",
+                "text": "can offer their skills to verified diagnostic centers, whether it is vocational training, university studies or post-doctoral research, LabHive connects diagnostic centers with qualified volunteers who have the skills they are currently looking for.",
+                "button": "Join now"
             }
         },
         "coverage": {
