@@ -1,1 +1,151 @@
-{}
+{
+    "searchDetails": {
+        "contactDetails": {
+            "not_available": "Les coordonnées sont uniquement disponibles aux utilisateurs faisant parti d'un centres de diagnostic ou d'un laboratoire de recherche.",
+            "title": "Coordonnées"
+        },
+        "other": {
+            "title": "Autre information"
+        },
+        "lookingFor": {
+            "skills": {
+                "title": "Volontaire qualifié recherché"
+            },
+            "equipment": {
+                "title": "@:general.equipment recherché"
+            },
+            "advice": {
+                "title": "Conseil requis"
+            }
+        },
+        "offers": {
+            "advice": {
+                "title": "Offre conseil"
+            },
+            "equipment": {
+                "title": "Offre équipement"
+            }
+        },
+        "notAvailableAnymore": "Plus disponible"
+    },
+    "general": {
+        "btn_search": "Rechercher",
+        "dCenter": "Centre de diagnostic | Centres de diagnostic",
+        "qVolunteer": "Volontaire qualifié | Volontaires qualifiés",
+        "rLab": "Laboratoire de recherche | Laboratoires de recherche",
+        "volunteer": "Volontaire | Volontaires",
+        "loading": "Attendez, s'il vous plaît...",
+        "noResults": "Aucun résultat",
+        "save": "Enregistrer",
+        "savedSuccessfully": "Enregistré avec succès",
+        "executedSuccessfully": "Réalisé avec succès",
+        "required": "Requis",
+        "password": "Mot de passe",
+        "language": "Langue",
+        "signUp": "S'inscrire",
+        "login_verb": "S'identifier",
+        "login": "Connexion",
+        "yes": "Oui",
+        "no": "Non",
+        "submit": "Envoyer",
+        "emailAddress": "Adresse E-Mail",
+        "email": "E-Mail",
+        "delete": "Supprimer",
+        "cancel": "Annuler",
+        "next": "Suivant",
+        "back": "Précédant",
+        "attention": "Attention",
+        "skills": "Compétences",
+        "equipment": "Matériel/Équipements",
+        "advice": "Conseil/Savoir-faire",
+        "other": "Autre",
+        "invalidRequest": "Requête non valide",
+        "to_login": "Connectez-vous"
+    },
+    "login": {
+        "emptyField": "Veuillez remplir les champs et essayer à nouveau !",
+        "title": "Inscription",
+        "adminTitle": "Inscription-Admin"
+    },
+    "profile": {
+        "offer": {
+            "adviceDescription": "Plus d'information dans le domaine pour lequel vous pouvez offrir votre aide.",
+            "equipmentDescription": "Plus de détails sur le(s) materiel/équipements que vous pouvez offrir. Liens vers les articles sur le site du fabriquant, numéro de commande, quantité, description, etc.",
+            "title": "Offres actuels",
+            "advice": "@:general.advice offert",
+            "equipment": "@:general.equipment offert"
+        },
+        "request": {
+            "title": "Demande en cours",
+            "advice": "@:general.advice recherché",
+            "adviceDescription": "Plus d'information sur les domaines dans lesquels vous avez besoin d'aide.",
+            "equipment": "@:general.equipment recherché"
+        },
+        "title": "Profil",
+        "updated": "Profil mis jours avec succès",
+        "delete": {
+            "btn_title": "Supprimer le profil",
+            "confirmation": "Êtes vous sûr de vouloir supprimer votre profil ?"
+        }
+    },
+    "landingpage": {
+        "top": {
+            "btn_join": "Rejoindre maintenant",
+            "collaboration": "En partenariat avec",
+            "selected": "Retenu par",
+            "sponsoredBy": "Soutenu par",
+            "subTitle": "La platforme digitale pour un réseau de diagnostic solide",
+            "mainTitle": "Nous coordonnons les efforts pour plus de tests SARS-CoV-2"
+        },
+        "details": {
+            "title": "Ensemble liberons la puissance de la science",
+            "desc": {
+                "dCenter": "Centres de diagnostic actuellement actifs proposant des tests SARS-CoV-2 comprenant le traitement des échantillons et leurs analyse"
+            }
+        },
+        "coverage": {
+            "referenceRegistered": "S'inscrire sur notre platforme",
+            "testsPerWeek": "Tests par semaine en Allemagne"
+        }
+    },
+    "forgotPassword": {
+        "title": "Mot de passe oublié",
+        "pleaseEnterYourEmailMessage": "Saisissez votre @:(general.emailAddress)."
+    },
+    "activation": {
+        "title": "Activer le compte",
+        "successMessage": "Activation réussit"
+    },
+    "admin": {
+        "title": "Gestion des utilisateurs"
+    },
+    "changePassword": {
+        "title": "Changer @:general.password",
+        "successMessage": "Mot de passe modifié",
+        "currentPassword": "@:general.password actuel"
+    },
+    "passwordStrength": {
+        "0Password": "Trop court",
+        "2Password": "Ajouter des chiffres et caractères speciaux",
+        "3Password": "Suffisamment sûr, un mot de passe plus long sera encore plus sécurisé",
+        "4Password": "Votre mot de passe est très sûr",
+        "1Password": "Trop court, ajouter des chiffres et caractères speciaux"
+    },
+    "resetPassword": {
+        "title": "Réinitialiser le mot de passe",
+        "successMessage": "Mot de passe réinitialisé"
+    },
+    "revokeConsent": {
+        "mail": "Ne plus recevoir de mises a jour par email.",
+        "loginRequired": "S'identifier et ouvrir la page à nouveau.",
+        "title": "Révoquer le consentement"
+    },
+    "registration": {
+        "title": "S'inscrire",
+        "subtitle": "Inscrivez vous pour accéder à toutes les fonctionnalités de LabHive.",
+        "submit": "S'inscrire maintenant",
+        "complete": "Merci pour votre inscription !",
+        "prospectiveRole": "Sélectionner votre groupe utilisateur.",
+        "yourMail": "Votre adresse E-Mail"
+    }
+}

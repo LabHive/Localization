@@ -51,12 +51,18 @@
             }
         },
         "coverage": {
-            "referenceRKI": "Situationsbericht des RKI vom {date_de} zu COVID-19",
+            "referenceRKI": "Situationsbericht des RKI vom {date} zu COVID-19",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-05-27-de.pdf?__blob=publicationFile",
+            "testNumber": "344782",
+            "update_date": "27.05.2020",
             "referenceRegistered": "Auf unserer Plattform registriert",
             "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Materialien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostikzentren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
             "testsPerWeek": "Tests pro Woche in Deutschland",
             "title": "Testkapazitäten und Unterstützung"
         }
+    },
+    "press": {
+        "btn_download": "Download Presskit"
     },
     "activation": {
         "title": "Account aktivieren",
@@ -337,7 +343,7 @@
         "success": "Erfolgreich ausgeführt."
     },
     "layout": {
-        "staging": "Dient nur zu Testzwecken, enthält keine echten Daten!\nAktuelle Version unter https://labhive.de",
+        "staging": "Dient nur zu Testzwecken, enthält keine echten Daten!\nAktuelle Version unter <a href=\"https://labhive.de\">https://labhive.de</a>",
         "footer": {
             "imprint": "Impressum",
             "press": "Presse",
