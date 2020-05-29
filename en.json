@@ -360,6 +360,7 @@
         "staging": "Only for test purposes, does not contain real data.\nLive Version at <a href=\"https://labhive.de\">https://labhive.de</a>",
         "footer": {
             "imprint": "Imprint",
+            "contact": "Contact",
             "press": "Press",
             "privacyPolicy": "Privacy Policy"
         },
