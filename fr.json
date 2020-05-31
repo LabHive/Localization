@@ -94,11 +94,11 @@
             "collaboration": "En partenariat avec",
             "selected": "Retenu par",
             "sponsoredBy": "Soutenu par",
-            "subTitle": "La platforme digitale pour un réseau de diagnostic solide",
-            "mainTitle": "Nous coordonnons les efforts pour plus de tests SARS-CoV-2"
+            "subTitle": "Nous coordonnons les efforts pour plus de tests SARS-CoV-2",
+            "mainTitle": "La platforme digitale pour un réseau de diagnostic solide"
         },
         "details": {
-            "title": "Ensemble liberons la puissance de la science",
+            "title": "Comment fonctionne LabHive",
             "desc": {
                 "dCenter": "Centres de diagnostic actuellement actifs proposant des tests SARS-CoV-2 comprenant le traitement des échantillons et leurs analyse"
             }
@@ -142,7 +142,7 @@
     },
     "registration": {
         "title": "S'inscrire",
-        "subtitle": "Inscrivez vous pour accéder à toutes les fonctionnalités de LabHive.",
+        "subtitle": "Inscrivez vous pour accéder à toutes les fonctionnalités de LabHive. En cas de questions ou si vous rencontrez d'autres problèmes, veuillez nous envoyer un e-mail à <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "S'inscrire maintenant",
         "complete": "Merci pour votre inscription !",
         "prospectiveRole": "Sélectionner votre groupe utilisateur.",
