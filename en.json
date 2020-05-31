@@ -173,7 +173,7 @@
     },
     "registration": {
         "title": "Register",
-        "subtitle": "Please register to access all functionalities of LabHive.",
+        "subtitle": "Please register to access all functionalities of LabHive. In case of questions or if you experience other problems, please contact us at <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "Register Now",
         "complete": "Thank you for your registration!",
         "labActivation": "Since you registered as diagnostic center or research laboratory, we verify your account manually. This takes some time, but you will receive an email, when it is done.",
