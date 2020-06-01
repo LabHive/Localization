@@ -29,7 +29,7 @@
         "attention": "Achtung",
         "skills": "Fähigkeiten",
         "equipment": "Geräte/Materialien",
-        "advice": "Beratung/Know-How",
+        "advice": "Beratung/Fachwissen",
         "other": "Andere",
         "invalidRequest": "Ungültige Anfrage"
     },
@@ -40,7 +40,7 @@
             "mainTitle": "Die digitale Plattform für ein starkes Diagnostiknetzwerk",
             "selected": "Ausgewählt für",
             "sponsoredBy": "Gefördert vom",
-            "subTitle": "Unterstützen Sie Diagnostikzentren, Forschungslabore und qualifizierte Freiwillige, ihre Kräfte für mehr SARS-CoV-2-Tests zu bündeln"
+            "subTitle": "Teilnehmen und Ressourcen für mehr SARS-CoV-2 Tests anbieten und finden"
         },
         "details": {
             "title": "Wie LabHive funktioniert",
@@ -48,19 +48,19 @@
             "diagnosticCenters": {
                 "subtitle": "Nach Ressourcen suchen",
                 "title": "Diagnostikzentren",
-                "text": "können in unserer kuratierten Datenbank nach Geräten, Reagenzien, Ratschlägen und Know-how suchen, welche von anderen Diagnostikzentren und Forschungslaboren angeboten werden. Außerdem können qualifizierte Freiwillige, die bei den Tests helfen können, nach Fähigkeiten gefiltert und kontaktiert werden.",
+                "text": "Suchen Sie in unserer kuratierten Datenbank nach Geräten, Materialien und Fachwissen, die von anderen Diagnostikzentren oder Forschungslaboren angeboten werden. Qualifizierte Freiwillige können nach Fähigkeiten gefiltert und kontaktiert werden.",
                 "button": "Suche nach Ressourcen"
             },
             "researchLabs": {
                 "subtitle": "Freie Ressourcen anbieten",
                 "title": "Forschungslabore",
-                "text": "und Diagnostikzentren können verfügbare Ressourcen wie Geräte, Reagenzien, Beratung und Know-how in unsere Datenbank eintragen. Diagnostikzentren können über die Suchfunktion in LabHive diese Ressourcen finden und die anbietende Einrichtung kontaktieren.",
+                "text": "Tragen Sie verfügbare Ressourcen wie Geräte, Materialien und Fachwissen in unsere Datenbank ein. Diagnostikzentren können die Suchfunktion nutzen, um die Ressourcen zu finden und die anbietenden Institutionen zu kontaktieren.",
                 "button": "Ressourcen anbieten"
             },
             "volunteers": {
                 "subtitle": "Eigene Fähigkeiten einbringen",
                 "title": "Qualifizierte Freiwillige",
-                "text": "können ihre Fähigkeiten verfizierten Diagnostikzentren anbieten, sei es mit Berufsausbildung, im Studium oder als Postdoc. LabHive bringt Diagnostikzentren mit genau den qualifizierten Freiwilligen in Kontakt, die über die Fähigkeiten verfügen, welche aktuell benötigt werden.",
+                "text": "Bieten Sie ihre Fähigkeiten den verfizierten Diagnostikzentren an, sei es als Wissenschaftliche:r Mitarbeiter:in oder Technische Assistent:in. So können Sie von Diagnostikzentren gefunden und im Bedarfsfall kontaktiert werden.",
                 "button": "Jetzt mitmachen"
             }
         },
@@ -312,7 +312,7 @@
         }
     },
     "aboutUs": {
-        "ourStoryText": "Hinter LabHive steht ein interdisziplinäres Team aus den Bereichen Wissenschaft, Software-Entwicklung und Datenschutz. Die Idee zur Plattform entstand ursprünglich aus zwei Projekten beim <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a> Hackathon der Bundesregierung. Beide Teams haben sich zusammengeschlossen, um als ehrenamtliches Innovationsprojekt dabei zu helfen, die Testkapazität zu erhöhen.",
+        "ourStoryText": "Hinter LabHive steht ein interdisziplinäres Team aus den Bereichen Wissenschaft, Software-Entwicklung und Datenschutz. Die Idee zur Plattform entstand ursprünglich aus zwei Projekten beim <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a> Hackathon der Bundesregierung. Beide Teams haben sich zusammengeschlossen, um als ehrenamtliches Innovationsprojekt dabei zu helfen, ein starkes Diagnostiknetzwerk aufzubauen.",
         "title": "Unser Team"
     },
     "updateAvailability": {
