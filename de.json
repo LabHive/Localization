@@ -249,6 +249,7 @@
             "bachelor": "Bachelor (abgeschlossen)",
             "master": "Master (abgeschlossen)",
             "doctorate": "Promovend:in",
+            "doctoratecompleted": "Promotion (abgeschlossen)",
             "postdoc": "Postdoc",
             "groupLeader": "Gruppenleiter:in",
             "other": "@:general.other"
