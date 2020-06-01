@@ -263,6 +263,7 @@
             "bachelor": "Bachelor (completed)",
             "master": "Master (completed)",
             "doctorate": "PhD Student",
+            "doctoratecompleted": "PhD (completed)",
             "postdoc": "Postdoc",
             "groupLeader": "Group Leader",
             "other": "@:general.other"
