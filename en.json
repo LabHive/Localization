@@ -40,7 +40,7 @@
             "mainTitle": "The digital platform for a strong diagnostic network",
             "selected": "Selected for",
             "sponsoredBy": "Supported by",
-            "subTitle": "Support diagnostic centers, research laboratories and qualified volunteers to align efforts for more SARS-CoV-2 tests"
+            "subTitle": "Join to find and offer resources for more SARS-CoV-2 tests"
         },
         "details": {
             "title": "How LabHive works",
@@ -48,19 +48,19 @@
             "diagnosticCenters": {
                 "subtitle": "Search for resources",
                 "title": "Diagnostic centers",
-                "text": "can search our curated data base for devices, reagents, advice and know-how offered by other diagnostic centers and research laboratories. Also, qualified volunteers can be filtered by skills and contacted to assist with testing.",
+                "text": "Search our curated data base for devices, materials, and expertise offered by other diagnostic centers and research laboratories. Qualified volunteers can be filtered by skills and contacted to assist with testing.",
                 "button": "Search for resources"
             },
             "researchLabs": {
                 "subtitle": "Offer available resources",
                 "title": "Research laboratories",
-                "text": "and diagnostic centers can list available resources such as devices, reagents, advice and know-how in our data base. Diagnostic centers can then use the search tool in LabHive to find these resources and contact the offering institution.",
+                "text": "List available resources such as devices, materials, and expertise in our database. Diagnostic centers can use the search tool to find resources and contact the offering institutions.",
                 "button": "List available resources"
             },
             "volunteers": {
                 "subtitle": "Help with your skills",
                 "title": "Qualified volunteers",
-                "text": "can offer their skills to verified diagnostic centers, whether it is vocational training, university studies or post-doctoral research, LabHive connects diagnostic centers with qualified volunteers who have the skills they are currently looking for.",
+                "text": "Offer your skills to verified diagnostic centers, whether as research associate or technical assistant. This allows diagnostic centers to find you and contact you if necessary.",
                 "button": "Join now"
             }
         },
@@ -312,7 +312,7 @@
         }
     },
     "aboutUs": {
-        "ourStoryText": "LabHive comprises an interdisciplinary team of scientists, software developers and data protection experts. The idea for the platform originally emerged from two projects of the <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a> Hackathon of the German government. Both teams have volunteered their efforts to this initiative, and they have joined forces to help increase test capacity.",
+        "ourStoryText": "LabHive comprises an interdisciplinary team of scientists, software developers and data protection experts. The idea for the platform originally emerged from two projects of the <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a> Hackathon of the German government. Both teams have volunteered their efforts to this initiative, and they have joined forces to build a strong diagnostic network.",
         "title": "Our Team"
     },
     "updateAvailability": {
