@@ -40,27 +40,27 @@
             "mainTitle": "Die digitale Plattform für ein starkes Diagnostiknetzwerk",
             "selected": "Ausgewählt für",
             "sponsoredBy": "Gefördert vom",
-            "subTitle": "Unterstützen Sie Diagnosezentren, Forschungslaboren und qualifizierten Freiwilligen, ihre Kräfte für mehr SARS-CoV-2-Tests zu bündeln"
+            "subTitle": "Unterstützen Sie Diagnostikzentren, Forschungslabore und qualifizierte Freiwillige, ihre Kräfte für mehr SARS-CoV-2-Tests zu bündeln"
         },
         "details": {
             "title": "Wie LabHive funktioniert",
-            "text": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Materialien, Geräten und Personal. LabHive Plattform erleichtert Diagnostikzentren den effizienten Zugang zu Ressourcen.",
+            "text": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Materialien, Geräten und Personal. LabHive erleichtert Diagnostikzentren den effizienten Zugang zu Ressourcen.",
             "diagnosticCenters": {
                 "subtitle": "Nach Ressourcen suchen",
                 "title": "Diagnostikzentren",
-                "text": "können in unserer kuratierten Datenbank nach Geräten, Reagenzien, Ratschlägen und Know-how suchen, welche von anderen Diagnostikzentren und Forschungslaboren angeboten werden. Außerdem können qualifizierte Freiwillige nach Fähigkeiten gefiltert und kontaktiert werden, die bei Tests helfen können.",
+                "text": "können in unserer kuratierten Datenbank nach Geräten, Reagenzien, Ratschlägen und Know-how suchen, welche von anderen Diagnostikzentren und Forschungslaboren angeboten werden. Außerdem können qualifizierte Freiwillige, die bei den Tests helfen können, nach Fähigkeiten gefiltert und kontaktiert werden.",
                 "button": "Suche nach Ressourcen"
             },
             "researchLabs": {
                 "subtitle": "Freie Ressourcen anbieten",
                 "title": "Forschungslabore",
-                "text": "und Diagnostikzentren können verfügbare Ressourcen wie Geräte, Reagenzien, Beratung und Know-how in unsere Datenbank eintragen. Diagnostikzentren können dann das Suchtool in LabHive verwenden, um diese Ressourcen zu finden und die anbietende Einrichtung kontaktieren zu können.",
+                "text": "und Diagnostikzentren können verfügbare Ressourcen wie Geräte, Reagenzien, Beratung und Know-how in unsere Datenbank eintragen. Diagnostikzentren können über die Suchfunktion in LabHive diese Ressourcen finden und die anbietende Einrichtung kontaktieren.",
                 "button": "Ressourcen anbieten"
             },
             "volunteers": {
                 "subtitle": "Eigene Fähigkeiten einbringen",
                 "title": "Qualifizierte Freiwillige",
-                "text": "können ihre Fähigkeiten verfizierten Diagnostikzentren anbieten, sei es mit Berufsausbildung, im Studium oder als Postdoc. LabHive kann dann Diagnostikzentren mit genau den qualifizierten Freiwilligen verbinden, die über die Fähigkeiten verfügen, welche aktuell benötigt werden.",
+                "text": "können ihre Fähigkeiten verfizierten Diagnostikzentren anbieten, sei es mit Berufsausbildung, im Studium oder als Postdoc. LabHive bringt Diagnostikzentren mit genau den qualifizierten Freiwilligen in Kontakt, die über die Fähigkeiten verfügen, welche aktuell benötigt werden.",
                 "button": "Jetzt mitmachen"
             }
         },
