@@ -172,6 +172,11 @@
         }
     },
     "registration": {
+        "descriptions": {
+            "dCenter": "Aktive Diagnostikzentren, die derzeit SARS-CoV-2 Tests anbieten, d.h. Proben verarbeiten und Analysen durchführen",
+            "qVolunteers": "Wissenschaftliche Mitarbeiter oder Technische Assistenten mit Ausbildung und Erfahrung in der Anwendung von Laborgeräten, Probenvorbereitung oder Datenanalyse",
+            "rLab": "Akademische oder industrielle Forschungseinrichtungen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)"
+        },
         "title": "Registrieren",
         "subtitle": "Registrieren Sie sich, um alle Funktionalitäten von LabHive nutzen zu können. Bei Fragen oder falls Schwierigkeiten auftreten wenden Sie sich bitte an <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "Jetzt registrieren",

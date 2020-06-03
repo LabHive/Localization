@@ -172,6 +172,11 @@
         }
     },
     "registration": {
+        "descriptions": {
+            "dCenter": "Active diagnostic centers that currently offer SARS-CoV-2 tests including sample processing and analysis",
+            "qVolunteers": "Scientific staff or technical assistants with training and experience in the use of laboratory equipment, sample preparation or data analysis",
+            "rLab": "Academic or industrial research laboratories with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)"
+        },
         "title": "Register",
         "subtitle": "Please register to access all functionalities of LabHive. In case of questions or if you experience other problems, please contact us at <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "Register Now",

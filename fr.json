@@ -98,10 +98,7 @@
             "mainTitle": "La platforme digitale pour un réseau de diagnostic solide"
         },
         "details": {
-            "title": "Comment fonctionne LabHive",
-            "desc": {
-                "dCenter": "Centres de diagnostic actuellement actifs proposant des tests SARS-CoV-2 comprenant le traitement des échantillons et leurs analyse"
-            }
+            "title": "Comment fonctionne LabHive"
         },
         "coverage": {
             "referenceRegistered": "S'inscrire sur notre platforme",
@@ -141,6 +138,9 @@
         "title": "Révoquer le consentement"
     },
     "registration": {
+        "descriptions": {
+            "dCenter": "Centres de diagnostic actuellement actifs proposant des tests SARS-CoV-2 comprenant le traitement des échantillons et leurs analyse"
+        },
         "title": "S'inscrire",
         "subtitle": "Inscrivez vous pour accéder à toutes les fonctionnalités de LabHive. En cas de questions ou si vous rencontrez d'autres problèmes, veuillez nous envoyer un e-mail à <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "S'inscrire maintenant",
