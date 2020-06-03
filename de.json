@@ -60,15 +60,15 @@
             "volunteers": {
                 "subtitle": "Eigene Fähigkeiten einbringen",
                 "title": "Qualifizierte Freiwillige",
-                "text": "Bieten Sie ihre Fähigkeiten den verfizierten Diagnostikzentren an, sei es als Wissenschaftliche:r Mitarbeiter:in oder Technische Assistent:in. So können Sie von Diagnostikzentren gefunden und im Bedarfsfall kontaktiert werden.",
+                "text": "Bieten Sie ihre Fähigkeiten den verfizierten Diagnostikzentren an, sei es als Wissenschaftliche:r Mitarbeiter:in oder Technische:r Assistent:in. So können Sie von Diagnostikzentren gefunden und im Bedarfsfall kontaktiert werden.",
                 "button": "Jetzt mitmachen"
             }
         },
         "coverage": {
             "referenceRKI": "Situationsbericht des RKI vom {date} zu COVID-19",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-05-27-de.pdf?__blob=publicationFile",
-            "testNumber": "344782",
-            "update_date": "27.05.2020",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-06-03-de.pdf?__blob=publicationFile",
+            "testNumber": "392437",
+            "update_date": "03.06.2020",
             "referenceRegistered": "Auf unserer Plattform registriert",
             "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Materialien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostikzentren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
             "testsPerWeek": "Tests pro Woche in Deutschland",
