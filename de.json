@@ -48,7 +48,7 @@
             "diagnosticCenters": {
                 "subtitle": "Nach Ressourcen suchen",
                 "title": "Diagnostikzentren",
-                "text": "Suchen Sie in unserer kuratierten Datenbank nach Geräten, Materialien und Fachwissen, die von anderen Diagnostikzentren oder Forschungslaboren angeboten werden. Qualifizierte Freiwillige können nach Fähigkeiten gefiltert und kontaktiert werden.",
+                "text": "Suchen Sie in unserer kuratierten Datenbank nach Geräten, Materialien und Fachwissen, die von anderen Instituten angeboten werden, oder bieten Sie Ihre eigenen Ressourcen bzw. Ihr Fachwissen an. Qualifizierte Freiwillige können nach Fähigkeiten gefiltert und kontaktiert werden.",
                 "button": "Suche nach Ressourcen"
             },
             "researchLabs": {
@@ -244,7 +244,7 @@
         "btn_requests": "Anfragen",
         "modeTitle": "Wonach suchen Sie?",
         "filterOfferTitle": "Was wird benötigt?",
-        "filterRequestTitle": "Was kann abgegeben werden?",
+        "filterRequestTitle": "Art der Anfrage",
         "enterZipcode": "PLZ eingeben",
         "title": "Suche nach Ressourcen",
         "noResults": "Keine Treffer. Andere Suchkriterien verwenden oder später vorbei schauen",
