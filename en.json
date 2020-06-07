@@ -48,7 +48,7 @@
             "diagnosticCenters": {
                 "subtitle": "Search for resources",
                 "title": "Diagnostic centers",
-                "text": "Search our curated data base for devices, materials, and expertise offered by other diagnostic centers and research laboratories. Qualified volunteers can be filtered by skills and contacted to assist with testing.",
+                "text": "Search our curated data base for devices, materials, and expertise offered by other institutes or offer your own resources or advice. Qualified volunteers can be filtered by skills and contacted to assist with testing.",
                 "button": "Search for resources"
             },
             "researchLabs": {
@@ -244,7 +244,7 @@
         "btn_requests": "Requests",
         "modeTitle": "What do you search for?",
         "filterOfferTitle": "What is needed?",
-        "filterRequestTitle": "What can be offered?",
+        "filterRequestTitle": "Type of request",
         "enterZipcode": "Enter ZIP-Code",
         "title": "Search For Resources",
         "noResults": "No results. Try other search criteria or stop by later",
