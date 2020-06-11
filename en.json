@@ -290,8 +290,8 @@
                 "bsl3": "BSL3",
                 "bsl4": "BSL4",
                 "qpcr": "@:checkboxes.skills.qpcr",
-                "rnaExperience_isolation": "Work with RNA",
-                "sample_processing": "@:checkboxes.skills.sample_processing",
+                "rnaExperience_isolation": "RNA Handling",
+                "sample_processing": "Clinical sample processing",
                 "elisa": "@:checkboxes.skills.elisa",
                 "primerProduction": "@:checkboxes.skills.primerProduction",
                 "dataAnalysis": "@:checkboxes.skills.dataAnalysis"
