@@ -76,6 +76,8 @@
         }
     },
     "press": {
+        "title": "Mehr Informationen über LabHive",
+        "subtitle": "Kurzzusammenfassung, Pressemitteilung und Bildmaterial",
         "btn_download": "Download Presskit"
     },
     "activation": {
