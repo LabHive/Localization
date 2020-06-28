@@ -1,1 +1,338 @@
-{}
+{
+    "general": {
+        "dCenter": "Centro Diagnóstico | Centros Diagnósticos",
+        "rLab": "Laboratorio de Investigación | Laboratorios de Investigación",
+        "loading": "Por favor espere...",
+        "to_login": "Ir a Login",
+        "noResults": "No se encontraron resultados",
+        "save": "Guardar",
+        "savedSuccessfully": "Guardado correctamente",
+        "executedSuccessfully": "Ejecutado correctamente",
+        "password": "Contraseña",
+        "language": "Idioma",
+        "signUp": "Registrarse",
+        "login": "Login",
+        "login_verb": "Entrar",
+        "yes": "Sí",
+        "no": "No",
+        "emailAddress": "Dirección E-Mail",
+        "email": "E-Mail",
+        "delete": "Borrar",
+        "next": "Siguiente",
+        "back": "Atrás",
+        "qVolunteer": "Voluntario Cualificado | Voluntarios Cualificados",
+        "skills": "Habilidades",
+        "equipment": "Aparatos/Materiales",
+        "advice": "Consejo/Conocimiento",
+        "other": "Otro",
+        "invalidRequest": "Petición inválida",
+        "volunteer": "Voluntario | Voluntarios",
+        "required": "Requerido",
+        "submit": "Enviar",
+        "cancel": "Cancelar",
+        "btn_search": "Buscar Recursos",
+        "attention": "Atención"
+    },
+    "landingpage": {
+        "top": {
+            "collaboration": "En colaboración con",
+            "btn_join": "Unirse ahora",
+            "mainTitle": "La plataforma digital para una consistente red de diagnóstico",
+            "selected": "Seleccionado para",
+            "sponsoredBy": "Apoyado por",
+            "subTitle": "Únase para encontrar y ofrecer recursos para más tests de SARS-CoV-2"
+        },
+        "details": {
+            "title": "Como funciona LabHive",
+            "diagnosticCenters": {
+                "title": "Centros diagnósticos",
+                "subtitle": "Búsqueda de recursos",
+                "button": "Buscar recursos"
+            },
+            "researchLabs": {
+                "subtitle": "Ofrecer recursos disponibles",
+                "title": "Laboratorios de investigación",
+                "button": "Listar recursos disponibles"
+            },
+            "volunteers": {
+                "subtitle": "Ayudar con sus habilidades",
+                "button": "Unirse ahora",
+                "title": "Voluntarios cualificados"
+            }
+        },
+        "coverage": {
+            "referenceRKI": "Informe diario de situación sobre el COVID-19 por el RKI, {date}",
+            "testNumber": "377544",
+            "update_date": "24 de Junio de 2020",
+            "referenceRegistered": "Registrado en nuestra plataforma",
+            "title": "Soporte y capacidad de test",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-06-24-de.pdf?__blob=publicationFile",
+            "testsPerWeek": "Tests por semana en Alemania"
+        }
+    },
+    "passwordStrength": {
+        "1Password": "Demasiado corta, porfavor añada números y carácteres especiales",
+        "0Password": "Demasiado corta",
+        "2Password": "Por favor añada números y carácteres especiales",
+        "3Password": "Suficientemente segura, con más caracteres su contraseña será incluso más segura",
+        "4Password": "Su contraseña es muy segura"
+    },
+    "profile": {
+        "request": {
+            "adviceDescription": "Más información detallada sobre las áreas en las que usted necesita ayuda.",
+            "title": "Peticiones Actuales",
+            "advice": "Necesita @:general.advice",
+            "equipment": "Necesita @:general.equipment"
+        },
+        "title": "Perfil",
+        "updated": "Perfil actualizado correctamente",
+        "offer": {
+            "title": "Ofertas Actuales",
+            "advice": "Ofrecido @:general.advice",
+            "adviceDescription": "Más información detallada en las áreas en las que usted puede ofrecer ayuda.",
+            "equipment": "Ofrecido @:general.equipment"
+        },
+        "delete": {
+            "btn_title": "Borrar Perfil",
+            "confirmation": "¿Está seguro de querer borrar su perfil?"
+        }
+    },
+    "registration": {
+        "steps": {
+            "contact": {
+                "textfieldPlaceholders": {
+                    "labWebsite": "Página web del Laboratorio",
+                    "firstName": "Nombre",
+                    "lastName": "Apellidos",
+                    "zipcode": "Código Postal",
+                    "phone": "Número de Teléfono",
+                    "city": "Ciudad",
+                    "street": "Calle",
+                    "instituteName": "Instituto/Universidad/Hospital",
+                    "instituteWebsite": "Página web de su Institución",
+                    "labName": "Nombre del Laboratorio",
+                    "address": "Dirección"
+                },
+                "title": "Afiliación y Contacto",
+                "contactPerson": "Persona de Contacto",
+                "title_volunteer": "Contacto y Disponibilidad",
+                "not_available": "No, no estoy actualmente disponible para ofrecer ayuda.",
+                "affiliation": "Su Afiliación",
+                "available": "Sí, estoy actualmente disponible para ofrecer ayuda."
+            },
+            "consent": {
+                "title": "Consentimientos Opcionales"
+            },
+            "loginInformation": {
+                "title": "Información de Login",
+                "subTitle": "Por favor introduzca su e-mail e indique una contraseña.",
+                "textfieldPlaceholders": {
+                    "officialEmail": "Dirección e-mail de su instituto"
+                }
+            },
+            "qualification": {
+                "title": "Cualificación",
+                "subTitle": "Porfavor indice sus cualificaciones. Marque todas las correspondenties."
+            },
+            "skills": {
+                "description": "Información adicional sobre niveles de experiencia, habilidades adicionales, disponibilidad, etc. Esta descripción será públicamente visible.",
+                "title": "Habilidades",
+                "subTitle_update": "Porfavor especifique sus habilidades",
+                "subTitle": "Porfavor especifique sus habilidades, usted puede cambiarles más adelante en su perfil en cualquier momento."
+            }
+        },
+        "title": "Registro",
+        "submit": "Registrarse Ahora",
+        "complete": "¡Gracias por registrarse!",
+        "prospectiveRole": "Porfavor seleccione su grupo de usuarios.",
+        "yourMail": "su dirección E-Mail",
+        "usergroup": "Grupo de Usuarios",
+        "progressResetWarning": "Todos los datos se borrarán. ¿Está seguro de querer continuar?"
+    },
+    "searchDetails": {
+        "contactDetails": {
+            "title": "Detalles de Contacto",
+            "not_available": "Los detalles de contacto sólo están disponibles para centros de diagnóstico registrados o para usuarios de laboratorios de investigación."
+        },
+        "other": {
+            "title": "Infomación adicional"
+        },
+        "lookingFor": {
+            "skills": {
+                "title": "Se necesitan voluntarios cualificados"
+            },
+            "equipment": {
+                "title": "@:general.equipment needed"
+            },
+            "advice": {
+                "title": "Consejo necesario"
+            }
+        },
+        "offers": {
+            "advice": {
+                "title": "Ofrece Consejo"
+            },
+            "equipment": {
+                "title": "Ofrece @:genera.equipment"
+            }
+        },
+        "notAvailableAnymore": "Ya no está disponible"
+    },
+    "press": {
+        "title": "Más información sobre LabHive",
+        "btn_download": "Descargar kit de prensa",
+        "subtitle": "Resumen, nota de prensa y material gráfico"
+    },
+    "activation": {
+        "title": "Activar cuenta",
+        "successMessage": "Acitvación correcta"
+    },
+    "admin": {
+        "title": "Gestión de Usuarios"
+    },
+    "changePassword": {
+        "title": "Cambiar @:general.password",
+        "successMessage": "Contraseña actualizada",
+        "currentPassword": "Actual @:general.password"
+    },
+    "resetPassword": {
+        "title": "Restablecer contraseña",
+        "successMessage": "Contraseña actualizada"
+    },
+    "forgotPassword": {
+        "title": "Contraseña olvidada",
+        "successMessage": "Si la @:general.emailAddress está registrada, recibirá un @:genera.email de nuestra parte en breve.",
+        "pleaseEnterYourEmailMessage": "Por favor introduzca su @:(general.emailAddress)."
+    },
+    "login": {
+        "title": "Login",
+        "adminTitle": "Login de Administrador",
+        "emptyField": "Porfavor rellene todos los campos y vuelva a intentarlo"
+    },
+    "revokeConsent": {
+        "mail": "No recibir más actualizaciones por email.",
+        "loginRequired": "Porfavor entre y abra en enlace de nuevo.",
+        "title": "Revocar consentimiento",
+        "dataProcessing": "Enviando mi información personal a centros diagnósticos y laboratorios de investigación registrados."
+    },
+    "search": {
+        "workers": "Personal",
+        "btn_offers": "Ofertas",
+        "btn_requests": "Peticiones",
+        "modeTitle": "¿Qué desea buscar?",
+        "filterRequestTitle": "Tipo de petición",
+        "enterZipcode": "Introduzca el Código Postal",
+        "title": "Buscar Recursos",
+        "offersadvice": "@:searchDetails.offers.advice.title",
+        "lookingForadvice": "@:searchDetails.lookingFor.advice.title",
+        "offersequipment": "@:searchDetails.offers.equipment.title",
+        "lookingForequipment": "@:searchDetails.lookingFor.equipment.title",
+        "farAway": "de distancia",
+        "recentlyAdded": "Recientemente añadido",
+        "bsl1": "Experiencia BSL1",
+        "bsl2": "Experiencia BSL2",
+        "bsl3": "Experiencia BSL3",
+        "bsl4": "Experiencia BSL4",
+        "noResults": "No hay resultados. Pruebe con otros criterios de búsqueda o inténtelo más adelante",
+        "searchInSurroundings": "Buscar en sus cercanías",
+        "error": "Ocurrió un error, porfavor inténtelo de nuevo más tarde.",
+        "filterOfferTitle": "¿Qué se necesita?"
+    },
+    "checkboxes": {
+        "qualifications": {
+            "jobTraining": "Formación Laboral",
+            "groupLeader": "Líder de Grupo",
+            "other": "@:general.other"
+        },
+        "skills": {
+            "bsl1": "Trabajo bajo los estándares de seguridad BSL1",
+            "bsl3": "Trabajo bajo los estándares de seguridad BSL3",
+            "bsl4": "Trabajo bajo los estándares de seguridad BSL4",
+            "rnaExperience_isolation": "Trabajo con ARN (esp. aislamiento con equipo)",
+            "searchResult": {
+                "bsl1": "BSL1",
+                "bsl2": "BSL2",
+                "bsl3": "BSL3",
+                "qpcr": "@:checkboxes.skills.qpcr",
+                "rnaExperience_isolation": "Tratamiento de ARN",
+                "sample_processing": "Procesado de muestras clínicas",
+                "elisa": "@:checkboxes.skills.elisa",
+                "primerProduction": "@:checkboxes.skills.primerProduction",
+                "bsl4": "BSL4",
+                "dataAnalysis": "@:checkboxes.skills.dataAnalysis"
+            },
+            "sample_processing": "(Pre-)Procesado de muestras clínicas",
+            "dataAnalysis": "Análisis de Datos",
+            "bsl2": "Trabajo bajo los estándares de seguridad BSL2"
+        },
+        "equipment": {
+            "calibratedPipetteSet": "Conjunto calibrado de pipetas",
+            "rnaExtractionDevice": "Dispositivo de extracción de ARN",
+            "rnaExtractionKit": "Equipo de extracción de ARN"
+        },
+        "advice": {
+            "virology": "Virología",
+            "protocolProduction": "Establecer/Crear protocolos de laboratorio",
+            "qPCR": "@:checkboxes.skills.qpcr",
+            "elisa": "@:checkboxes.skills.elisa",
+            "rnaExperience_isolation": "@:checkboxes.skills.rnaExperience_isolation"
+        }
+    },
+    "updateAvailability": {
+        "not_available": "Actualizar estado de disponibilidad a: 'No disponible'",
+        "title": "Actualizar Disponibilidad",
+        "available": "Actualizar estado de disponibilidad a: 'Actualmente disponible'",
+        "update_notice": "Usted puede cambiar su estado cuando haya entrado un su configuración de perfil."
+    },
+    "backend": {
+        "formValidation": {
+            "invalid_email": "Dirección e-mail no válida",
+            "invalid_firstname": "Nombre no válido (máx. de 200 caracteres)",
+            "invalid_lastname": "Apellidos no válidos (máx. de 200 caracteres)",
+            "invalid_zipcode": "Código postal no válido (debería tener 5 dígitos)",
+            "invalid_city": "Ciudad no válida (máx. de 200 caracteres)",
+            "invalid_street": "Calle no válida (máx. de 200 caracteres)",
+            "invalid_description": "Descripción no válida (máx. de 200 caracteres)",
+            "invalid_name": "Nombre de Laboratorio no válido (máx. de 200 caracteres)",
+            "invalid_number": "Número no válido",
+            "invalid_search": "Parámetro de búsqueda no válido",
+            "invalid_role": "Tipo de búsqueda no válido",
+            "invalid_equipment": "Equipo no válido",
+            "invalid_advice": "Petición no válida",
+            "invalid_consent": "Consentimiento no válido",
+            "invalid_location": "Lamentablemente no hemos podido confirmar su dirección. Porfavor compruebe la dirección y asegúrese de que no hay errores tipogŕaficos.",
+            "invalid_phone": "Porfavor utilice el formato +4992 o 123 sin - o /",
+            "invalid_skills": "Habilidades no válidas",
+            "invalid_url": "La URL debe ser menor a 200 caracteres."
+        },
+        "internal_error": "Ha ocurrido un error...",
+        "not_authorized": "¡No autorizado!",
+        "invalid_password": "Contraseña no válida",
+        "invalid_login": "Información de Login inválida",
+        "existing_user": "El Usuario ya existe",
+        "no_results": "No se encontraron resultados...",
+        "tokenTooOld": "Porfavor restablezca su contraseña de nuevo, en el enlace ha expirado.",
+        "user_disabled": "Su cuenta ha sido desactivada. En caso de duda, por favor contacte con support@labhive.de.",
+        "featureNotAvailableForRole": "Esta característica no está disponible para su rol de usuario.",
+        "success": "Ejecutado correctamente.",
+        "bad_request": "@:general.invalidRequest",
+        "contact_support": "Ocurrió un error. Porfavor contacte con support@labhive.de. ¡Lamentamos las molestias!"
+    },
+    "layout": {
+        "footer": {
+            "imprint": "Grabar",
+            "contact": "Contacto",
+            "press": "Prensa",
+            "privacyPolicy": "Política de Privacidad"
+        },
+        "navbar": {
+            "aboutLabhive": "Sobre LabHive",
+            "aboutUs": "Sobre el Equipo",
+            "signOut": "Salir"
+        },
+        "staging": "Sólo para realizar tests, no contiene datos reales.\nVersión final en <a href=\"https://labhive.de\">https://labhive.de</a>"
+    },
+    "aboutUs": {
+        "title": "Nuestro Equipo"
+    }
+}
