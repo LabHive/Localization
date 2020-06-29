@@ -47,18 +47,22 @@
             "diagnosticCenters": {
                 "title": "Centros diagnósticos",
                 "subtitle": "Búsqueda de recursos",
-                "button": "Buscar recursos"
+                "button": "Buscar recursos",
+                "text": "Busque en nuestra base de datos supervisada aparatos, materiales y experiencia ofrecida por otros institutos u ofrezca sus propios recursos o consejos. Los voluntarios cualificados pueden ser filtrados por habilidades y contactados para ayudar con testeos."
             },
             "researchLabs": {
                 "subtitle": "Ofrecer recursos disponibles",
                 "title": "Laboratorios de investigación",
-                "button": "Listar recursos disponibles"
+                "button": "Listar recursos disponibles",
+                "text": "Liste los recursos disponibles como aparatos, materiales y experiencia en nuestra base de datos. Los centros diagnósticos pueden usar la herramienta de búsqueda para encontrar recursos y contactar con las instituciones en oferta."
             },
             "volunteers": {
                 "subtitle": "Ayudar con sus habilidades",
                 "button": "Unirse ahora",
-                "title": "Voluntarios cualificados"
-            }
+                "title": "Voluntarios cualificados",
+                "text": "Ofrezca sus habilidades a centros diagnósticos verificados, ya sea como científico o como asistente técnico. Esto permite a los centros diagnósticos encontrarle y contactarle si es necesario."
+            },
+            "text": "Aumentar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, equipo y personal. LabHive facilita acceso eficiente a recursos para diagnóstico."
         },
         "coverage": {
             "referenceRKI": "Informe diario de situación sobre el COVID-19 por el RKI, {date}",
@@ -67,7 +71,8 @@
             "referenceRegistered": "Registrado en nuestra plataforma",
             "title": "Soporte y capacidad de test",
             "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-06-24-de.pdf?__blob=publicationFile",
-            "testsPerWeek": "Tests por semana en Alemania"
+            "testsPerWeek": "Tests por semana en Alemania",
+            "subTitle": "Incrementar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, materiales, equipo y personal. Nuestra plataforma promueve el desarrollo de una consistente red de diagnóstico y facilita el acceso eficiente a los recursos para centros diagnósticos. ¡Propague el test, venza al virus!"
         }
     },
     "passwordStrength": {
@@ -82,7 +87,9 @@
             "adviceDescription": "Más información detallada sobre las áreas en las que usted necesita ayuda.",
             "title": "Peticiones Actuales",
             "advice": "Necesita @:general.advice",
-            "equipment": "Necesita @:general.equipment"
+            "equipment": "Necesita @:general.equipment",
+            "equipmentDescription": "Más información detallada sobre los aparatos/materiales es requerida. Enlace a los elementos pedidos en la página del fabricante, número de orden, cantidad, descripción, etc.",
+            "subTitle": "Si usted necesita recursos, puede listarlos aquí. Siempre podrá cambiarlos en su perfil. Haga click en \"Siguiente\" si no necesita nada en este momento. Encontrará voluntarios cualificados usando la búsqueda."
         },
         "title": "Perfil",
         "updated": "Perfil actualizado correctamente",
@@ -90,7 +97,9 @@
             "title": "Ofertas Actuales",
             "advice": "Ofrecido @:general.advice",
             "adviceDescription": "Más información detallada en las áreas en las que usted puede ofrecer ayuda.",
-            "equipment": "Ofrecido @:general.equipment"
+            "equipment": "Ofrecido @:general.equipment",
+            "equipmentDescription": "Más información detallada sobre aparatos/materiales que usted puede ofrecer. Enlaces a elementos ofrecidos en la página del fabricante, número de orden, cantidad, descripción, etc.",
+            "subTitle": "Si puede ofrecer recursos, puede ponerlos aquí. Siempre podrá cambiarlos luego en su perfil. Haga click en \"Siguiente\" si no dispone de nada para compartir en este momento."
         },
         "delete": {
             "btn_title": "Borrar Perfil",
@@ -118,10 +127,14 @@
                 "title_volunteer": "Contacto y Disponibilidad",
                 "not_available": "No, no estoy actualmente disponible para ofrecer ayuda.",
                 "affiliation": "Su Afiliación",
-                "available": "Sí, estoy actualmente disponible para ofrecer ayuda."
+                "available": "Sí, estoy actualmente disponible para ofrecer ayuda.",
+                "subTitle_volunteer": "Porfavor indique sus detalles de contacto y disponibilidad. Compartimos información sensible como sus appelidos, la dirección e-mail y el número de teléfono únicamente con centros diagnósticos verificados.",
+                "subTitle": "Porfavor introduzca sus detalles de contacto. <strong>Necesitamos esta información para poder verificarle.</strong>Sólo compartimos datos personales como el nombre, dirección e-mail y número de teléfono con otros centros diagnósticos y laboratorios de investigación verificados."
             },
             "consent": {
-                "title": "Consentimientos Opcionales"
+                "title": "Consentimientos Opcionales",
+                "volunteerDisclaimer": "Tanto si usted está autorizado para trabajar como voluntario en un centro diagnóstico como si usted ha sido liberado de trabajar, debe aclararlo con su empleador bajo su propia responsabilidad. Si usted es requerido para trabajar en un centro diagnóstico, usted, su empleador y el centro diagnóstico son responsables de la legislación laboral. LabHive no asume responsabilidad en este aspecto.",
+                "mail": "<p>LabHive puede ocasionalmente enviarme e-mails de notificaciones sobre actualizaciones y nuevas características de la página web.</p><p>Si no está de acuerdo, no recibirá notificaciones e-mail por nuestra parte.</p>"
             },
             "loginInformation": {
                 "title": "Información de Login",
@@ -147,7 +160,15 @@
         "prospectiveRole": "Porfavor seleccione su grupo de usuarios.",
         "yourMail": "su dirección E-Mail",
         "usergroup": "Grupo de Usuarios",
-        "progressResetWarning": "Todos los datos se borrarán. ¿Está seguro de querer continuar?"
+        "progressResetWarning": "Todos los datos se borrarán. ¿Está seguro de querer continuar?",
+        "confirmationMail": "Le hemos enviado un enlace para confirma el registro a <strong>{mail}</strong>. Porfavor haga click en este enlace para activar su cuenta.",
+        "labActivation": "Como se ha registrado como centro diagnóstico o laboratorio de investigación, verificaremos su cuenta manualmente. Este proceso lleva tiempo, pero usted recibirá un e-mail cuando el proceso se complete.",
+        "subtitle": "Porfavor regístrese para accedar a todas las funcionalidades de LabHive. En caso de duda o si experimenta algún otro problema, porfavor contáctenos en <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
+        "descriptions": {
+            "rLab": "Laboratorios de investigación académica o industrial con acceso a reactivos, materiales, aparatos o espacio de laboratorio adecuado (BSL-2/3)",
+            "qVolunteers": "Personal científico o asistentes técnicos con formación y experiencia en el uso de equipo de laboratorio, preparación de muestras o análisis de datos",
+            "dCenter": "Centros diagnósticos activos que actualmente ofrecen tests de SARS-CoV-2 incluyendo procesado y análisis de muestras"
+        }
     },
     "searchDetails": {
         "contactDetails": {
@@ -176,7 +197,8 @@
                 "title": "Ofrece @:genera.equipment"
             }
         },
-        "notAvailableAnymore": "Ya no está disponible"
+        "notAvailableAnymore": "Ya no está disponible",
+        "notAvailableAnymore_warning": "<p>Esta acción omite a la persona de los resultados de búsqueda. Le mandaremos un e-mail para informarles de que esta opción ha sido activada para su perfil.</p><p>En 3 días ellos podrán confirmarlo o disputarlo. Si no se toma ninguna acción, después de este período, el perfil ya no se podrá encontrar en la búsqueda.</p><p>¡Muchas gracias por su ayuda!</p><p>¿Está seguro de querer proceder?</p>"
     },
     "press": {
         "title": "Más información sobre LabHive",
@@ -242,7 +264,8 @@
         "qualifications": {
             "jobTraining": "Formación Laboral",
             "groupLeader": "Líder de Grupo",
-            "other": "@:general.other"
+            "other": "@:general.other",
+            "postdoc": "Postdoctoral"
         },
         "skills": {
             "bsl1": "Trabajo bajo los estándares de seguridad BSL1",
@@ -263,7 +286,9 @@
             },
             "sample_processing": "(Pre-)Procesado de muestras clínicas",
             "dataAnalysis": "Análisis de Datos",
-            "bsl2": "Trabajo bajo los estándares de seguridad BSL2"
+            "bsl2": "Trabajo bajo los estándares de seguridad BSL2",
+            "qpcr": "qPCR",
+            "elisa": "ELISA"
         },
         "equipment": {
             "calibratedPipetteSet": "Conjunto calibrado de pipetas",
@@ -307,9 +332,9 @@
         },
         "internal_error": "Ha ocurrido un error...",
         "not_authorized": "¡No autorizado!",
-        "invalid_password": "Contraseña no válida",
-        "invalid_login": "Información de Login inválida",
-        "existing_user": "El Usuario ya existe",
+        "invalid_password": "¡Contraseña no válida!",
+        "invalid_login": "¡Información de Login no válida!",
+        "existing_user": "¡El Usuario ya existe!",
         "no_results": "No se encontraron resultados...",
         "tokenTooOld": "Porfavor restablezca su contraseña de nuevo, en el enlace ha expirado.",
         "user_disabled": "Su cuenta ha sido desactivada. En caso de duda, por favor contacte con support@labhive.de.",
