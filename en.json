@@ -1,7 +1,7 @@
 {
     "general": {
         "btn_search": "Search for Resources",
-        "dCenter": "Diagnostic Center | Diagnostic Centers",
+        "dCenter": "Diagnostic Laboratory | Diagnostic Laboratories",
         "qVolunteer": "Qualified Volunteer | Qualified Volunteers",
         "rLab": "Research Laboratory | Research Laboratories",
         "volunteer": "Volunteer | Volunteers",
@@ -44,7 +44,7 @@
         },
         "details": {
             "title": "How LabHive works",
-            "text": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, equipment and personnel. LabHive facilitates efficient access to resources for diagnostic centers.",
+            "text": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, equipment and personnel. LabHive facilitates efficient access to resources for diagnostic laboratories.",
             "diagnosticCenters": {
                 "subtitle": "Search for resources",
                 "title": "Diagnostic centers",
@@ -66,9 +66,9 @@
         },
         "coverage": {
             "referenceRKI": "Daily situation report about COVID-19 by the RKI, {date}",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-06-24-de.pdf?__blob=publicationFile",
-            "testNumber": "377544",
-            "update_date": "June 24th 2020",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-07-01-de.pdf?__blob=publicationFile",
+            "testNumber": "456041",
+            "update_date": "July 1st 2020",
             "referenceRegistered": "Registered on our platform",
             "subTitle": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, materials, equipment and personnel. Our platform promotes the development of a strong diagnostic network and facilitates efficient access to resources for diagnostic centers. Spread the test, beat the virus!",
             "testsPerWeek": "Tests per Week in Germany",
