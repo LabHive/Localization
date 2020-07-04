@@ -203,7 +203,7 @@
                 "affiliation": "Your Affiliation",
                 "contactPerson": "Contact Person",
                 "title_volunteer": "Contact & Availability",
-                "subTitle_volunteer": "Please provide your contact details and availability. We share sensitive information such as last name, e-mail address and phone number with verified diagnostic laboratories only.",
+                "subTitle_volunteer": "Please provide your contact details and availability. We share sensitive information such as your name, e-mail address and phone number only with verified diagnostic- and research laboratories.",
                 "available": "Yes, I am currently available for helping out.",
                 "not_available": "No, I am currently not available for helping out.",
                 "textfieldPlaceholders": {
