@@ -60,7 +60,7 @@
             "volunteers": {
                 "subtitle": "Help with your skills",
                 "title": "Qualified volunteers",
-                "text": "Offer your skills to verified diagnostic centers, whether as scientist or technical assistant. This allows diagnostic laboratories to find and contact you if necessary.",
+                "text": "Offer your skills to verified diagnostic laboratory, whether as scientist or technical assistant. This allows diagnostic laboratories to find and contact you if necessary.",
                 "button": "Join now"
             }
         },
@@ -194,8 +194,8 @@
                 "dataProcessingInformation": "<p>By finishing the registration your data will be processed by LabHive. Your specified contact information is only visible for registered and internally verified research and diagnostic laboratories.</p><p>Registered volunteers have no possibility to respond to requests from diagnostic laboratories to prevent an increased e-mail flow. As a diagnostic laboratory you can however find volunteers through the search function, view their contact data and contact them.</p><p>Further information can be found in our <a href=\"/#/privacyPolicy\">privacy policy</a>.</p>",
                 "title": "Optional Consents",
                 "mail": "<p>LabHive may occasionally send me e-mail notifications about updates and new features of the website.</p><p>If you disagree, you will not receive any e-mail notifications from us.</p>",
-                "volunteerDisclaimer": "Whether you are allowed to work as a volunteer in a diagnostic centre or whether you are released from work, you must clarify this with your employer on your own responsibility. If you are requested to work in a diagnostic centre, you, your employer and the diagnostic centre concerned are responsible for labour law. LabHive does not take any responsibility for this.",
-                "search": "<p>LabHive can share my data with registered and verified diagnostic centres and research laboratories, in the context of the SARS-CoV-2 pandemic.</p><p>If you disagree, the use of our platform is limited, which means that you as a volunteer cannot be found via the search function. There is no possibility for volunteers to contact a registered and verified diagnostic centre.</p><p>You will find further information in our <a target=\"_blank\" href=\"/#/privacyPolicy\">privacy policy</a>.</p>"
+                "volunteerDisclaimer": "Whether you are allowed to work as a volunteer in a diagnostic laboratory or whether you are released from work, you must clarify this with your employer on your own responsibility. If you are requested to work in a diagnostic laboratory, you, your employer and the diagnostic laboratory concerned are responsible for labour law. LabHive does not take any responsibility for this.",
+                "search": "<p>LabHive can share my data with registered and verified diagnostic- and research laboratories, in the context of the SARS-CoV-2 pandemic.</p><p>If you disagree, the use of our platform is limited, which means that you as a volunteer cannot be found via the search function. There is no possibility for volunteers to contact a registered and verified diagnostic laboratory.</p><p>You will find further information in our <a target=\"_blank\" href=\"/#/privacyPolicy\">privacy policy</a>.</p>"
             },
             "contact": {
                 "title": "Affiliation & Contact",
