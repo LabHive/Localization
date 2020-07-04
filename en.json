@@ -20,8 +20,8 @@
         "yes": "Yes",
         "no": "No",
         "submit": "Submit",
-        "emailAddress": "e-mail address",
-        "email": "e-mail",
+        "emailAddress": "E-mail address",
+        "email": "E-mail",
         "delete": "Delete",
         "cancel": "Cancel",
         "next": "Next",
@@ -135,8 +135,8 @@
     },
     "forgotPassword": {
         "title": "Forgot Password",
-        "successMessage": "If the @:general.emailAddress is registered, you will receive an @:general.email from us shortly.",
-        "pleaseEnterYourEmailMessage": "Please enter your @:(general.emailAddress)."
+        "successMessage": "If the e-mail address is registered, you will receive an e-mail from us shortly.",
+        "pleaseEnterYourEmailMessage": "Please enter your e-mail address."
     },
     "login": {
         "title": "Login",
