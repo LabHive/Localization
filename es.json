@@ -15,8 +15,8 @@
         "login_verb": "Entrar",
         "yes": "Sí",
         "no": "No",
-        "emailAddress": "Dirección E-Mail",
-        "email": "E-Mail",
+        "emailAddress": "Dirección E-mail",
+        "email": "E-mail",
         "delete": "Borrar",
         "next": "Siguiente",
         "back": "Atrás",
@@ -45,7 +45,7 @@
         "details": {
             "title": "Como funciona LabHive",
             "diagnosticCenters": {
-                "title": "Centros diagnósticos",
+                "title": "Laboratorios diagnósticos",
                 "subtitle": "Búsqueda de recursos",
                 "button": "Buscar recursos",
                 "text": "Busque en nuestra base de datos supervisada aparatos, materiales y experiencia ofrecida por otros institutos u ofrezca sus propios recursos o consejos. Los voluntarios cualificados pueden ser filtrados por habilidades y contactados para ayudar con testeos."
@@ -54,25 +54,25 @@
                 "subtitle": "Ofrecer recursos disponibles",
                 "title": "Laboratorios de investigación",
                 "button": "Listar recursos disponibles",
-                "text": "Liste los recursos disponibles como aparatos, materiales y experiencia en nuestra base de datos. Los centros diagnósticos pueden usar la herramienta de búsqueda para encontrar recursos y contactar con las instituciones en oferta."
+                "text": "Liste los recursos disponibles como aparatos, materiales y experiencia en nuestra base de datos. Los laboratorios diagnósticos pueden usar la herramienta de búsqueda para encontrar recursos y contactar con las instituciones en oferta."
             },
             "volunteers": {
                 "subtitle": "Ayudar con sus habilidades",
                 "button": "Unirse ahora",
                 "title": "Voluntarios cualificados",
-                "text": "Ofrezca sus habilidades a centros diagnósticos verificados, ya sea como científico o como asistente técnico. Esto permite a los centros diagnósticos encontrarle y contactarle si es necesario."
+                "text": "Ofrezca sus habilidades a laboratorios diagnósticos verificados, ya sea como científico o como asistente técnico. Esto permite a los laboratorios diagnósticos encontrarle y contactarle si es necesario."
             },
-            "text": "Aumentar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, equipo y personal. LabHive facilita acceso eficiente a recursos para diagnóstico."
+            "text": "Aumentar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, equipo y personal. LabHive facilita acceso eficiente a recursos para laboratorios de diagnóstico."
         },
         "coverage": {
             "referenceRKI": "Informe diario de situación sobre el COVID-19 por el RKI, {date}",
-            "testNumber": "377544",
-            "update_date": "24 de Junio de 2020",
+            "testNumber": "456041",
+            "update_date": "1 de Julio de 2020",
             "referenceRegistered": "Registrado en nuestra plataforma",
             "title": "Soporte y capacidad de test",
             "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-06-24-de.pdf?__blob=publicationFile",
             "testsPerWeek": "Tests por semana en Alemania",
-            "subTitle": "Incrementar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, materiales, equipo y personal. Nuestra plataforma promueve el desarrollo de una consistente red de diagnóstico y facilita el acceso eficiente a los recursos para centros diagnósticos. ¡Propague el test, venza al virus!"
+            "subTitle": "Incrementar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, materiales, equipo y personal. Nuestra plataforma promueve el desarrollo de una consistente red de diagnóstico y facilita el acceso eficiente a los recursos para laboratorios diagnósticos. ¡Propague el test, venza al virus!"
         }
     },
     "passwordStrength": {
@@ -128,13 +128,15 @@
                 "not_available": "No, no estoy actualmente disponible para ofrecer ayuda.",
                 "affiliation": "Su Afiliación",
                 "available": "Sí, estoy actualmente disponible para ofrecer ayuda.",
-                "subTitle_volunteer": "Porfavor indique sus detalles de contacto y disponibilidad. Compartimos información sensible como sus appelidos, la dirección e-mail y el número de teléfono únicamente con centros diagnósticos verificados.",
-                "subTitle": "Porfavor introduzca sus detalles de contacto. <strong>Necesitamos esta información para poder verificarle.</strong>Sólo compartimos datos personales como el nombre, dirección e-mail y número de teléfono con otros centros diagnósticos y laboratorios de investigación verificados."
+                "subTitle_volunteer": "Porfavor indique sus detalles de contacto y disponibilidad. Compartimos información sensible como su nombre, su dirección e-mail y el número de teléfono únicamente con laboratorios de diagnóstico e investigación verificados.",
+                "subTitle": "Porfavor introduzca sus detalles de contacto. <strong>Necesitamos esta información para poder verificarle.</strong>Sólo compartimos datos personales como el nombre, dirección e-mail y número de teléfono con otros laboratorios de diagnóstico e investigación verificados."
             },
             "consent": {
                 "title": "Consentimientos Opcionales",
-                "volunteerDisclaimer": "Tanto si usted está autorizado para trabajar como voluntario en un centro diagnóstico como si usted ha sido liberado de trabajar, debe aclararlo con su empleador bajo su propia responsabilidad. Si usted es requerido para trabajar en un centro diagnóstico, usted, su empleador y el centro diagnóstico son responsables de la legislación laboral. LabHive no asume responsabilidad en este aspecto.",
-                "mail": "<p>LabHive puede ocasionalmente enviarme e-mails de notificaciones sobre actualizaciones y nuevas características de la página web.</p><p>Si no está de acuerdo, no recibirá notificaciones e-mail por nuestra parte.</p>"
+                "volunteerDisclaimer": "Tanto si usted está autorizado para trabajar como voluntario en un laboratorio diagnóstico como si usted ha sido liberado de trabajar, debe aclararlo con su empleador bajo su propia responsabilidad. Si usted es requerido para trabajar en un laboratorio diagnóstico, usted, su empleador y el laboratorio diagnóstico son responsables de la legislación laboral. LabHive no asume responsabilidad en este aspecto.",
+                "mail": "<p>LabHive puede ocasionalmente enviarme e-mails de notificaciones sobre actualizaciones y nuevas características de la página web.</p><p>Si no está de acuerdo, no recibirá notificaciones e-mail por nuestra parte.</p>",
+                "search": "<p>LabHive puede compartir mis datos con laboratorios de diagnóstico e investigación registrados y verificados, en el contexto de la pandema de SARS-CoV-2.</p><p>Si no está de acuerdo, esto limita el uso de nuestra plataforma, lo que implica que usted no podrá ser localizado como voluntario en la función de búsqueda. No hay posibilidad para un voluntario de contactar un laboratorio de diagnóstico registrado y verificado.</p><p>Puede encontrar más información en nuestra <a target=\"_blank\" href=\"/#/privacyPolicy\">política de privacidad</a>.</p>",
+                "dataProcessingInformation": "<p>Finalizando el registro, sus datos serán procesados por LabHive. Su información de contacto especificada es únicamente visible para laboratorios de diagnóstico e investigación registrados e internamente verificados.</p><p>Los voluntarios registrados no tienen posibilidad de responder a peticiones de laboratorios diagnósticos para prevenir un alto flujo de e-mails . Como laboratorio diagnóstico usted puede, no obstante, encontrar voluntarios mediante la función de búsqueda, ver su información de contacto y contactarles. </p><p>Puede encontrar más información en nuestra <a href=\"/#/privacyPolicy\">política de privacidad</a>.</p>"
             },
             "loginInformation": {
                 "title": "Información de Login",
@@ -158,22 +160,22 @@
         "submit": "Registrarse Ahora",
         "complete": "¡Gracias por registrarse!",
         "prospectiveRole": "Porfavor seleccione su grupo de usuarios.",
-        "yourMail": "su dirección E-Mail",
+        "yourMail": "su dirección e-mail",
         "usergroup": "Grupo de Usuarios",
         "progressResetWarning": "Todos los datos se borrarán. ¿Está seguro de querer continuar?",
-        "confirmationMail": "Le hemos enviado un enlace para confirma el registro a <strong>{mail}</strong>. Porfavor haga click en este enlace para activar su cuenta.",
-        "labActivation": "Como se ha registrado como centro diagnóstico o laboratorio de investigación, verificaremos su cuenta manualmente. Este proceso lleva tiempo, pero usted recibirá un e-mail cuando el proceso se complete.",
+        "confirmationMail": "Le hemos enviado un enlace para confirmar el registro a <strong>{mail}</strong>. Porfavor haga click en este enlace para activar su cuenta.",
+        "labActivation": "Como se ha registrado como laboratorio diagnóstico o de investigación, verificaremos su cuenta manualmente. Este proceso lleva tiempo, pero usted recibirá un e-mail cuando el proceso se complete.",
         "subtitle": "Porfavor regístrese para accedar a todas las funcionalidades de LabHive. En caso de duda o si experimenta algún otro problema, porfavor contáctenos en <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "descriptions": {
             "rLab": "Laboratorios de investigación académica o industrial con acceso a reactivos, materiales, aparatos o espacio de laboratorio adecuado (BSL-2/3)",
             "qVolunteers": "Personal científico o asistentes técnicos con formación y experiencia en el uso de equipo de laboratorio, preparación de muestras o análisis de datos",
-            "dCenter": "Centros diagnósticos activos que actualmente ofrecen tests de SARS-CoV-2 incluyendo procesado y análisis de muestras"
+            "dCenter": "Laboratorios diagnósticos activos que actualmente ofrecen tests de SARS-CoV-2 incluyendo procesado y análisis de muestras"
         }
     },
     "searchDetails": {
         "contactDetails": {
             "title": "Detalles de Contacto",
-            "not_available": "Los detalles de contacto sólo están disponibles para centros de diagnóstico registrados o para usuarios de laboratorios de investigación."
+            "not_available": "Los detalles de contacto sólo están disponibles para usuarios de laboratorios de diagnóstico e investigación."
         },
         "other": {
             "title": "Infomación adicional"
@@ -223,8 +225,8 @@
     },
     "forgotPassword": {
         "title": "Contraseña olvidada",
-        "successMessage": "Si la @:general.emailAddress está registrada, recibirá un @:genera.email de nuestra parte en breve.",
-        "pleaseEnterYourEmailMessage": "Por favor introduzca su @:(general.emailAddress)."
+        "successMessage": "Si la dirección e-mail está registrada, recibirá un e-mail de nuestra parte en breve.",
+        "pleaseEnterYourEmailMessage": "Por favor introduzca su dirección e-mail."
     },
     "login": {
         "title": "Login",
@@ -235,7 +237,7 @@
         "mail": "No recibir más actualizaciones por email.",
         "loginRequired": "Porfavor entre y abra en enlace de nuevo.",
         "title": "Revocar consentimiento",
-        "dataProcessing": "Enviando mi información personal a centros diagnósticos y laboratorios de investigación registrados."
+        "dataProcessing": "Enviando mi información personal a laboratorios de diagnóstico e investigación registrados."
     },
     "search": {
         "workers": "Personal",
@@ -265,7 +267,13 @@
             "jobTraining": "Formación Laboral",
             "groupLeader": "Líder de Grupo",
             "other": "@:general.other",
-            "postdoc": "Postdoctoral"
+            "postdoc": "Postdoctoral",
+            "bachelor": "Licenciatura (completada)",
+            "master": "Master (completado)",
+            "doctorate": "Estudiante de doctorado",
+            "doctoratecompleted": "Doctorado (completado)",
+            "mtla": "Asistente (de laboratorio) médico-técnico",
+            "bta_cta": "Asistente de Test Biológicos/Clínicos"
         },
         "skills": {
             "bsl1": "Trabajo bajo los estándares de seguridad BSL1",
@@ -288,12 +296,20 @@
             "dataAnalysis": "Análisis de Datos",
             "bsl2": "Trabajo bajo los estándares de seguridad BSL2",
             "qpcr": "qPCR",
-            "elisa": "ELISA"
+            "elisa": "ELISA",
+            "primerProduction": "Producción de cebadores"
         },
         "equipment": {
             "calibratedPipetteSet": "Conjunto calibrado de pipetas",
             "rnaExtractionDevice": "Dispositivo de extracción de ARN",
-            "rnaExtractionKit": "Equipo de extracción de ARN"
+            "rnaExtractionKit": "Equipo de extracción de ARN",
+            "rtThermocycler": "Termociclador en tiempo real",
+            "qpcrThermocycler": "Termociclador qPCR",
+            "primerProduction": "Cebador para SARS-CoV-2",
+            "reverseTransKit": "Kit de Transcriptasa inversa",
+            "pcrMasterMix": "Mezcla maestra PCR",
+            "pipetteTips": "Puntas de pipeta",
+            "pcrPlates": "Placas de PCR"
         },
         "advice": {
             "virology": "Virología",
@@ -341,7 +357,8 @@
         "featureNotAvailableForRole": "Esta característica no está disponible para su rol de usuario.",
         "success": "Ejecutado correctamente.",
         "bad_request": "@:general.invalidRequest",
-        "contact_support": "Ocurrió un error. Porfavor contacte con support@labhive.de. ¡Lamentamos las molestias!"
+        "contact_support": "Ocurrió un error. Porfavor contacte con support@labhive.de. ¡Lamentamos las molestias!",
+        "user_not_activated": "El usuario no está activo aún. Porfavor valide la dirección e-mail. Si se ha registrado como un laboratorio, nosotros le verificaremos manualmente. Cuando se complete ese proceso, usted recibirá un e-mail de nuestra parte. Si este proceso se demora más de dos días, por favor contáctenos en support@labhive.de."
     },
     "layout": {
         "footer": {
@@ -358,6 +375,7 @@
         "staging": "Sólo para realizar tests, no contiene datos reales.\nVersión final en <a href=\"https://labhive.de\">https://labhive.de</a>"
     },
     "aboutUs": {
-        "title": "Nuestro Equipo"
+        "title": "Nuestro Equipo",
+        "ourStoryText": "LabHive se compone de un equipo interdisciplinar de científicos, desarrolladores de software y expertos en protección de datos. La idea de la plataforma emergió originalmente de dos proyectos de la Hackathon <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a> del gobierno alemán. Ambos equipos se han ofrecido voluntariamente a esta iniciativa y han unido fuerzas para construir una potente red de diagnóstico."
     }
 }
