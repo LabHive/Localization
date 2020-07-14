@@ -2,8 +2,8 @@
     "general": {
         "dCenter": "Laboratorio Diagnóstico | Laboratorios Diagnósticos",
         "rLab": "Laboratorio de Investigación | Laboratorios de Investigación",
-        "loading": "Por favor espere...",
-        "to_login": "Ir a Login",
+        "loading": "Por favor, espere...",
+        "to_login": "Iniciar Sesión",
         "noResults": "No se encontraron resultados",
         "save": "Guardar",
         "savedSuccessfully": "Guardado correctamente",
@@ -11,11 +11,11 @@
         "password": "Contraseña",
         "language": "Idioma",
         "signUp": "Registrarse",
-        "login": "Login",
-        "login_verb": "Entrar",
+        "login": "Iniciar sesión",
+        "login_verb": "Iniciar sesión",
         "yes": "Sí",
         "no": "No",
-        "emailAddress": "Dirección E-mail",
+        "emailAddress": "Dirección de correo electrónico",
         "email": "E-mail",
         "delete": "Borrar",
         "next": "Siguiente",
@@ -37,7 +37,7 @@
         "top": {
             "collaboration": "En colaboración con",
             "btn_join": "Unirse ahora",
-            "mainTitle": "La plataforma digital para una consistente red de diagnóstico",
+            "mainTitle": "La plataforma digital para una red de diagnóstico robusta",
             "selected": "Seleccionado para",
             "sponsoredBy": "Apoyado por",
             "subTitle": "Únase para encontrar y ofrecer recursos para más tests de SARS-CoV-2"
@@ -57,12 +57,12 @@
                 "text": "Liste los recursos disponibles como aparatos, materiales y experiencia en nuestra base de datos. Los laboratorios diagnósticos pueden usar la herramienta de búsqueda para encontrar recursos y contactar con las instituciones en oferta."
             },
             "volunteers": {
-                "subtitle": "Ayudar con sus habilidades",
+                "subtitle": "Ayude con sus habilidades",
                 "button": "Unirse ahora",
                 "title": "Voluntarios cualificados",
                 "text": "Ofrezca sus habilidades a laboratorios diagnósticos verificados, ya sea como científico o como asistente técnico. Esto permite a los laboratorios diagnósticos encontrarle y contactarle si es necesario."
             },
-            "text": "Aumentar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, equipo y personal. LabHive facilita acceso eficiente a recursos para laboratorios de diagnóstico."
+            "text": "Aumentar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero muchos lugares carecen de un adecuado suministro de reactivos, equipo y personal. LabHive facilita acceso eficiente a recursos para laboratorios de diagnóstico."
         },
         "coverage": {
             "referenceRKI": "Informe diario de situación sobre el COVID-19 por el RKI, {date}",
@@ -72,13 +72,13 @@
             "title": "Soporte y capacidad de test",
             "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-07-08-de.pdf?__blob=publicationFile",
             "testsPerWeek": "Tests por semana en Alemania",
-            "subTitle": "Incrementar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, materiales, equipo y personal. Nuestra plataforma promueve el desarrollo de una consistente red de diagnóstico y facilita el acceso eficiente a los recursos para laboratorios diagnósticos. ¡Propague el test, venza al virus!"
+            "subTitle": "Incrementar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, materiales, equipo y personal. Nuestra plataforma promueve el desarrollo de una  red robusta de diagnóstico y facilita el acceso eficiente a los recursos para laboratorios diagnósticos. ¡Propague el test, venza al virus!"
         }
     },
     "passwordStrength": {
-        "1Password": "Demasiado corta, porfavor añada números y carácteres especiales",
+        "1Password": "Demasiado corta. Por favor, añada números y carácteres especiales",
         "0Password": "Demasiado corta",
-        "2Password": "Por favor añada números y carácteres especiales",
+        "2Password": "Por favor, añada números y carácteres especiales",
         "3Password": "Suficientemente segura, con más caracteres su contraseña será incluso más segura",
         "4Password": "Su contraseña es muy segura"
     },
@@ -88,7 +88,7 @@
             "title": "Peticiones Actuales",
             "advice": "Necesita @:general.advice",
             "equipment": "Necesita @:general.equipment",
-            "equipmentDescription": "Más información detallada sobre los aparatos/materiales es requerida. Enlace a los elementos pedidos en la página del fabricante, número de orden, cantidad, descripción, etc.",
+            "equipmentDescription": "Se requiere más información detallada sobre los aparatos/materiales. Enlace a los elementos pedidos en la página del fabricante, número de orden, cantidad, descripción, etc.",
             "subTitle": "Si usted necesita recursos, puede listarlos aquí. Siempre podrá cambiarlos en su perfil. Haga click en \"Siguiente\" si no necesita nada en este momento. Encontrará voluntarios cualificados usando la búsqueda."
         },
         "title": "Perfil",
@@ -128,32 +128,32 @@
                 "not_available": "No, no estoy actualmente disponible para ofrecer ayuda.",
                 "affiliation": "Su Afiliación",
                 "available": "Sí, estoy actualmente disponible para ofrecer ayuda.",
-                "subTitle_volunteer": "Porfavor indique sus detalles de contacto y disponibilidad. Compartimos información sensible como su nombre, su dirección e-mail y el número de teléfono únicamente con laboratorios de diagnóstico e investigación verificados.",
-                "subTitle": "Porfavor introduzca sus detalles de contacto. <strong>Necesitamos esta información para poder verificarle.</strong>Sólo compartimos datos personales como el nombre, dirección e-mail y número de teléfono con otros laboratorios de diagnóstico e investigación verificados."
+                "subTitle_volunteer": "Por favor, indique sus detalles de contacto y disponibilidad. Compartimos información confidencial como su nombre, su dirección e-mail y el número de teléfono únicamente con laboratorios de diagnóstico e investigación verificados.",
+                "subTitle": "Por favor, introduzca sus detalles de contacto. <strong>Necesitamos esta información para poder verificarle.</strong>Sólo compartimos datos personales como el nombre, dirección e-mail y número de teléfono con otros laboratorios de diagnóstico e investigación verificados."
             },
             "consent": {
                 "title": "Consentimientos Opcionales",
-                "volunteerDisclaimer": "Tanto si usted está autorizado para trabajar como voluntario en un laboratorio diagnóstico como si usted ha sido liberado de trabajar, debe aclararlo con su empleador bajo su propia responsabilidad. Si usted es requerido para trabajar en un laboratorio diagnóstico, usted, su empleador y el laboratorio diagnóstico son responsables de la legislación laboral. LabHive no asume responsabilidad en este aspecto.",
+                "volunteerDisclaimer": "Tanto si usted está autorizado para trabajar como voluntario en un laboratorio diagnóstico como si usted ha sido liberado de trabajar, debe aclararlo con su empleador bajo su propia responsabilidad. Si usted es requerido para trabajar en un laboratorio diagnóstico, usted, su empleador y el laboratorio diagnóstico son responsables de la legislación laboral. LabHive no asume ninguna responsabilidad en este aspecto.",
                 "mail": "<p>LabHive puede ocasionalmente enviarme e-mails de notificaciones sobre actualizaciones y nuevas características de la página web.</p><p>Si no está de acuerdo, no recibirá notificaciones e-mail por nuestra parte.</p>",
-                "search": "<p>LabHive puede compartir mis datos con laboratorios de diagnóstico e investigación registrados y verificados, en el contexto de la pandema de SARS-CoV-2.</p><p>Si no está de acuerdo, esto limita el uso de nuestra plataforma, lo que implica que usted no podrá ser localizado como voluntario en la función de búsqueda. No hay posibilidad para un voluntario de contactar un laboratorio de diagnóstico registrado y verificado.</p><p>Puede encontrar más información en nuestra <a target=\"_blank\" href=\"/#/privacyPolicy\">política de privacidad</a>.</p>",
-                "dataProcessingInformation": "<p>Finalizando el registro, sus datos serán procesados por LabHive. Su información de contacto especificada es únicamente visible para laboratorios de diagnóstico e investigación registrados e internamente verificados.</p><p>Los voluntarios registrados no tienen posibilidad de responder a peticiones de laboratorios diagnósticos para prevenir un alto flujo de e-mails . Como laboratorio diagnóstico usted puede, no obstante, encontrar voluntarios mediante la función de búsqueda, ver su información de contacto y contactarles. </p><p>Puede encontrar más información en nuestra <a href=\"/#/privacyPolicy\">política de privacidad</a>.</p>"
+                "search": "<p>LabHive puede compartir mis datos con laboratorios de diagnóstico e investigación registrados y verificados, en el contexto de la pandemia de SARS-CoV-2.</p><p>Si no está de acuerdo, esto limita el uso de nuestra plataforma, lo que implica que usted no podrá ser localizado como voluntario en la función de búsqueda. Para un voluntario, no hay posibilidad de contactar con laboratorios de diagnóstico registrados y verificados.</p><p>Puede encontrar más información en nuestra <a target=\"_blank\" href=\"/#/privacyPolicy\">política de privacidad</a>.</p>",
+                "dataProcessingInformation": "<p>Al finalizar el registro, sus datos serán procesados por LabHive. Su información de contacto especificada es únicamente visible para laboratorios de diagnóstico e investigación registrados e internamente verificados.</p><p>Los voluntarios registrados no tienen posibilidad de responder a peticiones de laboratorios diagnósticos para prevenir un alto flujo de e-mails . Como laboratorio diagnóstico usted puede, no obstante, encontrar voluntarios mediante la función de búsqueda, ver su información de contacto y contactarles. </p><p>Puede encontrar más información en nuestra <a href=\"/#/privacyPolicy\">política de privacidad</a>.</p>"
             },
             "loginInformation": {
-                "title": "Información de Login",
-                "subTitle": "Por favor introduzca su e-mail e indique una contraseña.",
+                "title": "Información de Inicio de Sesión",
+                "subTitle": "Por favor, introduzca su e-mail e indique una contraseña.",
                 "textfieldPlaceholders": {
                     "officialEmail": "Dirección e-mail de su instituto"
                 }
             },
             "qualification": {
                 "title": "Cualificación",
-                "subTitle": "Porfavor indice sus cualificaciones. Marque todas las correspondenties."
+                "subTitle": "Por favor, indique sus cualificaciones. Marque todas las correspondientes"
             },
             "skills": {
                 "description": "Información adicional sobre niveles de experiencia, habilidades adicionales, disponibilidad, etc. Esta descripción será públicamente visible.",
                 "title": "Habilidades",
-                "subTitle_update": "Porfavor especifique sus habilidades",
-                "subTitle": "Porfavor especifique sus habilidades, usted puede cambiarles más adelante en su perfil en cualquier momento."
+                "subTitle_update": "Por favor, especifique sus habilidades",
+                "subTitle": "Porfavor especifique sus habilidades, usted puede cambiarlas más adelante en su perfil en cualquier momento."
             }
         },
         "title": "Registro",
@@ -163,8 +163,8 @@
         "yourMail": "su dirección e-mail",
         "usergroup": "Grupo de Usuarios",
         "progressResetWarning": "Todos los datos se borrarán. ¿Está seguro de querer continuar?",
-        "confirmationMail": "Le hemos enviado un enlace para confirmar el registro a <strong>{mail}</strong>. Porfavor haga click en este enlace para activar su cuenta.",
-        "labActivation": "Como se ha registrado como laboratorio diagnóstico o de investigación, verificaremos su cuenta manualmente. Este proceso lleva tiempo, pero usted recibirá un e-mail cuando el proceso se complete.",
+        "confirmationMail": "Le hemos enviado un enlace para confirmar el registro a <strong>{mail}</strong>. Por favor, haga click en este enlace para activar su cuenta.",
+        "labActivation": "Ya que se ha registrado como laboratorio diagnóstico o de investigación, verificaremos su cuenta manualmente. Este proceso lleva tiempo, pero usted recibirá un e-mail cuando el proceso se complete.",
         "subtitle": "Porfavor regístrese para accedar a todas las funcionalidades de LabHive. En caso de duda o si experimenta algún otro problema, porfavor contáctenos en <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "descriptions": {
             "rLab": "Laboratorios de investigación académica o industrial con acceso a reactivos, materiales, aparatos o espacio de laboratorio adecuado (BSL-2/3)",
@@ -200,7 +200,7 @@
             }
         },
         "notAvailableAnymore": "Ya no está disponible",
-        "notAvailableAnymore_warning": "<p>Esta acción omite a la persona de los resultados de búsqueda. Le mandaremos un e-mail para informarles de que esta opción ha sido activada para su perfil.</p><p>En 3 días ellos podrán confirmarlo o disputarlo. Si no se toma ninguna acción, después de este período, el perfil ya no se podrá encontrar en la búsqueda.</p><p>¡Muchas gracias por su ayuda!</p><p>¿Está seguro de querer proceder?</p>"
+        "notAvailableAnymore_warning": "<p>Esta acción omite a la persona de los resultados de búsqueda. Les mandaremos un e-mail para informarles de que esta opción ha sido activada para su perfil.</p><p>En 3 días podrán confirmarlo o disputarlo. Si no se toma ninguna acción, después de este período, el perfil ya no se podrá encontrar en la búsqueda.</p><p>¡Muchas gracias por su ayuda!</p><p>¿Está seguro de querer proceder?</p>"
     },
     "press": {
         "title": "Más información sobre LabHive",
@@ -209,7 +209,7 @@
     },
     "activation": {
         "title": "Activar cuenta",
-        "successMessage": "Acitvación correcta"
+        "successMessage": "Activación correcta"
     },
     "admin": {
         "title": "Gestión de Usuarios"
@@ -224,18 +224,18 @@
         "successMessage": "Contraseña actualizada"
     },
     "forgotPassword": {
-        "title": "Contraseña olvidada",
+        "title": "¿Olvidó su contraseña?",
         "successMessage": "Si la dirección e-mail está registrada, recibirá un e-mail de nuestra parte en breve.",
         "pleaseEnterYourEmailMessage": "Por favor introduzca su dirección e-mail."
     },
     "login": {
-        "title": "Login",
+        "title": "Inicio de sesión",
         "adminTitle": "Login de Administrador",
         "emptyField": "Porfavor rellene todos los campos y vuelva a intentarlo"
     },
     "revokeConsent": {
         "mail": "No recibir más actualizaciones por email.",
-        "loginRequired": "Porfavor entre y abra en enlace de nuevo.",
+        "loginRequired": "Por favor, entre y abra el enlace de nuevo.",
         "title": "Revocar consentimiento",
         "dataProcessing": "Enviando mi información personal a laboratorios de diagnóstico e investigación registrados."
     },
@@ -252,15 +252,15 @@
         "offersequipment": "@:searchDetails.offers.equipment.title",
         "lookingForequipment": "@:searchDetails.lookingFor.equipment.title",
         "farAway": "de distancia",
-        "recentlyAdded": "Recientemente añadido",
+        "recentlyAdded": "Añadido recientemente",
         "bsl1": "Experiencia BSL1",
         "bsl2": "Experiencia BSL2",
         "bsl3": "Experiencia BSL3",
         "bsl4": "Experiencia BSL4",
         "noResults": "No hay resultados. Pruebe con otros criterios de búsqueda o inténtelo más adelante",
         "searchInSurroundings": "Buscar en sus cercanías",
-        "error": "Ocurrió un error, porfavor inténtelo de nuevo más tarde.",
-        "filterOfferTitle": "¿Qué se necesita?"
+        "error": "Ocurrió un error. Por favor, inténtelo de nuevo más tarde.",
+        "filterOfferTitle": "¿Qué necesita?"
     },
     "checkboxes": {
         "qualifications": {
@@ -279,7 +279,7 @@
             "bsl1": "Trabajo bajo los estándares de seguridad BSL1",
             "bsl3": "Trabajo bajo los estándares de seguridad BSL3",
             "bsl4": "Trabajo bajo los estándares de seguridad BSL4",
-            "rnaExperience_isolation": "Trabajo con ARN (esp. aislamiento con equipo)",
+            "rnaExperience_isolation": "Trabajo con ARN (especialmente aislamiento con equipo)",
             "searchResult": {
                 "bsl1": "BSL1",
                 "bsl2": "BSL2",
@@ -305,7 +305,7 @@
             "rnaExtractionKit": "Equipo de extracción de ARN",
             "rtThermocycler": "Termociclador en tiempo real",
             "qpcrThermocycler": "Termociclador qPCR",
-            "primerProduction": "Cebador para SARS-CoV-2",
+            "primerProduction": "Cebadores para SARS-CoV-2",
             "reverseTransKit": "Kit de Transcriptasa inversa",
             "pcrMasterMix": "Mezcla maestra PCR",
             "pipetteTips": "Puntas de pipeta",
@@ -323,18 +323,18 @@
         "not_available": "Actualizar estado de disponibilidad a: 'No disponible'",
         "title": "Actualizar Disponibilidad",
         "available": "Actualizar estado de disponibilidad a: 'Actualmente disponible'",
-        "update_notice": "Usted puede cambiar su estado cuando haya entrado un su configuración de perfil."
+        "update_notice": "Usted puede cambiar su estado cuando haya entrado en su configuración de perfil."
     },
     "backend": {
         "formValidation": {
             "invalid_email": "Dirección e-mail no válida",
-            "invalid_firstname": "Nombre no válido (máx. de 200 caracteres)",
-            "invalid_lastname": "Apellidos no válidos (máx. de 200 caracteres)",
+            "invalid_firstname": "Nombre no válido (máx. 200 caracteres)",
+            "invalid_lastname": "Apellidos no válidos (máx. 200 caracteres)",
             "invalid_zipcode": "Código postal no válido (debería tener 5 dígitos)",
             "invalid_city": "Ciudad no válida (máx. de 200 caracteres)",
             "invalid_street": "Calle no válida (máx. de 200 caracteres)",
-            "invalid_description": "Descripción no válida (máx. de 200 caracteres)",
-            "invalid_name": "Nombre de Laboratorio no válido (máx. de 200 caracteres)",
+            "invalid_description": "Descripción no válida (máx. 200 caracteres)",
+            "invalid_name": "Nombre de Laboratorio no válido (máx. 200 caracteres)",
             "invalid_number": "Número no válido",
             "invalid_search": "Parámetro de búsqueda no válido",
             "invalid_role": "Tipo de búsqueda no válido",
@@ -352,7 +352,7 @@
         "invalid_login": "¡Información de Login no válida!",
         "existing_user": "¡El Usuario ya existe!",
         "no_results": "No se encontraron resultados...",
-        "tokenTooOld": "Porfavor restablezca su contraseña de nuevo, en el enlace ha expirado.",
+        "tokenTooOld": "Porfavor restablezca su contraseña de nuevo, el enlace ha expirado.",
         "user_disabled": "Su cuenta ha sido desactivada. En caso de duda, por favor contacte con support@labhive.de.",
         "featureNotAvailableForRole": "Esta característica no está disponible para su rol de usuario.",
         "success": "Ejecutado correctamente.",
