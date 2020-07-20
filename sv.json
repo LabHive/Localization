@@ -1,6 +1,20 @@
 {
     "general": {
         "no": "Nej",
-        "yes": "Ja"
+        "yes": "Ja",
+        "rLab": "Forskningslaboratorium | Forskningslaboratorier",
+        "loading": "Vänligen vänta...",
+        "password": "Lösenord",
+        "required": "Nödvändig",
+        "login": "Inloggning",
+        "login_verb": "Logga in",
+        "emailAddress": "E-postadress",
+        "email": "E-post",
+        "delete": "Radera",
+        "cancel": "Avbryta",
+        "next": "Fortsätt",
+        "dCenter": "Diagnostisklaboratorium | Diagnostiklaboratorier",
+        "language": "Språk",
+        "volunteer": "Volontär | Volontärer"
     }
 }
