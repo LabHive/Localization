@@ -1,1 +1,76 @@
-{}
+{
+    "landingpage": {
+        "coverage": {
+            "subTitle": "Het verhogen van de testcapaciteit is cruciaal in de strijd tegen SARS-CoV-2, maar op veel plaatsen is daar niet genoeg reageermiddel, apparatuur en personeel voor aanwezig. Ons platform promoot de ontwikkeling van een sterk diagnostisch netwerk en faciliteert efficiënte toegang tot middelen voor diagnostische laboratoria. Verspreid de test, versla het virus!",
+            "referenceRegistered": "Geregistreerd op ons platform",
+            "update_date": "22 juli 2020",
+            "testNumber": "531571",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-07-22-en.pdf?__blob=publicationFile",
+            "referenceRKI": "Dagelijks rapport over de stand van zaken omtrent COVID-19 door het RKI, {datum}"
+        },
+        "details": {
+            "volunteers": {
+                "button": "Word nu lid",
+                "text": "Biedt uw vaardigheden aan aan diagnostische laboratoria, als wetenschapper of als technisch assistent. Hiermee kunnen diagnostische laboratoria u vinden en contact met u opnemen wanneer dat nodig zou zijn.",
+                "title": "Gekwalificeerde vrijwilligers",
+                "subtitle": "Help met uw vaardigheden"
+            },
+            "researchLabs": {
+                "button": "Stel een lijst op van beschikbare middelen",
+                "text": "Stel een lijst op van beschikbare middelen zoals apparatuur, materialen en expertise in onze database. Diagnostische laboratoria kunnen de zoektool gebruiken om middelen te vinden en om contact op te nemen met de aanbiedende instituties.",
+                "title": "Onderzoekslaboratoria",
+                "subtitle": "Biedt beschikbare middelen aan"
+            },
+            "diagnosticCenters": {
+                "button": "Zoek naar middelen",
+                "text": "Zoek in onze samengestelde database voor apparaten, materialen en expertise aangeboden door andere instanties, of biedt uw eigen middelen of adviezen aan. Gekwalificeerde vrijwilligers kunnen worden gefilterd op basis van vaardigheden. U kunt contact met hen opnemen over het assisteren bij het afnemen van tests.",
+                "title": "Diagnostische laboratoria",
+                "subtitle": "Zoek naar middelen"
+            },
+            "text": "Het verhogen van de testcapaciteit is cruciaal in de strijd tegen SARS-CoV-2, maar op veel plaatsen is daar niet genoeg reageermiddel, apparatuur en personeel voor aanwezig. LabHive faciliteert efficiënte toegang tot middelen voor diagnostische laboratoria.",
+            "title": "Hoe LabHive werkt"
+        },
+        "top": {
+            "subTitle": "Word lid om meer SARS-CoV-2 tests te vinden en aan te bieden",
+            "sponsoredBy": "Gesteund door",
+            "selected": "Geselecteerd voor",
+            "mainTitle": "Het digitale platform voor een sterk diagnostisch netwerk",
+            "collaboration": "In samenwerking met",
+            "btn_join": "Word nu lid"
+        }
+    },
+    "general": {
+        "invalidRequest": "Ongeldig verzoek",
+        "other": "Overig",
+        "advice": "Advies/Know-How",
+        "equipment": "Apparaten/Materialen",
+        "skills": "Vaardigheden",
+        "attention": "Attentie",
+        "back": "Terug",
+        "next": "Volgende",
+        "cancel": "Annuleer",
+        "delete": "Verwijder",
+        "email": "E-mail",
+        "emailAddress": "E-mailadres",
+        "submit": "Verstuur",
+        "no": "Nee",
+        "yes": "Ja",
+        "login_verb": "Log in",
+        "login": "Inloggen",
+        "signUp": "Registreren",
+        "language": "Taal",
+        "password": "Wachtwoord",
+        "required": "Verplicht",
+        "executedSuccessfully": "Succesvol uitgevoerd",
+        "savedSuccessfully": "Succesvol opgeslagen",
+        "save": "Sla op",
+        "noResults": "Geen resultaten gevonden",
+        "to_login": "Ga naar Log in",
+        "loading": "Een moment geduld alstublieft...",
+        "volunteer": "Vrijwilliger | Vrijwilligers",
+        "rLab": "Onderzoekslaboratorium | Onderzoeklaboratoria",
+        "qVolunteer": "Gekwalificeerde vrijwilliger | Gekwalificeerde vrijwilligers",
+        "dCenter": "Diagnostisch laboratorium | Diagnostische laboratia",
+        "btn_search": "Zoek naar bronnen"
+    }
+}
