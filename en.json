@@ -60,7 +60,7 @@
             "volunteers": {
                 "subtitle": "Help with your skills",
                 "title": "Qualified volunteers",
-                "text": "Offer your skills to verified diagnostic laboratory, whether as scientist or technical assistant. This allows diagnostic laboratories to find and contact you if necessary.",
+                "text": "Offer your skills to verified diagnostic laboratories, whether as scientist or technical assistant. This allows diagnostic laboratories to find and contact you if necessary.",
                 "button": "Join now"
             }
         },
@@ -77,7 +77,7 @@
     },
     "press": {
         "title": "More information about LabHive",
-        "subtitle": "Short summary, press release und picture material",
+        "subtitle": "Short summary, press release and picture material",
         "btn_download": "Download Presskit"
     },
     "activation": {
