@@ -127,11 +127,11 @@
             "referenceRegistered": "S'inscrire sur notre platforme",
             "testsPerWeek": "Tests par semaine en Allemagne",
             "title": "Capacités de test et soutien",
-            "update_date": "Le 12 août 2020",
+            "update_date": "Le 19 août 2020",
             "referenceRKI": "Rapport de situation du RKI, {date}",
             "subTitle": "L'augmentation de la capacité de test est cruciale dans le combat contre le SARS-CoV-2, mais dans de nombreux sites il y a manquent de réactifs, de matériel, d'équipement et de personnel. LabHive facilite l'accès efficace aux ressources pour les laboratoires de diagnostic.",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-08-12-en.pdf?__blob=publicationFile",
-            "testNumber": "672171"
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-08-19-en.pdf?__blob=publicationFile",
+            "testNumber": "875524"
         }
     },
     "forgotPassword": {
