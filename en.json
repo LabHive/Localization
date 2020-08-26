@@ -224,7 +224,7 @@
                 "title": "Login Information",
                 "subTitle": "Please enter your e-mail address and set a password.",
                 "textfieldPlaceholders": {
-                    "officialEmail": "E-mail address of your institute"
+                    "officialEmail": "E-mail address (institutional)"
                 }
             },
             "qualification": {
