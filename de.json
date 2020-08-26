@@ -224,7 +224,7 @@
                 "title": "Login Informationen",
                 "subTitle": "Bitte geben Sie Ihre E-Mail-Adresse an und legen Sie ein Passwort fest.",
                 "textfieldPlaceholders": {
-                    "officialEmail": "E-Mail-Adresse des Instituts"
+                    "officialEmail": "E-Mail-Adresse"
                 }
             },
             "qualification": {
