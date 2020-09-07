@@ -66,7 +66,7 @@
         },
         "coverage": {
             "referenceRKI": "Daily situation report about COVID-19 by the RKI, {date}",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-09-02-en.pdf?__blob=publicationFile",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Sept_2020/2020-09-02-en.pdf?__blob=publicationFile",
             "testNumber": "1101299",
             "update_date": "September 2nd 2020",
             "referenceRegistered": "Registered on our platform",
