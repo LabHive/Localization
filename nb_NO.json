@@ -1,41 +1,48 @@
 {
     "profile": {
         "request": {
-            "title": "Aktuelle Forespørsel"
+            "title": "Nåværende forespørsler",
+            "subTitle": "Hvis du trenger ressurser, kan du liste dem opp her. Du kan alltids endre dette senere i profilen din. Klikk på «Neste» nedenfor, hvis du ikke trenger noe for øyeblikket. Du vil finne kvalifiserte frivillige hvis du bruker søkefunksjonen.",
+            "adviceDescription": "Mer detaljert info om tingene du kan være behjelpelig med.",
+            "equipmentDescription": "Mer detaljert info om enhetene/materialene som kreves. Lenke til forespurt ting på produsentnettsiden, bestillingsnummer, mengde, beskrivelse, osv."
         },
         "offer": {
-            "equipmentDescription": "Fler detaljert informasjon om enhetene/materialene som du kan tilby. Link til tilbydd gjenstand på produsents nettside, bestillingsnummer, beskrivelse, etc.",
+            "equipmentDescription": "Mer detaljert info om enhetene/materialene du kan tilby. Lenke til tilbydd gjenstand på produsents nettside, bestillingsnummer, beskrivelse, etc.",
             "equipment": "Tilbydd @:general.equipment",
-            "adviceDescription": "Fler detaljert informasjon om arealene i hvilke du kan tilby hjelp.",
+            "adviceDescription": "Mer detaljert info om ting du kan være behjelpelig med.",
             "advice": "Tilbydd @:general.advice",
-            "subTitle": "Hvis du kan tilby ressurser, du kan sette inn dem der. Du kan altid endre dette senere i profilen din. Klikk på \"Neste\" nedover om du har ingenting å dele i momenten.",
+            "subTitle": "Hvis du kan tilby ressurser, kan skrive dem inn her. Du kan alltid endre dette senere i profilen din. Klikk på «Neste» nedenfor om ikke har noe å dele for øyeblikket.",
             "title": "Aktuelle tilbud"
         },
-        "updated": "Profil opdatert suksessfull",
-        "title": "Profil"
+        "updated": "Profil oppdatert",
+        "title": "Profil",
+        "delete": {
+            "btn_title": "Slett profil",
+            "confirmation": "Ønsker du virkelig å slette profilen din?"
+        }
     },
     "revokeConsent": {
-        "title": "Oppheve tillatelse",
-        "loginRequired": "Vennligst logg in og åpen lenken igjen.",
-        "dataProcessing": "Sender min personlig data til registrert diagnostisk og forskning laboratorier.",
-        "mail": "Få ingen nyheter mer via e-post."
+        "title": "Opphev tillatelse",
+        "loginRequired": "Logg inn og åpne lenken igjen.",
+        "dataProcessing": "Sender min personlige data til registrert diagnostikk- og forskningslaboratorier.",
+        "mail": "Kanseller nyhetsmottak per e-post."
     },
     "login": {
-        "emptyField": "Vennligst fyll ut alle feltene og prøv igjen!",
-        "adminTitle": "Administrator-Log-In",
-        "title": "Log-In"
+        "emptyField": "Fyll ut alle feltene og prøv igjen!",
+        "adminTitle": "Administrator-innlogging",
+        "title": "Innlogging"
     },
     "forgotPassword": {
-        "pleaseEnterYourEmailMessage": "Vennligst angi din e-postadress.",
-        "successMessage": "Om e-postadressen er registrert, skal du få en e-post fra oss snart.",
-        "title": "Glemmet passord"
+        "pleaseEnterYourEmailMessage": "Angi din e-postadresse.",
+        "successMessage": "Om e-postadressen er registrert, vil du få en e-post fra oss snart.",
+        "title": "Glemt passordet?"
     },
     "searchDetails": {
-        "notAvailableAnymore_warning": "<p>Denne aksjonen ekskluderer personen fra søknadsresultater. Vi skal da sende dem en e-post som informerer dem at opsjonen har vart aktivert for profilen deres.</p> <p>Innom 3 dager kan de bekrefte eller bestride dette. Om ingen handling skjer, etter denne tiden, profilen vil ikke lengre være funnet i søknaden.</p><p>Tusen takk for hjelpen!</p><p>Vil du fortsette?</p>",
-        "notAvailableAnymore": "Ikke mer tilgjengelig",
+        "notAvailableAnymore_warning": "<p>Denne aksjonen ekskluderer personen fra søkeresultater. En e-post med info om at valget har blitt aktivert for profilen deres vil bli sendt.</p> <p>Innen 3 dager kan de bekrefte eller bestride dette. Om ingenting gjøres i denne tidsperioden, vil profilen ikke lengre være å finne i søket.</p><p>Tusen takk for hjelpen.</p><p>Vil du fortsette?</p>",
+        "notAvailableAnymore": "Ikke tilgjengelig lenger",
         "offers": {
             "equipment": {
-                "title": "Tilbyr @:genera.equipment"
+                "title": "Tilbyr @:general.equipment"
             },
             "advice": {
                 "title": "Tilbyr råd"
@@ -43,21 +50,21 @@
         },
         "lookingFor": {
             "advice": {
-                "title": "råd behøves"
+                "title": "Råd behøves"
             },
             "skills": {
-                "title": "Kvalifiserte frivillige behøves"
+                "title": "Kvalifiserte frivillige trengs"
             },
             "equipment": {
-                "title": "@:general.equipment behöves"
+                "title": "@:general.equipment trengs"
             }
         },
         "contactDetails": {
-            "not_available": "Kontaktdetaljer er bare tilgjengelig til registrered diagnostisk eller laboratorium brukere.",
+            "not_available": "Kontaktdetaljer er kun tilgjengelig for registrerte diagnostikk- eller laboratorium-brukere.",
             "title": "Kontaktdetaljer"
         },
         "other": {
-            "title": "Andre informasjon"
+            "title": "Annen info"
         }
     },
     "resetPassword": {
@@ -65,35 +72,35 @@
         "title": "Tilbakestill passord"
     },
     "passwordStrength": {
-        "4Password": "Ditt passord er veldig sikkert",
-        "3Password": "Tilstrekkeligt sikkert, med mer tegn skal passordet dit bli ennå sikrere",
-        "2Password": "Vennligst også tilsett tall og spesialtegn",
-        "1Password": "For kort, vennligst også tilsett tall og spesialtegn",
-        "0Password": "for kort"
+        "4Password": "Passordet ditt er veldig sikkert",
+        "3Password": "Tilstrekkelig sikkert, flere tegn vil gjøre passordet ditt enda sikrere",
+        "2Password": "Legg til tall og spesialtegn",
+        "1Password": "For kort, legg til tall og spesialtegn",
+        "0Password": "For kort"
     },
     "changePassword": {
-        "currentPassword": "aktuelt @:general.password",
-        "successMessage": "Passord opdatert",
+        "currentPassword": "Nåværende @:general.password",
+        "successMessage": "Passord oppdatert",
         "title": "Endre @:general.password"
     },
     "admin": {
-        "title": "Brukerforvaltning"
+        "title": "Brukerhåndtering"
     },
     "activation": {
-        "successMessage": "Aktivering lykket",
+        "successMessage": "Konto aktivert",
         "title": "Aktiver konto"
     },
     "press": {
-        "btn_download": "Last ned Pressekit",
-        "subtitle": "Kort sammenfatning, pressefrigivelse og material",
-        "title": "Mer informasjon om LabHive"
+        "btn_download": "Last ned pressepakke",
+        "subtitle": "Kort sammenfatning, pressepakke og bildemateriale",
+        "title": "Mer info om LabHive"
     },
     "landingpage": {
         "coverage": {
             "title": "Testkapasitet og støtte",
-            "testsPerWeek": "Tester per uka i Tyskland",
-            "subTitle": "Stigende testkapasitet er nødvendig i kampen mot SARS-CoV-2, men mange steder mangler reagens, materialer, utstyr og personell. Vår platform fremmer utviklingen av et robust diagnostiskt nettverk og letter effektiv tilgang til ressurser for diagnostiske laboratorier. Utbre testen, slå viruset!",
-            "referenceRegistered": "Registrered på vår platform",
+            "testsPerWeek": "Tester per uke i Tyskland",
+            "subTitle": "Stigende testkapasitet er nødvendig i kampen mot SARS-CoV-2, men mange steder mangler reagens, materialer, utstyr og personell. Vår plattform fremmer utviklingen av et robust diagnostisk nettverk og muliggjør formålstjenlig tilgang til ressurser for diagnostiske laboratorier. Spre testen, bekjemp viruset!",
+            "referenceRegistered": "Registrert på vår plattform",
             "update_date": "22 Juli 2020",
             "testNumber": "531571",
             "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-07-22-en.pdf?__blob=publicationFile",
@@ -102,28 +109,28 @@
         "details": {
             "volunteers": {
                 "button": "Bli med nå",
-                "text": "Tilby dine ferdigheter til verifiserede laboratorier, enten som forsker eller teknisk assistent. Dette tillater diagnoskiske laboratorier å finne og kontaktere deg hvis nødvendigt.",
-                "title": "Kvalifiserede frivilliger",
-                "subtitle": "Hjelp til med dine ferdigheter"
+                "text": "Tilby dine ferdigheter til bekreftede laboratorier, enten som forsker eller teknisk assistent. Dette tillater diagnostiske laboratorier å finne og kontakte deg om nødvendig.",
+                "title": "Kvalifiserte frivillige",
+                "subtitle": "Bistå med dine ferdigheter"
             },
             "researchLabs": {
-                "button": "List tilgjengelige ressurser",
-                "text": "List tilgjengelige ressurser som enheter, materialer, og kunnskap i vår databenk. Diagnostiske laboratorier kan bruke søkverketøyet for å finne ressurser og kontaktere de tilbydde institusjonene.",
+                "button": "List opp tilgjengelige ressurser",
+                "text": "List opp tilgjengelige ressurser som enheter, materialer, og kunnskap i vår databenk. Diagnostiske laboratorier kan bruke søkverktøyet for å finne ressurser og ta kontakt med de tilbydde institusjonene.",
                 "title": "Forskningslaboratorier",
                 "subtitle": "Tilby tilgjengelige ressurser"
             },
             "diagnosticCenters": {
                 "button": "Søk etter ressurser",
-                "text": "Søk igjennom vår kurerede databenk for enheter, materialer, og kunnskap tilbydd av andre institutter eller tilby din/deres egene ressurser eller råd. Kvalifiserede frivilliger kan bli filtert via ferdigheter og kontaktert for å hjelpe med prøvning.",
+                "text": "Søk igjennom vår kurerte databenk for enheter, materialer, og kunnskap som tilbys av andre institutter eller tilby egne ressurser eller råd. Kvalifiserte frivillige kan filtreres via ferdigheter og kontaktes for å hjelpe med prøvning.",
                 "title": "Diagnostiske laboratorier",
-                "subtitle": "Søk etter kildetekster"
+                "subtitle": "Søk etter ressurser"
             },
-            "text": "Stigende test kapasitet er avgjørende i kampen mot SARS.CoV-2, men mange steder mangler reagens, utstyr og personell. LabHive letter effisient tilgang til ressurser for diagnostiske laboratorier.",
-            "title": "Hvordan LabHive funker"
+            "text": "Stigende testkapasitet er avgjørende i kampen mot SARS-CoV-2, men mange steder mangler reagens, utstyr og personell. LabHive muliggjør formålstjenlig tilgang til ressurser for diagnostiske laboratorier.",
+            "title": "Hvordan LabHive fungerer"
         },
         "top": {
             "mainTitle": "Den digitale platformen for et robust diagnostiskt nettverk",
-            "subTitle": "Bli med for å finne og dele ressurser for fler SARS-CoV-2-tester",
+            "subTitle": "Bli med for å finne og dele ressurser for flere SARS-CoV-2-tester",
             "sponsoredBy": "Støttes av",
             "selected": "Velgt for",
             "collaboration": "I samarbeid med",
@@ -131,37 +138,159 @@
         }
     },
     "general": {
-        "btn_search": "Søk etter Ressurser",
-        "advice": "Tippsen/Hvordan å gjøre",
+        "btn_search": "Søk etter ressurser",
+        "advice": "Tips/kunnskaper",
         "invalidRequest": "Ugyldig forespørsel",
         "other": "Andre",
-        "equipment": "Enheter/Materialer",
+        "equipment": "Enheter/materialer",
         "skills": "Ferdigheter",
-        "attention": "Observer",
+        "attention": "Merk",
         "back": "Tilbake",
         "next": "Neste",
         "cancel": "Avbryt",
         "delete": "Slette",
         "email": "E-post",
-        "emailAddress": "E-postadress",
-        "submit": "Sende",
+        "emailAddress": "E-postadresse",
+        "submit": "Send",
         "no": "Nei",
         "yes": "Ja",
-        "login_verb": "Logge inn",
-        "login": "Logg-Innen",
-        "signUp": "Registrere",
+        "login_verb": "Logg inn",
+        "login": "Logg inn",
+        "signUp": "Registrer deg",
         "language": "Språk",
         "password": "Passord",
-        "required": "Nødvendig",
+        "required": "Påkrevd",
         "executedSuccessfully": "Kjørt suksessfult",
         "savedSuccessfully": "Lagret suksessfult",
         "save": "Lagre",
-        "noResults": "Ingen resultat er funnet",
-        "to_login": "Gå till Log-Innen",
-        "loading": "Vennligst vent...",
-        "volunteer": "Frivilliger | Frivilligere",
-        "rLab": "Forskningslaboratorium",
-        "qVolunteer": "Kvalifisered Frivillige",
+        "noResults": "Resultatløst",
+        "to_login": "Gå til innlogging",
+        "loading": "Vent…",
+        "volunteer": "Frivillig | Frivillige",
+        "rLab": "Forskningslaboratorium | Forskningslaboratorier",
+        "qVolunteer": "Kvalifisert frivillig | kvalifiserte frivillige",
         "dCenter": "Diagnostiskt laboratorium | Diagnoskiske laboratorier"
+    },
+    "registration": {
+        "descriptions": {
+            "dCenter": "Aktive diagnostikklaboratorier som tilbyr SARS-CoV-2-tester nå, inkludert prøvebehandling og -analyse."
+        },
+        "subtitle": "Registrer deg for å få alle funksjonene i LabHive. I fall du har spørsmål eller opplever andre problemer, kontakt oss på <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
+        "steps": {
+            "contact": {
+                "not_available": "Nei, jeg kan ikke hjelpe til nå.",
+                "contactPerson": "Kontaktperson",
+                "available": "Ja, jeg kan hjelpe til nå.",
+                "textfieldPlaceholders": {
+                    "firstName": "Fornavn",
+                    "lastName": "Etternavn",
+                    "labWebsite": "Laboratoriumsnettside",
+                    "zipcode": "Postnummer",
+                    "phone": "Telefonnummer",
+                    "address": "Adresse",
+                    "city": "By",
+                    "street": "Gate",
+                    "labName": "Laboratoriumsnavn"
+                }
+            },
+            "qualification": {
+                "subTitle": "Angi kvalifikasjoner. Velg alle som oppfylles.",
+                "title": "Kvalifikasjon"
+            },
+            "skills": {
+                "title": "Ferdigheter",
+                "subTitle_update": "Angi ferdighetene dine"
+            },
+            "loginInformation": {
+                "title": "Innloggingsinfo"
+            }
+        },
+        "submit": "Registrer nå",
+        "complete": "Takk for registreringen.",
+        "labActivation": "Siden du registrerte deg som diagnostikk- eller forskningslaboratorium, vil kontoen bli bekreftet manuelt. Dette kan ta litt tid, men du vil motta en e-post når det er utført.",
+        "prospectiveRole": "Velg din brukeradresse.",
+        "yourMail": "din e-postadresse",
+        "usergroup": "Brukergruppe"
+    },
+    "backend": {
+        "tokenTooOld": "Tilbakestill passordet ditt igjen. Lenken har utløpt.",
+        "formValidation": {
+            "invalid_email": "Ugyldig e-postadresse",
+            "invalid_firstname": "Ugyldig fornavn (maks. 200 tegn)",
+            "invalid_zipcode": "Ugyldig postnummer (skal være 5 tegn)",
+            "invalid_city": "Ugyldig by (maks. 200 tegn)",
+            "invalid_description": "Ugyldig beskrivelse (maks. 200 tegn)",
+            "invalid_url": "Nettadresse kan kun være 200 tegn.",
+            "invalid_lastname": "Ugyldig etternavn (maks. 200 tegn)",
+            "invalid_phone": "Bruk formatet +4992, eller 123, uten - eller /",
+            "invalid_street": "Ugyldig gate (maks. 200 tegn)",
+            "invalid_number": "Ugyldig tall",
+            "invalid_role": "Ugyldig søketype",
+            "invalid_skills": "Ugyldige ferdigheter",
+            "invalid_equipment": "Ugyldig utstyr",
+            "invalid_advice": "Ugyldig forespørsel",
+            "invalid_consent": "Ugyldig samtykke"
+        },
+        "internal_error": "Noe gikk galt…",
+        "existing_user": "Brukeren finnes allerede.",
+        "invalid_password": "Ugyldig passord.",
+        "no_results": "Resultatløst…"
+    },
+    "search": {
+        "modeTitle": "Hva søker du etter?",
+        "enterZipcode": "Skriv inn postnummer",
+        "bsl3": "BSL3-erfaring",
+        "workers": "Arbeidskraft",
+        "searchInSurroundings": "Søk i nærheten",
+        "btn_offers": "Tilbud",
+        "btn_requests": "Forespørsler",
+        "filterOfferTitle": "Hva trengs?",
+        "filterRequestTitle": "Type forespørsel",
+        "title": "Søk etter ressurser",
+        "farAway": "langt unna",
+        "recentlyAdded": "Nylig tillagt",
+        "bsl1": "BSL1-erfaring",
+        "bsl2": "BSL2-erfaring",
+        "error": "En feil inntraff, prøv igjen senere.",
+        "bsl4": "BSL4-erfaring"
+    },
+    "checkboxes": {
+        "qualifications": {
+            "groupLeader": "Gruppeleder"
+        },
+        "skills": {
+            "bsl1": "Arbeid i henhold til BSL-1-sikkerhetsstandarder",
+            "bsl2": "Arbeid i henhold til BSL-2-sikkerhetsstandarder",
+            "bsl3": "Arbeid i henhold til BSL-3-sikkerhetsstandarder",
+            "bsl4": "Arbeid i henhold til BSL-4-sikkerhetsstandarder",
+            "dataAnalysis": "Dataanalyse",
+            "searchResult": {
+                "bsl1": "BSL-1",
+                "bsl2": "BSL-2",
+                "bsl3": "BSL-3",
+                "bsl4": "BSL-4"
+            }
+        },
+        "advice": {
+            "virology": "Virologi"
+        }
+    },
+    "aboutUs": {
+        "title": "Vårt lag"
+    },
+    "updateAvailability": {
+        "title": "Oppdatering tilgjengelig"
+    },
+    "layout": {
+        "footer": {
+            "contact": "Kontakt",
+            "press": "Presse",
+            "privacyPolicy": "Personvernspraksis"
+        },
+        "navbar": {
+            "aboutLabhive": "Om LabHive",
+            "aboutUs": "Om laget",
+            "signOut": "Logg ut"
+        }
     }
 }
