@@ -4,7 +4,9 @@
             "title": "Nåværende forespørsler",
             "subTitle": "Hvis du trenger ressurser, kan du liste dem opp her. Du kan alltids endre dette senere i profilen din. Klikk på «Neste» nedenfor, hvis du ikke trenger noe for øyeblikket. Du vil finne kvalifiserte frivillige hvis du bruker søkefunksjonen.",
             "adviceDescription": "Mer detaljert info om tingene du kan være behjelpelig med.",
-            "equipmentDescription": "Mer detaljert info om enhetene/materialene som kreves. Lenke til forespurt ting på produsentnettsiden, bestillingsnummer, mengde, beskrivelse, osv."
+            "equipmentDescription": "Mer detaljert info om enhetene/materialene som kreves. Lenke til forespurt ting på produsentnettsiden, bestillingsnummer, mengde, beskrivelse, osv.",
+            "equipment": "Behøves @:general.equipment",
+            "advice": "Behøves @:general.advice"
         },
         "offer": {
             "equipmentDescription": "Mer detaljert info om enhetene/materialene du kan tilby. Lenke til tilbydd gjenstand på produsents nettside, bestillingsnummer, beskrivelse, etc.",
@@ -173,7 +175,9 @@
     },
     "registration": {
         "descriptions": {
-            "dCenter": "Aktive diagnostikklaboratorier som tilbyr SARS-CoV-2-tester nå, inkludert prøvebehandling og -analyse."
+            "dCenter": "Aktive diagnostikklaboratorier som tilbyr SARS-CoV-2-tester nå, inkludert prøvebehandling og -analyse.",
+            "rLab": "Akademiske eller industrielle forskningslaboratorium med tilgang til reagenser, materialer, enheter, eller passende laboratoriumsrom (BSL-2/3)",
+            "qVolunteers": "Forskningsstab eller tekniske assistenter med trening og erfaring i bruk av laboratoriumsutstyr, prøveforberedelser eller dataanalyse"
         },
         "subtitle": "Registrer deg for å få alle funksjonene i LabHive. I fall du har spørsmål eller opplever andre problemer, kontakt oss på <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "steps": {
@@ -190,8 +194,15 @@
                     "address": "Adresse",
                     "city": "By",
                     "street": "Gate",
-                    "labName": "Laboratoriumsnavn"
-                }
+                    "labName": "Laboratoriumsnavn",
+                    "instituteWebsite": "Din institusjons nettside",
+                    "instituteName": "Institutt/universitet/sykehus"
+                },
+                "subTitle_volunteer": "Angi dine kontaktdetaljer og tilgjengelighet. Vi deler kun sensitiv info, som navnet ditt, e-postadressen, og telefonnummer med bekreftede diagnostikk- og forskningslaboratorium.",
+                "title_volunteer": "Kontakt og tilgjengelighet",
+                "affiliation": "Din tilknytning",
+                "subTitle": "Skriv inn dine kontaktdetaljer. <strong>Denne dataen er påkrevd for å bekrefte deg.</strong> Vi deler kun personlig data som navn, e-postadresse, og telefonnummer med andre bekreftede diagnostikk- og forskningslaboratorium.",
+                "title": "Tilknytning og kontakt"
             },
             "qualification": {
                 "subTitle": "Angi kvalifikasjoner. Velg alle som oppfylles.",
@@ -199,10 +210,23 @@
             },
             "skills": {
                 "title": "Ferdigheter",
-                "subTitle_update": "Angi ferdighetene dine"
+                "subTitle_update": "Angi ferdighetene dine",
+                "description": "Videre info om erfaringsnivå, ytterligere ferdigheter, tilgjengelighet, osv. Denne beskrivelsen er offentlig tilgjengelig.",
+                "subTitle": "Angi dine ferdigheter, du kan endre dem senere i profilen når som helst."
             },
             "loginInformation": {
-                "title": "Innloggingsinfo"
+                "title": "Innloggingsinfo",
+                "textfieldPlaceholders": {
+                    "officialEmail": "E-postadresse (institusjon)"
+                },
+                "subTitle": "Skriv inn din e-postadresse og sett et passord."
+            },
+            "consent": {
+                "search": "<p>LabHive kan dele min data med registrerte og bekreftede diagnostikk- og forskningslaboratorium, i tilknytning SARS-CoV-2-pandemien.</p><p>Hvis du motsetter deg dette, vil din bruk av plattformen begrenses, noe som betyr at du som frivillig ikke vil være å finne gjennom søkefunksjonen. Det er ingen mulighet for frivillige å kontakte registrerte og bekreftede diagnostikklaboratorium.</p><p>Videre info er å finne i vår <a target=\"_blank\" href=\"/#/privacyPolicy\">personvernspraksis</a>.</p>",
+                "volunteerDisclaimer": "Hvorvidt du tillates å jobbe som frivillig i et diagnostikklaboratorium, eller om du fritt kan jobbe andre steder. Du må fremforhandle dette med din arbeidsgiver på forhånd, på eget ansvar. Hvis du blir spurt om å jobbe i et diagnostikklaboratorium, vil du, din arbeidsgiver, og diagnostikklaboratoriumet være ansvarlige for arbeidsmiljølovskrav. LabHive har ikke ansvar for dette.",
+                "mail": "<p>LabHive kan sende e-postmerknader nå og da om oppdateringer og nye funksjonen på nettsiden.</p><p>Hvis du motsetter deg dette, vil du ikke motta noen e-postmerknader fra oss.</p>",
+                "title": "Valgfrie samtykker",
+                "dataProcessingInformation": "<p>Ved å fullføre registreringen vil din data bli behandlet av LabHive. Du angitte kontaktinfo er kun synlig for registrerte og internt bekreftede forskning- og diagnostikklaboratorium.</p><p>Registrerte frivillige har ingen muligheter til å besvare forespørsler fra diagnostikklaboratorier for å forhindre økt e-postmengde. Som diagnostikklaboratorium kan du finne frivillige gjennom søkefunksjonen, vise kontaktdataen deres, og kontakte dem.</p><p>Videre info er å finn i vår <a href=\"/#/privacyPolicy\">personvernspraksis</a>.</p>"
             }
         },
         "submit": "Registrer nå",
@@ -210,7 +234,10 @@
         "labActivation": "Siden du registrerte deg som diagnostikk- eller forskningslaboratorium, vil kontoen bli bekreftet manuelt. Dette kan ta litt tid, men du vil motta en e-post når det er utført.",
         "prospectiveRole": "Velg din brukeradresse.",
         "yourMail": "din e-postadresse",
-        "usergroup": "Brukergruppe"
+        "usergroup": "Brukergruppe",
+        "progressResetWarning": "All data vil bli slettet. Ønsker du å fortsette uansett?",
+        "confirmationMail": "En lenke for bekreftelse av registreringen har blitt sendt til <strong>{mail}</strong>. Klikk på denne lenken for å aktivere kontoen din.",
+        "title": "Registrering"
     },
     "backend": {
         "tokenTooOld": "Tilbakestill passordet ditt igjen. Lenken har utløpt.",
@@ -229,12 +256,23 @@
             "invalid_skills": "Ugyldige ferdigheter",
             "invalid_equipment": "Ugyldig utstyr",
             "invalid_advice": "Ugyldig forespørsel",
-            "invalid_consent": "Ugyldig samtykke"
+            "invalid_consent": "Ugyldig samtykke",
+            "invalid_location": "Kunne ikke bekrefte adressen din. Sjekk adressen og stavingen av den.",
+            "invalid_search": "Ugyldig søk",
+            "invalid_name": "Ugyldig laboratoriumsnavn (maks. 200 tegn)"
         },
         "internal_error": "Noe gikk galt…",
         "existing_user": "Brukeren finnes allerede.",
         "invalid_password": "Ugyldig passord.",
-        "no_results": "Resultatløst…"
+        "no_results": "Resultatløst…",
+        "user_not_activated": "Brukerkontoen har ikke blitt aktivert enda. Bekreft e-postadressen. Hvis du er registrert som laboratorium, vil du bli manuelt bekreftet av oss. Når så er gjort, vil du motta en e-post fra oss. Hvis dette tar mer enn to arbeidsdager, kontakt oss på support@labhive.de",
+        "not_authorized": "Ubekreftet!",
+        "user_disabled": "Kontoen din har blitt deaktivert. Hvis du har spørsmål, kontakt support@labhive.de",
+        "contact_support": "En feil har inntruffet. Kontakt support@labhive.de",
+        "bad_request": "@:general.invalidRequest",
+        "success": "Utført.",
+        "featureNotAvailableForRole": "Denne funksjonen er ikke tilgjengelig for din brukerrolle.",
+        "invalid_login": "Ugyldige innloggingsdetaljer."
     },
     "search": {
         "modeTitle": "Hva søker du etter?",
@@ -252,11 +290,25 @@
         "bsl1": "BSL1-erfaring",
         "bsl2": "BSL2-erfaring",
         "error": "En feil inntraff, prøv igjen senere.",
-        "bsl4": "BSL4-erfaring"
+        "bsl4": "BSL4-erfaring",
+        "lookingForequipment": "@:searchDetails.lookingFor.equipment.title",
+        "offersequipment": "@:searchDetails.offers.equipment.title",
+        "lookingForadvice": "@:searchDetails.lookingFor.advice.title",
+        "offersadvice": "@:searchDetails.offers.advice.title",
+        "noResults": "Resultatløst. Prøv å endre søket, eller prøv igjen senere"
     },
     "checkboxes": {
         "qualifications": {
-            "groupLeader": "Gruppeleder"
+            "groupLeader": "Gruppeleder",
+            "bta_cta": "Bioingeniør/klinikkassistent (BTA/CTA)",
+            "mtla": "Bioingeniør/laboratoriumsassistent (MTA/MTLA)",
+            "jobTraining": "Formell utdanning",
+            "postdoc": "Postdoktor",
+            "doctoratecompleted": "Ph.d. (fullført)",
+            "doctorate": "Ph.d.-student",
+            "master": "Master (fullført)",
+            "bachelor": "Bachelor (fullført)",
+            "other": "@:general.other"
         },
         "skills": {
             "bsl1": "Arbeid i henhold til BSL-1-sikkerhetsstandarder",
@@ -268,29 +320,62 @@
                 "bsl1": "BSL-1",
                 "bsl2": "BSL-2",
                 "bsl3": "BSL-3",
-                "bsl4": "BSL-4"
-            }
+                "bsl4": "BSL-4",
+                "dataAnalysis": "@:checkboxes.skills.dataAnalysis",
+                "primerProduction": "@:checkboxes.skills.primerProduction",
+                "elisa": "@:checkboxes.skills.elisa",
+                "sample_processing": "Klinisk prøvehåndtering",
+                "rnaExperience_isolation": "RNA-håndtering",
+                "qpcr": "@:checkboxes.skills.qpcr"
+            },
+            "primerProduction": "Primer-produksjon",
+            "elisa": "ELISA",
+            "sample_processing": "(Forhånds-)behandling av kliniske prøver",
+            "rnaExperience_isolation": "Arbeid med RNA (spesielt isolasjon med utstyr)",
+            "qpcr": "qPCR"
         },
         "advice": {
-            "virology": "Virologi"
+            "virology": "Virologi",
+            "protocolProduction": "Etablering/opprettelse av lab-protokoller",
+            "elisa": "@:checkboxes.skills.elisa",
+            "qPCR": "@:checkboxes.skills.qpcr",
+            "rnaExperience_isolation": "@:checkboxes.skills.rnaExperience_isolation"
+        },
+        "equipment": {
+            "pcrMasterMix": "PCR-mastermiks",
+            "rnaExtractionDevice": "RNA-isoleringsenhet",
+            "rnaExtractionKit": "Utstyr for RNA-isolering",
+            "pcrPlates": "PCR-brett",
+            "pipetteTips": "Rens av dråpetellere",
+            "primerProduction": "Primere for SARS-CoV-2",
+            "rtThermocycler": "PCR-maskin for RT",
+            "reverseTransKit": "Utstyr for revers transkriptase",
+            "qpcrThermocycler": "PCR-maskin for qPCR",
+            "calibratedPipetteSet": "Kalibrering av pipette-sett"
         }
     },
     "aboutUs": {
-        "title": "Vårt lag"
+        "title": "Vårt lag",
+        "ourStoryText": "LabHive består av et flerfaglig lag av forskere, programvareutviklere, og databeskyttelseseksperter. Idéen for plattformen oppstod fra to prosjekter i <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a>-hackaton i regi av Tyske myndigheter. Begge lag har frivillig bidratt til dette initiativet, og de har slått lag for å bygge et sterkt diagnostikknettverk."
     },
     "updateAvailability": {
-        "title": "Oppdatering tilgjengelig"
+        "title": "Oppdatering tilgjengelig",
+        "available": "Oppdater tilgjengelighetsstatus til: «Tilgjengelig»",
+        "update_notice": "Du kan endre status når du har logget inn i profilinnstillingene dine.",
+        "not_available": "Oppdaterte tilgjengelighetsstatus til: «Ikke tilgjengelig»"
     },
     "layout": {
         "footer": {
             "contact": "Kontakt",
             "press": "Presse",
-            "privacyPolicy": "Personvernspraksis"
+            "privacyPolicy": "Personvernspraksis",
+            "imprint": "Ansvarlig"
         },
         "navbar": {
             "aboutLabhive": "Om LabHive",
             "aboutUs": "Om laget",
             "signOut": "Logg ut"
-        }
+        },
+        "staging": "Kun i testøyemed, inneholder ikke ekte data.\nSanntidsversjon på <a href=\"https://labhive.de\">https://labhive.de</a>"
     }
 }
