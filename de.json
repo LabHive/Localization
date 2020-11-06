@@ -66,9 +66,9 @@
         },
         "coverage": {
             "referenceRKI": "Situationsbericht des RKI vom {date} zu COVID-19",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Okt_2020/2020-10-28-de.pdf?__blob=publicationFile",
-            "testNumber": "1358706",
-            "update_date": "28.10.2020",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Nov_2020/2020-11-04-de.pdf?__blob=publicationFile",
+            "testNumber": "1567083",
+            "update_date": "04.11.2020",
             "referenceRegistered": "Auf unserer Plattform registriert",
             "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Materialien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostiklaboren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
             "testsPerWeek": "Tests pro Woche in Deutschland",
@@ -130,7 +130,7 @@
                 "title": "'@:general.equipment anzubieten'"
             }
         },
-        "notAvailableAnymore": "Nicht mehr verfügbar",
+        "notAvailableAnymore": "Inaktivität melden",
         "notAvailableAnymore_warning": "<p>Durch diesen Vorgang, wird die Person aus der Suche ausgeblendet. Sie bekommt von uns nun eine E-Mail zugesendet, in der wir sie darauf hinweisen, dass die Aktion für ihr Profil ausgelöst wurde.</p><p>Innerhalb von 3 Tagen kann sie diesen Vorgang bestätigen oder ablehen. Wenn keine Reaktion stattfindet, wird dieses Profil nach dieser Übergangsfrist nicht mehr in der Suche zu finden sein.</p><p>Vielen Dank für Ihre Mithilfe!</p><p>Wollen Sie diese Aktion durchführen?</p>"
     },
     "forgotPassword": {
