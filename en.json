@@ -66,9 +66,9 @@
         },
         "coverage": {
             "referenceRKI": "Daily situation report about COVID-19 by the RKI, {date}",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Okt_2020/2020-10-28-en.pdf?__blob=publicationFile",
-            "testNumber": "1358706",
-            "update_date": "October 28th 2020",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Nov_2020/2020-11-04-en.pdf?__blob=publicationFile",
+            "testNumber": "1567083",
+            "update_date": "November 4th 2020",
             "referenceRegistered": "Registered on our platform",
             "subTitle": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, materials, equipment and personnel. Our platform promotes the development of a strong diagnostic network and facilitates efficient access to resources for diagnostic laboratories. Spread the test, beat the virus!",
             "testsPerWeek": "Tests per Week in Germany",
@@ -130,7 +130,7 @@
                 "title": "Offers @:general.equipment"
             }
         },
-        "notAvailableAnymore": "Not available anymore",
+        "notAvailableAnymore": "Report Inactivity",
         "notAvailableAnymore_warning": "<p>This action omits the person from search results. We will then send them an e-mail informing them that the option has been set for their profile.</p><p>Within 3 days they can confirm or dispute this. If no action is taken, after this time, the profile will no longer be found in the search.</p><p>Thank you very much for your help!</p><p>Do you want to proceed?</p>"
     },
     "forgotPassword": {
