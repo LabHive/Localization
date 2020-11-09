@@ -3,7 +3,7 @@
         "btn_search": "Search for Resources",
         "dCenter": "Diagnostic Laboratory | Diagnostic Laboratories",
         "qVolunteer": "Qualified Volunteer | Qualified Volunteers",
-        "rLab": "Research Laboratory | Research Laboratories",
+        "rLab": "Laboratory and Supplier | Laboratories and Supplier",
         "volunteer": "Volunteer | Volunteers",
         "loading": "Please wait...",
         "to_login": "Go to Login",
@@ -53,7 +53,7 @@
             },
             "researchLabs": {
                 "subtitle": "Offer available resources",
-                "title": "Research laboratories",
+                "title": "Laboratories and Suppliers",
                 "text": "List available resources such as devices, materials, and expertise in our database. Diagnostic laboratories can use the search tool to find resources and contact the offering institutions.",
                 "button": "List available resources"
             },
@@ -106,7 +106,7 @@
     "searchDetails": {
         "contactDetails": {
             "title": "Contact Details",
-            "not_available": "Contact details are only available to registered diagnostic or research laboratories users."
+            "not_available": "Contact details are only available to registered diagnostic laboratories, laboratories or suppliers."
         },
         "other": {
             "title": "Other Information"
@@ -145,7 +145,7 @@
     },
     "revokeConsent": {
         "mail": "Receive no updates via email anymore.",
-        "dataProcessing": "Sending my personal data to registered diagnostic and research laboratories.",
+        "dataProcessing": "Sending my personal data to registered diagnostic laboratories, laboratories and suppliers.",
         "loginRequired": "Please log in and open the link again.",
         "title": "Revoke consent"
     },
@@ -177,13 +177,13 @@
         "descriptions": {
             "dCenter": "Active diagnostic laboratories that currently offer SARS-CoV-2 tests including sample processing and analysis",
             "qVolunteers": "Scientific staff or technical assistants with training and experience in the use of laboratory equipment, sample preparation or data analysis",
-            "rLab": "Academic or industrial research laboratories with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)"
+            "rLab": "Academic or industrial research laboratories and suppliers with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)"
         },
         "title": "Register",
         "subtitle": "Please register to access all functionalities of LabHive. In case of questions or if you experience other problems, please contact us at <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "Register Now",
         "complete": "Thank you for your registration!",
-        "labActivation": "Since you registered as diagnostic or research laboratory, we verify your account manually. This takes some time, but you will receive an email, when it is done.",
+        "labActivation": "Since you registered as diagnostic laboratory, laboratory or supplier, we verify your account manually. This takes some time, but you will receive an email once verification took place.",
         "prospectiveRole": "Please select your user group.",
         "yourMail": "your e-mail address",
         "confirmationMail": "We have sent a link to confirm the registration to <strong>{mail}</strong>. Please click on this link to activate your account.",
@@ -191,19 +191,19 @@
         "usergroup": "User group",
         "steps": {
             "consent": {
-                "dataProcessingInformation": "<p>By finishing the registration your data will be processed by LabHive. Your specified contact information is only visible for registered and internally verified research and diagnostic laboratories.</p><p>Registered volunteers have no possibility to respond to requests from diagnostic laboratories to prevent an increased e-mail flow. As a diagnostic laboratory you can however find volunteers through the search function, view their contact data and contact them.</p><p>Further information can be found in our <a href=\"/#/privacyPolicy\">privacy policy</a>.</p>",
+                "dataProcessingInformation": "<p>By finishing the registration your data will be processed by LabHive. Your specified contact information is only visible for registered and internally verified research and diagnostic laboratories and suppliers.</p><p>Registered volunteers have no possibility to respond to requests from diagnostic laboratories to prevent an increased e-mail flow. As a diagnostic laboratory you can however find volunteers through the search function, view their contact data and contact them.</p><p>Further information can be found in our <a href=\"/#/privacyPolicy\">privacy policy</a>.</p>",
                 "title": "Optional Consents",
                 "mail": "<p>LabHive may occasionally send me e-mail notifications about updates and new features of the website.</p><p>If you disagree, you will not receive any e-mail notifications from us.</p>",
                 "volunteerDisclaimer": "Whether you are allowed to work as a volunteer in a diagnostic laboratory or whether you are released from work, you must clarify this with your employer on your own responsibility. If you are requested to work in a diagnostic laboratory, you, your employer and the diagnostic laboratory concerned are responsible for labour law. LabHive does not take any responsibility for this.",
-                "search": "<p>LabHive can share my data with registered and verified diagnostic- and research laboratories, in the context of the SARS-CoV-2 pandemic.</p><p>If you disagree, the use of our platform is limited, which means that you as a volunteer cannot be found via the search function. There is no possibility for volunteers to contact a registered and verified diagnostic laboratory.</p><p>You will find further information in our <a target=\"_blank\" href=\"/#/privacyPolicy\">privacy policy</a>.</p>"
+                "search": "<p>LabHive can share my data with registered and verified diagnostic- and research laboratories and suppliers, in the context of the SARS-CoV-2 pandemic.</p><p>If you disagree, the use of our platform is limited, which means that you as a volunteer cannot be found via the search function. There is no possibility for volunteers to contact a registered and verified diagnostic laboratory.</p><p>You will find further information in our <a target=\"_blank\" href=\"/#/privacyPolicy\">privacy policy</a>.</p>"
             },
             "contact": {
                 "title": "Affiliation & Contact",
-                "subTitle": "Please enter your contact details. <strong>We need this data to be able to verify you.</strong> We only share personal data such as name, e-mail address and telephone number with other verified diagnostic and research laboratories.",
+                "subTitle": "Please enter your contact details. <strong>We need this data to be able to verify you.</strong> We only share personal data such as name, e-mail address and telephone number with other verified diagnostic and research laboratories and suppliers.",
                 "affiliation": "Your Affiliation",
                 "contactPerson": "Contact Person",
                 "title_volunteer": "Contact & Availability",
-                "subTitle_volunteer": "Please provide your contact details and availability. We share sensitive information such as your name, e-mail address and phone number only with verified diagnostic- and research laboratories.",
+                "subTitle_volunteer": "Please provide your contact details and availability. We share sensitive information such as your name, e-mail address and phone number only with verified diagnostic- and research laboratories and suppliers.",
                 "available": "Yes, I am currently available for helping out.",
                 "not_available": "No, I am currently not available for helping out.",
                 "textfieldPlaceholders": {
@@ -216,8 +216,8 @@
                     "street": "Street",
                     "instituteName": "Institute/University/Hospital",
                     "instituteWebsite": "Website of your Institution",
-                    "labWebsite": "Laboratory Website",
-                    "labName": "Laboratory Name"
+                    "labWebsite": "Website",
+                    "labName": "Institution Name"
                 }
             },
             "loginInformation": {
@@ -339,7 +339,7 @@
             "invalid_street": "Invalid street (max. 200 characters)",
             "invalid_phone": "Please use the format +4992 or 123 without - or /",
             "invalid_description": "Invalid description (max. 2000 characters)",
-            "invalid_name": "Invalid laboratory name (max. 200 characters)",
+            "invalid_name": "Invalid institution name (max. 200 characters)",
             "invalid_number": "Invalid number",
             "invalid_search": "Invalid search parameter",
             "invalid_role": "Invalid search type",
@@ -359,7 +359,7 @@
         "no_results": "No results were found...",
         "tokenTooOld": "Please reset your password again, the reset link expired.",
         "contact_support": "An error has occurred. Please contact support@labhive.de. We apologize for the inconvenience!",
-        "user_not_activated": "The user hasn't been activated yet. Please validate the e-mail address. If you registered as laboratory, you will be manually verified by us. When that has been done, you will receive an e-mail from us. If this takes longer than two working days, please contact us at support@labhive.de.",
+        "user_not_activated": "The user hasn't been activated yet. Please validate the e-mail address. If you registered as laboratory or supplier, you will be manually verified by us. When that has been done, you will receive an e-mail from us. If this takes longer than two working days, please contact us at support@labhive.de.",
         "user_disabled": "Your account was deactivated. In case of questions, please contact support@labhive.de.",
         "featureNotAvailableForRole": "This feature is not available for your user role.",
         "success": "Executed successfully."
