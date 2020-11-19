@@ -183,7 +183,7 @@
         "subtitle": "Registrieren Sie sich, um alle Funktionalitäten von LabHive nutzen zu können. Bei Fragen oder Schwierigkeiten wenden Sie sich bitte an <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "Jetzt registrieren",
         "complete": "Registrierung erfolgreich!",
-        "labActivation": "Da Sie sich als Diagnostik- oder Forschungslabor registriert haben, verifizieren wir Ihren Account zusätzlich manuell. Dies kann eine Weile dauern. Wenn Ihr Account von uns verifiziert wurde und einsatzbereit ist, erhalten Sie eine @:general.email.",
+        "labActivation": "Da Sie sich als Diagnostik- oder Forschungslabor registriert haben, verifizieren wir Ihren Account zusätzlich manuell. Dies kann eine Weile dauern. Wenn Ihr Account von uns verifiziert wurde und einsatzbereit ist, erhalten Sie eine @:(general.email).",
         "prospectiveRole": "Bitte wählen Sie Ihre Nutzergruppe.",
         "yourMail": "Ihre @:general.emailAddress",
         "confirmationMail": "Wir haben einen Link zur Bestätigung der Registrierung an <strong>{mail}</strong> geschickt. Bitte klicken Sie auf diesen Link, um Ihr Konto freizuschalten.",
@@ -193,7 +193,7 @@
             "consent": {
                 "dataProcessingInformation": "<p>Durch das Abschließen der Registrierung werden Ihre Daten von LabHive verarbeitet. Ihre angegebenen Kontaktinformationen sind nur für registrierte und von uns verifizierte Forschungs- und Diagnostiklabore sichtbar.</p><p>Registrierte Helfer:innen haben keine Möglichkeit auf Suchanfragen von Seiten der Diagnostiklabore zu reagieren, um ein erhöhtes @:general.email Aufkommen für diese zu vermeiden. Als Diagnostiklabor können Sie Helfer:innen über die Suchfunktion finden, deren Kontaktdaten sehen und diese kontaktieren.</p><p>Weitere Informationen finden Sie in unserer <a href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>",
                 "title": "Optionale Einwilligungen",
-                "mail": "<p>LabHive kann mir gelegentlich @:general.email-Benachrichtigungen über Updates und neue Funktionen der Website schicken.</p><p>Widersprechen Sie dem, erhalten Sie keine @:general.email-Benachrichtigungen von uns.</p>",
+                "mail": "<p>LabHive kann mir gelegentlich @:(general.email)-Benachrichtigungen über Updates und neue Funktionen der Website schicken.</p><p>Widersprechen Sie dem, erhalten Sie keine @:(general.email)-Benachrichtigungen von uns.</p>",
                 "volunteerDisclaimer": "Ob Sie als Freiwillige:r in Diagnostiklaboren arbeiten dürfen, bzw. freigestellt werden, müssen Sie eigenverantwortlich mit Ihrem Arbeitgeber klären. Wenn Sie von einem Diagnostiklabor angefragt werden, obliegt die Arbeitsrechtliche Regelung Ihnen, Ihrem Arbeitgeber und dem betreffenden Diagnostiklabor. LabHive übernimmt hier keine Verantwortung.",
                 "search": "<p>LabHive kann meine Daten zum Zwecke der Zusammenarbeit mit registrierten und verifizierten Diagnostik- und Forschungslaboren, im Rahmen der SARS-CoV-2 Pandemie über die Suchfunktion einsehbar machen.</p><p>Widersprechen Sie dem, ist die Verwendung unserer Plattform nur eingeschränkt möglich, wodurch Sie als Freiwillige:r nicht über die Suche gefunden werden können. Es gibt für Freiwillige keine Möglichkeit, Kontakt zu einem registrierten und verifizierten Diagnostiklabor aufzunehmen.</p><p>Weitere Hinweise finden Sie in unserer <a target=\"_blank\" href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>"
             },
@@ -359,7 +359,7 @@
         "no_results": "Nichts gefunden...",
         "tokenTooOld": "Bitte setzen Sie das Passwort erneut zurück, der Link ist abgelaufen.",
         "contact_support": "Ein Fehler ist aufgetreten, bitte wenden Sie sich an support@labhive.de. Bitte entschuldigen Sie die Umstände!",
-        "user_not_activated": "Der Benutzer ist noch nicht aktiviert. Zur Aktivierung Ihres Accounts müssen Sie die @:general.emailAddress bestätigen. Sollten Sie sich als Labor registriert haben, werden Sie von uns manuell verifiziert. Sobald dies geschehen ist, erhalten Sie von uns eine @:general.email. Sollte es länger als 2 Werktage dauern, kontaktieren Sie uns bitte unter support@labhive.de.",
+        "user_not_activated": "Der Benutzer ist noch nicht aktiviert. Zur Aktivierung Ihres Accounts müssen Sie die @:general.emailAddress bestätigen. Sollten Sie sich als Labor registriert haben, werden Sie von uns manuell verifiziert. Sobald dies geschehen ist, erhalten Sie von uns eine @:(general.email). Sollte es länger als 2 Werktage dauern, kontaktieren Sie uns bitte unter support@labhive.de.",
         "user_disabled": "Ihr Account wurde von uns deaktiviert. Bei Fragen wenden Sie sich bitte an support@labhive.de.",
         "featureNotAvailableForRole": "Die Funktion ist für Ihre Nutzerrolle nicht verfügbar.",
         "success": "Erfolgreich ausgeführt."
