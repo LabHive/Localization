@@ -1,0 +1,57 @@
+name: Create Pull Request on LabHive
+on: push
+
+
+jobs:
+  createPR:
+    name: Create PR on LabHive
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          repository: LabHive/LabHive
+          ref: master
+          token: ${{ secrets.CI_TOKEN }}
+          submodules: true
+      - name: Checkout correct branch
+        run: |
+          git fetch --all;
+          branch="${{ github.ref }}"
+          branch="${branch/refs\/heads\//}"
+          prbranch="$branch"
+          prbase="dev"
+          if ! git branch -a | grep $branch > /dev/null; then
+            echo "::debug::Branch $branch does not exist on LabHive"
+            echo "STOP=1" >> $GITHUB_ENV
+          else
+            git checkout "$branch"
+            git submodule update
+            if [[ $branch == "master" ]]; then
+              prbranch="UpdateLocalization"
+              prbase="master"
+            fi
+
+            echo "BRANCH=$branch" >> $GITHUB_ENV
+            echo "PR_BASE=$prbase" >> $GITHUB_ENV
+            echo "PR_BRANCH=$prbranch" >> $GITHUB_ENV
+          fi
+
+      - name: Update Submodule
+        if: ${{ env.STOP != '1' }}
+        run: |
+          cd "$(git submodule status | grep Localization | awk '{ print $2 }')"
+          git fetch --all;
+          git checkout "$BRANCH"
+
+      - name: File PR
+        if: ${{ env.STOP != '1' }}
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.CI_TOKEN }}
+          branch: ${{ env.PR_BRANCH }}
+          base: ${{ env.PR_BASE }}
+          commit-message: Updated Localization
+          title: Update Localization
+
+  
