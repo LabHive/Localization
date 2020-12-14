@@ -54,14 +54,4 @@ jobs:
           commit-message: Updated Localization
           title: Update Localization
 
-      - name: File backport PR
-        if: ${{ env.PR_BASE == 'master' }}
-        uses: peter-evans/create-pull-request@v3
-        with:
-          token: ${{ secrets.CI_TOKEN }}
-          branch: ${{ env.PR_BRANCH }}
-          base: dev
-          commit-message: Updated Localization
-          title: '[Backport] Update Localization'
-
   
