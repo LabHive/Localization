@@ -20,11 +20,11 @@ jobs:
           ref: master
           token: ${{ secrets.CI_TOKEN }}
           submodules: true
+          fetch-depth: '0'
       - name: Checkout correct branch
         run: |
           set +o pipefail
 
-          git fetch --all;
           BRANCH="${{ github.ref }}"
           BRANCH="${BRANCH/refs\/heads\//}"
           PR_BRANCH="$BRANCH"
@@ -67,7 +67,7 @@ jobs:
           git submodule update --init;
           cd "$(git submodule status | grep Localization | awk '{ print $2 }')";
           git fetch --all;
-          git checkout "$BRANCH";
+          git reset --hard ${{ github.sha }};
           cd ..;
           git add Localization;
           git commit -m "[CI] Updated Localization submodule";
