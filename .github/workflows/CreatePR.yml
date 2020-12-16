@@ -43,6 +43,7 @@ jobs:
             PR_BASE="master"
           fi
 
+          echo "Currently on branch: $(git branch --show-current)"
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
           echo "PR_BASE=$PR_BASE" >> $GITHUB_ENV
           echo "PR_BRANCH=$PR_BRANCH" >> $GITHUB_ENV
@@ -58,6 +59,7 @@ jobs:
           fi
 
           echo "::set-output name=PR_OPEN::$PR_OPEN";
+          echo "Currently on branch: $(git branch --show-current)"
 
           if [[ $PR_OPEN -eq 0 ]]; then
             echo "::debug::Merge $PR_BASE into $PR_BRANCH";
