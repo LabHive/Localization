@@ -64,6 +64,7 @@ jobs:
             git merge $PR_BASE
           fi
 
+          git submodule update --init
           cd "$(git submodule status | grep Localization | awk '{ print $2 }')"
           git fetch --all;
           git checkout "$BRANCH"
