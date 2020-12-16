@@ -67,8 +67,8 @@
         "coverage": {
             "referenceRKI": "Daily situation report about COVID-19 by the RKI, {date}",
             "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Dez_2020/2020-12-02-en.pdf?__blob=publicationFile",
-            "testNumber": "1297303",
-            "update_date": "December 9th 2020",
+            "testNumber": "1465732",
+            "update_date": "December 16th 2020",
             "referenceRegistered": "Registered on our platform",
             "subTitle": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, materials, equipment and personnel. Our platform promotes the development of a strong diagnostic network and facilitates efficient access to resources for diagnostic laboratories. Spread the test, beat the virus!",
             "testsPerWeek": "Tests per Week in Germany",
