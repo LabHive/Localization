@@ -59,23 +59,39 @@ jobs:
           fi
 
           echo "::set-output name=PR_OPEN::$PR_OPEN";
+          
+          echo "::group::Status"
           echo "Currently on branch: $(git branch --show-current)"
           git status
+          git rev-parse HEAD
+          git log origin...origin~10
+          echo "::endgroup::"
 
           if [[ $PR_OPEN -eq 0 ]]; then
             echo "::debug::Merge $PR_BASE into $PR_BRANCH";
             git merge --ff $PR_BASE;
           fi
 
+          echo "::group::Update submodule"
           git submodule update --init;
           cd "$(git submodule status | grep Localization | awk '{ print $2 }')";
           git fetch --all;
           git reset --hard ${{ github.sha }};
+          echo "::endgroup::"
+
+          echo "::group::Commit"
           cd ..;
           git add Localization;
           git commit -m "[CI] Updated Localization submodule";
-          git log;
+          echo "::endgroup::"
+
+          echo "::group::Git Log"
+          git log origin...origin~10;
+          echo "::endgroup::"
+
+          echo "::group::Git push"
           git push origin $PR_BRANCH;
+          echo "::endgroup::"
 
       - name: File PR
         if: ${{ env.STOP != '1' && steps.update_submodule.outputs.PR_OPEN == '0' }}
