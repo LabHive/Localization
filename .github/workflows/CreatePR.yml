@@ -72,7 +72,7 @@ jobs:
           cd ..;
           git add Localization;
           git commit -m "[CI] Updated Localization submodule";
-          git log --all --decorate --oneline --graph;
+          git log;
           git push origin $PR_BRANCH;
 
       - name: File PR
