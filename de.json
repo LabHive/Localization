@@ -67,8 +67,8 @@
         "coverage": {
             "referenceRKI": "Situationsbericht des RKI vom {date} zu COVID-19",
             "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Dez_2020/2020-12-09-de.pdf?__blob=publicationFile",
-            "testNumber": "1297303",
-            "update_date": "09.12.2020",
+            "testNumber": "1465732",
+            "update_date": "16.12.2020",
             "referenceRegistered": "Auf unserer Plattform registriert",
             "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Materialien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostiklaboren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
             "testsPerWeek": "Tests pro Woche in Deutschland",
@@ -193,7 +193,7 @@
             "consent": {
                 "dataProcessingInformation": "<p>Durch das Abschließen der Registrierung werden Ihre Daten von LabHive verarbeitet. Ihre angegebenen Kontaktinformationen sind nur für registrierte und von uns verifizierte Forschungs- und Diagnostiklabore und Lieferfirmen sichtbar.</p><p>Registrierte Helfer:innen haben keine Möglichkeit auf Suchanfragen von Seiten der Diagnostiklabore zu reagieren, um ein erhöhtes E-Mail Aufkommen für diese zu vermeiden. Als Diagnostiklabor können Sie Helfer:innen über die Suchfunktion finden, deren Kontaktdaten sehen und diese kontaktieren.</p><p>Weitere Informationen finden Sie in unserer <a href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>",
                 "title": "Optionale Einwilligungen",
-                "mail": "<p>LabHive kann mir gelegentlich @:general.email-Benachrichtigungen über Updates und neue Funktionen der Website schicken.</p><p>Widersprechen Sie dem, erhalten Sie keine @:general.email-Benachrichtigungen von uns.</p>",
+                "mail": "<p>LabHive kann mir gelegentlich @:(general.email)-Benachrichtigungen über Updates und neue Funktionen der Website schicken.</p><p>Widersprechen Sie dem, erhalten Sie keine @:(general.email)-Benachrichtigungen von uns.</p>",
                 "volunteerDisclaimer": "Ob Sie als Freiwillige:r in Diagnostiklaboren arbeiten dürfen, bzw. freigestellt werden, müssen Sie eigenverantwortlich mit Ihrem Arbeitgeber klären. Wenn Sie von einem Diagnostiklabor angefragt werden, obliegt die arbeitsrechtliche Regelung Ihnen, Ihrem Arbeitgeber und dem betreffenden Diagnostiklabor. LabHive übernimmt hier keine Verantwortung.",
                 "search": "<p>LabHive kann meine Daten zum Zwecke der Zusammenarbeit mit registrierten und verifizierten Diagnostik- und Forschungslaboren sowie Lieferfirmen im Rahmen der SARS-CoV-2 Pandemie über die Suchfunktion einsehbar machen.</p><p>Widersprechen Sie dem, ist die Verwendung unserer Plattform nur eingeschränkt möglich, wodurch Sie als Freiwillige:r nicht über die Suche gefunden werden können. Es gibt für Freiwillige keine Möglichkeit, Kontakt zu einem registrierten und verifizierten Diagnostiklabor aufzunehmen.</p><p>Weitere Hinweise finden Sie in unserer <a target=\"_blank\" href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>"
             },
