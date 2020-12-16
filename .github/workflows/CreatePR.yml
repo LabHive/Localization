@@ -37,8 +37,7 @@ jobs:
             
           git checkout "$BRANCH"
           if [[ $BRANCH == "master" ]]; then
-            git branch UpdateLocalization || true
-            git checkout UpdateLocalization
+            git checkout UpdateLocalization || git checkout -b UpdateLocalization  
             PR_BRANCH="UpdateLocalization"
             PR_BASE="master"
           fi
@@ -59,12 +58,12 @@ jobs:
           fi
 
           echo "::set-output name=PR_OPEN::$PR_OPEN";
-          
+
           echo "::group::Status"
           echo "Currently on branch: $(git branch --show-current)"
           git status
           git rev-parse HEAD
-          git log origin...origin~10
+          git log HEAD...HEAD~10
           echo "::endgroup::"
 
           if [[ $PR_OPEN -eq 0 ]]; then
@@ -86,7 +85,7 @@ jobs:
           echo "::endgroup::"
 
           echo "::group::Git Log"
-          git log origin...origin~10;
+          git log HEAD...HEAD~10;
           echo "::endgroup::"
 
           echo "::group::Git push"
