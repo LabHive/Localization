@@ -53,26 +53,27 @@ jobs:
         run: |
           PR_OPEN=0
           if gh pr list -B $PR_BASE | grep -q $PR_BRANCH; then
-            echo '::debug::PR already exists'
-            PR_OPEN=1
+            echo '::debug::PR already exists';
+            PR_OPEN=1;
           fi
 
-          echo '::set-output name=PR_OPEN::$PR_OPEN'
+          echo '::set-output name=PR_OPEN::$PR_OPEN';
 
-          echo '::debug::test'
+          echo '::debug::test';
           if [[ $PR_OPEN -eq 0 ]]; then
-            echo '::debug::Merge $PR_BASE into $PR_BRANCH'
-            git merge $PR_BASE
+            echo '::debug::Merge $PR_BASE into $PR_BRANCH';
+            git merge $PR_BASE;
           fi
 
-          git submodule update --init
-          cd "$(git submodule status | grep Localization | awk '{ print $2 }')"
+          git submodule update --init;
+          cd "$(git submodule status | grep Localization | awk '{ print $2 }')";
           git fetch --all;
-          git checkout "$BRANCH"
-          cd ..
-          git add Localization
-          git commit -m "[CI] Updated Localization submodule"
-          git push origin $PR_BRANCH
+          git checkout "$BRANCH";
+          cd ..;
+          git add Localization;
+          git commit -m "[CI] Updated Localization submodule";
+          git log --all --decorate --oneline --graph;
+          git push origin $PR_BRANCH;
 
       - name: File PR
         if: ${{ env.STOP != '1' && steps.update_submodule.outputs.PR_OPEN == '0' }}
