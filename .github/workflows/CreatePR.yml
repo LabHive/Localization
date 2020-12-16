@@ -59,6 +59,7 @@ jobs:
 
           echo '::set-output name=PR_OPEN::$PR_OPEN'
 
+          echo '::debug::test'
           if [[ $PR_OPEN -eq 0 ]]; then
             echo '::debug::Merge $PR_BASE into $PR_BRANCH'
             git merge $PR_BASE
