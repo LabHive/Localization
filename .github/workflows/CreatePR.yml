@@ -60,6 +60,7 @@ jobs:
 
           echo "::set-output name=PR_OPEN::$PR_OPEN";
           echo "Currently on branch: $(git branch --show-current)"
+          git status
 
           if [[ $PR_OPEN -eq 0 ]]; then
             echo "::debug::Merge $PR_BASE into $PR_BRANCH";
