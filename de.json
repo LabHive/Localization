@@ -309,14 +309,16 @@
             "rnaExtractionDevice": "RNA-Extraktionsgerät",
             "rnaExtractionKit": "RNA-Extraktionskit",
             "pcrPlates": "PCR Platten",
-            "pipetteTips": "Pipettenspitzen"
+            "pipetteTips": "Pipettenspitzen",
+            "sequencingCapacity": "Virussequenzierung Kapazität"
         },
         "advice": {
             "virology": "Virologie",
             "protocolProduction": "Protokollerstellung/-implementierung",
             "rnaExperience_isolation": "@:checkboxes.skills.rnaExperience_isolation",
             "qPCR": "@:checkboxes.skills.qpcr",
-            "elisa": "@:checkboxes.skills.elisa"
+            "elisa": "@:checkboxes.skills.elisa",
+            "sequencing": "Virussequenzierung"
         }
     },
     "aboutUs": {
