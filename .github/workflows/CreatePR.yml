@@ -1,0 +1,102 @@
+name: Create Pull Request on LabHive
+on: push
+
+
+jobs:
+  createPR:
+    name: Create PR on LabHive
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup GitHub CLI and git
+        run: |
+          echo "${{ secrets.CI_TOKEN }}" | gh auth login --with-token; 
+          git config --global user.name "LabHiveCI"
+          git config --global user.email "LabHiveCI@users.noreply.github.com"
+
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          repository: LabHive/LabHive
+          ref: master
+          token: ${{ secrets.CI_TOKEN }}
+          submodules: true
+          fetch-depth: '0'
+      - name: Checkout correct branch
+        run: |
+          set +o pipefail
+
+          BRANCH="${{ github.ref }}"
+          BRANCH="${BRANCH/refs\/heads\//}"
+          PR_BRANCH="$BRANCH"
+          PR_BASE="dev"
+          if ! git branch -a | grep $BRANCH > /dev/null; then
+            echo "::debug::Branch $BRANCH does not exist on LabHive"
+            echo "STOP=1" >> $GITHUB_ENV
+            exit 0;
+          fi
+            
+          git checkout "$BRANCH"
+          if [[ $BRANCH == "master" ]]; then
+            git checkout UpdateLocalization || git checkout -b UpdateLocalization  
+            PR_BRANCH="UpdateLocalization"
+            PR_BASE="master"
+          fi
+
+          echo "Currently on branch: $(git branch --show-current)"
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+          echo "PR_BASE=$PR_BASE" >> $GITHUB_ENV
+          echo "PR_BRANCH=$PR_BRANCH" >> $GITHUB_ENV
+
+      - name: Update Submodule
+        if: ${{ env.STOP != '1' }}
+        id: update_submodule
+        run: |
+          PR_OPEN=0
+          if gh pr list -B $PR_BASE | grep -q $PR_BRANCH; then
+            echo '::debug::PR already exists';
+            PR_OPEN=1;
+          fi
+
+          echo "::set-output name=PR_OPEN::$PR_OPEN";
+
+          echo "::group::Status"
+          echo "Currently on branch: $(git branch --show-current)"
+          git status
+          git rev-parse HEAD
+          git log HEAD...HEAD~10
+          echo "::endgroup::"
+
+          if [[ $PR_OPEN -eq 0 ]]; then
+            echo "::debug::Merge $PR_BASE into $PR_BRANCH";
+            git merge --ff $PR_BASE;
+          fi
+
+          echo "::group::Update submodule"
+          git submodule update --init;
+          cd "$(git submodule status | grep Localization | awk '{ print $2 }')";
+          git fetch --all;
+          git reset --hard ${{ github.sha }};
+          echo "::endgroup::"
+
+          echo "::group::Commit"
+          cd ..;
+          git add Localization;
+          git commit -m "[CI] Updated Localization submodule";
+          echo "::endgroup::"
+
+          echo "::group::Git Log"
+          git log HEAD...HEAD~10;
+          echo "::endgroup::"
+
+          echo "::group::Git push"
+          git push origin $PR_BRANCH;
+          echo "::endgroup::"
+
+      - name: File PR
+        if: ${{ env.STOP != '1' && steps.update_submodule.outputs.PR_OPEN == '0' }}
+        run: |
+          gh pr create -B $PR_BASE -b "Updated Localization submodule" -t "Update Localization submodule" -l CI
+          if [[ $PR_BASE == "master" ]]; then
+            gh pr create -B dev -b "Updated Localization submodule" -t "Update Localization submodule" -l CI -l Backport
+          fi
+  

@@ -183,7 +183,7 @@
         "subtitle": "Registrieren Sie sich, um alle Funktionalitäten von LabHive nutzen zu können. Bei Fragen oder Schwierigkeiten wenden Sie sich bitte an <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "Jetzt registrieren",
         "complete": "Registrierung erfolgreich!",
-        "labActivation": "Da Sie sich als Diagnostiklabor, Labor oder Lieferfirmen registriert haben, verifizieren wir Ihren Account zusätzlich manuell. Dies kann eine Weile dauern. Wenn Ihr Account von uns verifiziert wurde und einsatzbereit ist, erhalten Sie eine E-Mail.",
+        "labActivation": "Da Sie sich als Diagnostiklabor, Labor oder Lieferfirmen registriert haben, verifizieren wir Ihren Account zusätzlich manuell. Dies kann eine Weile dauern. Wenn Ihr Account von uns verifiziert wurde und einsatzbereit ist, erhalten Sie eine @:(general.email).",
         "prospectiveRole": "Bitte wählen Sie Ihre Nutzergruppe.",
         "yourMail": "Ihre @:general.emailAddress",
         "confirmationMail": "Wir haben einen Link zur Bestätigung der Registrierung an <strong>{mail}</strong> geschickt. Bitte klicken Sie auf diesen Link, um Ihr Konto freizuschalten.",
@@ -195,13 +195,13 @@
                 "title": "Optionale Einwilligungen",
                 "mail": "<p>LabHive kann mir gelegentlich @:(general.email)-Benachrichtigungen über Updates und neue Funktionen der Website schicken.</p><p>Widersprechen Sie dem, erhalten Sie keine @:(general.email)-Benachrichtigungen von uns.</p>",
                 "volunteerDisclaimer": "Ob Sie als Freiwillige:r in Diagnostiklaboren arbeiten dürfen, bzw. freigestellt werden, müssen Sie eigenverantwortlich mit Ihrem Arbeitgeber klären. Wenn Sie von einem Diagnostiklabor angefragt werden, obliegt die arbeitsrechtliche Regelung Ihnen, Ihrem Arbeitgeber und dem betreffenden Diagnostiklabor. LabHive übernimmt hier keine Verantwortung.",
-                "search": "<p>LabHive kann meine Daten zum Zwecke der Zusammenarbeit mit registrierten und verifizierten Diagnostik- und Forschungslaboren sowie Lieferfirmen im Rahmen der SARS-CoV-2 Pandemie über die Suchfunktion einsehbar machen.</p><p>Widersprechen Sie dem, ist die Verwendung unserer Plattform nur eingeschränkt möglich, wodurch Sie als Freiwillige:r nicht über die Suche gefunden werden können. Es gibt für Freiwillige keine Möglichkeit, Kontakt zu einem registrierten und verifizierten Diagnostiklabor aufzunehmen.</p><p>Weitere Hinweise finden Sie in unserer <a target=\"_blank\" href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>"
+                "search": "<p>LabHive kann meine Daten zum Zwecke der Zusammenarbeit mit registrierten und verifizierten Diagnostiklaboren im Rahmen der SARS-CoV-2 Pandemie über die Suchfunktion einsehbar machen.</p><p>Widersprechen Sie dem, ist die Verwendung unserer Plattform nur eingeschränkt möglich, wodurch Sie als Freiwillige:r nicht über die Suche gefunden werden können. Es gibt für Freiwillige keine Möglichkeit, Kontakt zu einem registrierten und verifizierten Diagnostiklabor aufzunehmen.</p><p>Weitere Hinweise finden Sie in unserer <a target=\"_blank\" href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>"
             },
             "contact": {
                 "affiliation": "Ihre Affiliation",
                 "contactPerson": "Kontaktperson",
                 "title": "Affiliation & Kontaktperson",
-                "subTitle": "Bitte geben Sie Ihre Kontaktdaten an. <strong>Diese Daten benötigen wir, um Sie verifizieren zu können.</strong> Wir teilen personenbezogene Daten wie Name, E-Mail-Adresse und Telefonnummer nur mit anderen verifizierten Diagnostiklaboren, Laboren und Lieferfirmen.",
+                "subTitle": "Bitte geben Sie Ihre Kontaktdaten an. <strong>Diese Daten benötigen wir, um Sie verifizieren zu können.</strong> Wir teilen personenbezogene Daten wie Name, @:general.emailAddress und Telefonnummer nur mit anderen verifizierten Diagnostiklaboren, Laboren und Lieferfirmen.",
                 "title_volunteer": "Kontakt & Verfügbarkeit",
                 "subTitle_volunteer": "Bitte geben Sie Ihre Kontaktdaten und aktuelle Verfügbarkeit an. Wir teilen sensible Daten wie Nachname, E-Mail-Adresse und Telefonnummer nur mit verifizierten Diagnostiklaboren, Laboren und Lieferfirmen.",
                 "available": "Ja, ich bin derzeit zum Aushelfen verfügbar.",
@@ -309,14 +309,16 @@
             "rnaExtractionDevice": "RNA-Extraktionsgerät",
             "rnaExtractionKit": "RNA-Extraktionskit",
             "pcrPlates": "PCR Platten",
-            "pipetteTips": "Pipettenspitzen"
+            "pipetteTips": "Pipettenspitzen",
+            "sequencingCapacity": "Virussequenzierung Kapazität"
         },
         "advice": {
             "virology": "Virologie",
             "protocolProduction": "Protokollerstellung/-implementierung",
             "rnaExperience_isolation": "@:checkboxes.skills.rnaExperience_isolation",
             "qPCR": "@:checkboxes.skills.qpcr",
-            "elisa": "@:checkboxes.skills.elisa"
+            "elisa": "@:checkboxes.skills.elisa",
+            "sequencing": "Virussequenzierung"
         }
     },
     "aboutUs": {
@@ -359,7 +361,7 @@
         "no_results": "Nichts gefunden...",
         "tokenTooOld": "Bitte setzen Sie das Passwort erneut zurück, der Link ist abgelaufen.",
         "contact_support": "Ein Fehler ist aufgetreten, bitte wenden Sie sich an support@labhive.de. Bitte entschuldigen Sie die Umstände!",
-        "user_not_activated": "Der Benutzer ist noch nicht aktiviert. Zur Aktivierung Ihres Accounts müssen Sie die E-Mail-Adresse bestätigen. Sollten Sie sich als Labor oder Lieferfirma registriert haben, werden Sie von uns manuell verifiziert. Sobald dies geschehen ist, erhalten Sie von uns eine E-Mail. Sollte es länger als 2 Werktage dauern, kontaktieren Sie uns bitte unter support@labhive.de.",
+        "user_not_activated": "Der Benutzer ist noch nicht aktiviert. Zur Aktivierung Ihres Accounts müssen Sie die @:general.emailAddress bestätigen. Sollten Sie sich als Labor oder Lieferfirma registriert haben, werden Sie von uns manuell verifiziert. Sobald dies geschehen ist, erhalten Sie von uns eine @:(general.email). Sollte es länger als 2 Werktage dauern, kontaktieren Sie uns bitte unter support@labhive.de.",
         "user_disabled": "Ihr Account wurde von uns deaktiviert. Bei Fragen wenden Sie sich bitte an support@labhive.de.",
         "featureNotAvailableForRole": "Die Funktion ist für Ihre Nutzerrolle nicht verfügbar.",
         "success": "Erfolgreich ausgeführt."
