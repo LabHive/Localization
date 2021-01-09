@@ -203,7 +203,7 @@
                 "title": "Affiliation & Kontaktperson",
                 "subTitle": "Bitte geben Sie Ihre Kontaktdaten an. <strong>Diese Daten benötigen wir, um Sie verifizieren zu können.</strong> Wir teilen personenbezogene Daten wie Name, @:general.emailAddress und Telefonnummer nur mit anderen verifizierten Diagnostiklaboren, Laboren und Lieferfirmen.",
                 "title_volunteer": "Kontakt & Verfügbarkeit",
-                "subTitle_volunteer": "Bitte geben Sie Ihre Kontaktdaten und aktuelle Verfügbarkeit an. Wir teilen sensible Daten wie Nachname, E-Mail-Adresse und Telefonnummer nur mit verifizierten Diagnostiklaboren, Laboren und Lieferfirmen.",
+                "subTitle_volunteer": "Bitte geben Sie Ihre Kontaktdaten und aktuelle Verfügbarkeit an. Wir teilen sensible Daten wie Nachname, @:general.emailAddress und Telefonnummer nur mit verifizierten Diagnostiklaboren, Laboren und Lieferfirmen.",
                 "available": "Ja, ich bin derzeit zum Aushelfen verfügbar.",
                 "not_available": "Nein, ich bin derzeit nicht zum Aushelfen verfügbar.",
                 "textfieldPlaceholders": {
@@ -224,7 +224,7 @@
                 "title": "Login Informationen",
                 "subTitle": "Bitte geben Sie Ihre @:general.emailAddress an und legen Sie ein Passwort fest.",
                 "textfieldPlaceholders": {
-                    "officialEmail": "E-Mail-Adresse (institutionell)"
+                    "officialEmail": "@:general.emailAddress (institutionell)"
                 }
             },
             "qualification": {
