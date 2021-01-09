@@ -106,7 +106,8 @@
     "searchDetails": {
         "contactDetails": {
             "title": "Contact Details",
-            "not_available": "Contact details are only available to registered diagnostic laboratories, laboratories or suppliers."
+            "not_available": "Contact details are only available to registered diagnostic laboratories, laboratories or suppliers.",
+            "not_available_rLab": "Contact details are only available to registered diagnostic laboratories."
         },
         "other": {
             "title": "Other Information"
@@ -203,7 +204,7 @@
                 "affiliation": "Your Affiliation",
                 "contactPerson": "Contact Person",
                 "title_volunteer": "Contact & Availability",
-                "subTitle_volunteer": "Please provide your contact details and availability. We share sensitive information such as your name, e-mail address and phone number only with verified diagnostic- and research laboratories and suppliers.",
+                "subTitle_volunteer": "Please provide your contact details and availability. We share sensitive information such as your name, e-mail address and phone number only with verified diagnostic laboratories.",
                 "available": "Yes, I am currently available for helping out.",
                 "not_available": "No, I am currently not available for helping out.",
                 "textfieldPlaceholders": {

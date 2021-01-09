@@ -106,7 +106,8 @@
     "searchDetails": {
         "contactDetails": {
             "title": "Kontaktinformationen",
-            "not_available": "Kontaktinformationen sind nur für registrierte Diagnostiklabore, Labore oder Lieferfirmen sichtbar."
+            "not_available": "Kontaktinformationen sind nur für registrierte Diagnostiklabore, Labore oder Lieferfirmen sichtbar.",
+            "not_available_rLab": "Kontaktinformationen sind nur für registrierte Diagnostiklabore sichtbar."
         },
         "other": {
             "title": "Weitere Informationen"
@@ -203,7 +204,7 @@
                 "title": "Affiliation & Kontaktperson",
                 "subTitle": "Bitte geben Sie Ihre Kontaktdaten an. <strong>Diese Daten benötigen wir, um Sie verifizieren zu können.</strong> Wir teilen personenbezogene Daten wie Name, @:general.emailAddress und Telefonnummer nur mit anderen verifizierten Diagnostiklaboren, Laboren und Lieferfirmen.",
                 "title_volunteer": "Kontakt & Verfügbarkeit",
-                "subTitle_volunteer": "Bitte geben Sie Ihre Kontaktdaten und aktuelle Verfügbarkeit an. Wir teilen sensible Daten wie Nachname, @:general.emailAddress und Telefonnummer nur mit verifizierten Diagnostiklaboren, Laboren und Lieferfirmen.",
+                "subTitle_volunteer": "Bitte geben Sie Ihre Kontaktdaten und aktuelle Verfügbarkeit an. Wir teilen sensible Daten wie Nachname, @:general.emailAddress und Telefonnummer nur mit verifizierten Diagnostiklaboren.",
                 "available": "Ja, ich bin derzeit zum Aushelfen verfügbar.",
                 "not_available": "Nein, ich bin derzeit nicht zum Aushelfen verfügbar.",
                 "textfieldPlaceholders": {
