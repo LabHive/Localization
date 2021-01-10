@@ -27,7 +27,7 @@
             }
         },
         "notAvailableAnymore": "Plus disponible",
-        "notAvailableAnymore_warning": "<p>Cette action omet la personne dans les résultats de recherche. Nous lui enverrons alors un courrier électronique l'informant que l'option a été définie pour son profil. </p><p>Dans les 3 jours, elle peut confirmer ou contester ce choix. Si aucune mesure n'est prise, après ce délai, le profil ne sera plus trouvé dans la recherche.</p><p>Merci beaucoup pour votre aide!</p><p>Voulez-vous continuer?"
+        "notAvailableAnymore_warning": "<p>Cette action omet la personne dans les résultats de recherche. Nous lui enverrons alors un courrier électronique l'informant que l'option a été définie pour son profil.</p><p>Dans les 3 jours, elle peut confirmer ou contester ce choix. Si aucune mesure n'est prise, après ce délai, le profil ne sera plus trouvé dans la recherche.</p><p>Merci beaucoup pour votre aide!</p><p>Voulez-vous continuer?</p>"
     },
     "general": {
         "btn_search": "Rechercher",
@@ -35,7 +35,7 @@
         "qVolunteer": "Volontaire qualifié | Volontaires qualifiés",
         "rLab": "Laboratoire de recherche | Laboratoires de recherche",
         "volunteer": "Volontaire | Volontaires",
-        "loading": "Attendez, s'il vous plaît...",
+        "loading": "Attendez, s'il vous plaît…",
         "noResults": "Aucun résultat",
         "save": "Enregistrer",
         "savedSuccessfully": "Enregistré avec succès",
@@ -196,7 +196,7 @@
             },
             "consent": {
                 "title": "Consentement optionnel",
-                "dataProcessingInformation": "<p>Une fois l'enregistrement terminé, vos données seront traitées par LabHive. Vos informations de contact spécifiées ne sont visibles que pour les laboratoires de recherche et de diagnostic enregistrés et vérifiés en interne. Les volontaires enregistrés n'ont pas la possibilité de répondre aux demandes des laboratoires de diagnostic afin d'éviter une augmentation du flux de courrier électronique. En tant que laboratoire de diagnostic, vous pouvez toutefois trouver des volontaires en utilisant la fonction de recherche, consulter leurs coordonnées et les contacter.</p><p>Des informations complémentaires sont disponibles dans notre <a href=\"/#/privacyPolicy\">politique de confidentialité</a>.</p>",
+                "dataProcessingInformation": "<p>Une fois l'enregistrement terminé, vos données seront traitées par LabHive. Vos informations de contact spécifiées ne sont visibles que pour les laboratoires de recherche et de diagnostic enregistrés et vérifiés en interne.</p><p>Les volontaires enregistrés n'ont pas la possibilité de répondre aux demandes des laboratoires de diagnostic afin d'éviter une augmentation du flux de courrier électronique. En tant que laboratoire de diagnostic, vous pouvez toutefois trouver des volontaires en utilisant la fonction de recherche, consulter leurs coordonnées et les contacter.</p><p>Des informations complémentaires sont disponibles dans notre <a href=\"/#/privacyPolicy\">politique de confidentialité</a>.</p>",
                 "mail": "<p>LabHive peut occasionnellement m'envoyer des notifications par courier électronique sur les mises à jour et les nouvelles fonctionnalités du site web.</p><p>Si vous n'êtes pas d'accord, vous ne recevrez pas de notifications par courier électronique de notre part.</p>",
                 "volunteerDisclaimer": "Que vous soyez autorisé à travailler comme volontaire dans un laboratoire de diagnostic ou que vous soyez libéré de votre travail, vous devez clarifier cela avec votre employeur sous votre propre résponsabilité. Si vous êtes invité à travailler dans un laboratoire de diagnostic, vous, votre employeur et le laboratoire de diagnostic concerné êtes responsables du droit du travail. LabHive n'assume aucune responsabilité à cet régard.",
                 "search": "<p>LabHive peut partager mes données avec des laboratoires de diagnostic et de recherche enregistrés et vérifiés, dans le cadre de la pandémie de SARS-CoV-2.</p><p>Si vous n'êtes pas d'accord, l'utilisation de notre plateforme est limitée, ce qui signifie que vous, en tant que volontaire, ne pouvez pas être trouvé via la fonction de recherche. Il n'y a pas de possibilité pour les volontaires de contacter un laboratoire de diagnostic enregistré et vérifié.</p><p>Vous trouverez de plus amples informations dans notre <a target=\"_blank\" href=\"/#/privacyPolicy\">politique de confidentialité</a>.</p>"
@@ -231,7 +231,7 @@
         },
         "labActivation": "Comme vous vous êtes inscrit en tant que laboratoire de diagnostic ou de recherche, nous vérifions votre compte manuellement. Cela prend un certain temps, mais vous recevrez un courrier électronique lorsque ce sera fait.",
         "confirmationMail": "Nous avons envoyé un lien pour confirmer l'inscription à <strong>{mail}</strong>. Cliquez sur ce lien pour activer votre compte s’il vous plaît.",
-        "progressResetWarning": "Toutes les données seront supprimées. Vous voulez quand même continuer?",
+        "progressResetWarning": "Toutes les données seront supprimées. Vous voulez quand même continuer ?",
         "usergroup": "Groupe d'utilisateurs"
     },
     "checkboxes": {
@@ -293,7 +293,7 @@
     },
     "aboutUs": {
         "title": "Notre équipe",
-        "ourStoryText": "LabHive est composé d'une équipe interdisciplinaire de scientifiques, de développeurs de logiciels et d'experts en protection des données. L'idée de la plateforme est née  de deux projets du <a style=\"font-weight : 500 ;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a> Hackathon du gouvernement allemand. Les deux équipes se sont portées volontaires pour cette initiative et ont uni leurs forces pour construire un solide réseau de diagnostic."
+        "ourStoryText": "LabHive est composé d'une équipe interdisciplinaire de scientifiques, de développeurs de logiciels et d'experts en protection des données. L'idée de la plateforme est née de deux projets du <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a> Hackathon du gouvernement allemand. Les deux équipes se sont portées volontaires pour cette initiative et ont uni leurs forces pour construire un solide réseau de diagnostic."
     },
     "updateAvailability": {
         "available": "Mettre à jour le statut de disponibilité à : \"disponible en ce moment\"",
@@ -336,14 +336,14 @@
             "invalid_name": "Nom de laboratoire non valide (max. 200 caractères)",
             "invalid_location": "Malheureusement, Ce n’etait pas possible de verifier votre adresse. Vérifiez l'adresse et assurez-vous que l'orthographe est correcte, s'il vous plaît."
         },
-        "internal_error": "Quelque chose a mal tourné...",
+        "internal_error": "Quelque chose a mal tourné…",
         "not_authorized": "Non autorisé!",
         "bad_request": "@:général.demandenonvalide",
         "invalid_password": "Mot de passe non valide!",
         "tokenTooOld": "Réinitialiser votre mot de passe encore une vous s’il vous plaît, le lien de réinitialisation a expiré.",
         "success": "Exécution réussie.",
         "existing_user": "L’utilisateur existe déjà!",
-        "no_results": "Aucun résultat trouvé...",
+        "no_results": "Aucun résultat trouvé…",
         "user_disabled": "Votre compte a été désactivé. En cas de questions, contacted support@labhive.de s'il vous plaît.",
         "invalid_login": "Détails de connexion non valide!",
         "contact_support": "Une erreur s'est produite. Contactez support@labhive.de. Nous nous excusons pour le désagrément occasionné!",
@@ -351,13 +351,13 @@
         "featureNotAvailableForRole": "Cette fonction n'est pas disponible pour votre rôle d'utilisateur."
     },
     "search": {
-        "filterOfferTitle": "Qu’est-ce qui est nécessaire?",
+        "filterOfferTitle": "Qu’est-ce qui est nécessaire ?",
         "lookingForequipment": "@:rechercheDétails.recherchede.équipment.titre",
         "workers": "main-d'œuvre",
         "searchInSurroundings": "Recherchez dans les environs",
         "btn_offers": "Offres",
         "btn_requests": "Demandes",
-        "modeTitle": "Que recherchez-vous?",
+        "modeTitle": "Que recherchez-vous ?",
         "filterRequestTitle": "Type de demande",
         "enterZipcode": "Entrez le code postal",
         "title": "Recherchez des ressources",
