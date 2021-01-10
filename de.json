@@ -3,7 +3,7 @@
         "btn_search": "Suche nach Ressourcen",
         "dCenter": "Diagnostiklabor | Diagnostiklabore",
         "qVolunteer": "Qualifizierte:r Freiwillige:r | Qualifizierte Freiwillige",
-        "rLab": "Forschungslabor | Forschungslabore",
+        "rLab": "Labor und Lieferfirma| Labore und Lieferfirmen",
         "volunteer": "Freiwillige:r | Freiwillige",
         "loading": "Bitte warten…",
         "to_login": "Zum Login",
@@ -53,7 +53,7 @@
             },
             "researchLabs": {
                 "subtitle": "Freie Ressourcen anbieten",
-                "title": "Forschungslabore",
+                "title": "Labore und Lieferfirmen",
                 "text": "Tragen Sie verfügbare Ressourcen wie Geräte, Materialien und Fachwissen in unsere Datenbank ein. Diagnostiklabore können die Suchfunktion nutzen, um die Ressourcen zu finden und die anbietenden Institutionen zu kontaktieren.",
                 "button": "Ressourcen anbieten"
             },
@@ -106,7 +106,8 @@
     "searchDetails": {
         "contactDetails": {
             "title": "Kontaktinformationen",
-            "not_available": "Kontaktinformationen sind nur für registrierte Diagnostik- oder Forschungslabore sichtbar."
+            "not_available": "Kontaktinformationen sind nur für registrierte Diagnostik-, bzw. Forschungslabore oder Lieferfirmen sichtbar.",
+            "not_available_rLab": "Kontaktinformationen sind nur für registrierte Diagnostiklabore sichtbar."
         },
         "other": {
             "title": "Weitere Informationen"
@@ -145,7 +146,7 @@
     },
     "revokeConsent": {
         "mail": "Keine Updates per @:general.email erhalten.",
-        "dataProcessing": "Datenweitergabe, an Diagnostik- und Forschungslabore unterbinden.",
+        "dataProcessing": "Datenweitergabe an Diagnostik-, Forschungslabore und Lieferfirmen unterbinden.",
         "loginRequired": "Bitte melden Sie sich an und rufen Sie den Link erneut auf.",
         "title": "Einverständnis zurückziehen"
     },
@@ -177,13 +178,13 @@
         "descriptions": {
             "dCenter": "Aktive Diagnostiklabore, die derzeit SARS-CoV-2 Tests anbieten, d.h. Proben verarbeiten und Analysen durchführen",
             "qVolunteers": "Wissenschaftliche Mitarbeiter oder Technische Assistenten mit Ausbildung und Erfahrung in der Anwendung von Laborgeräten, Probenvorbereitung oder Datenanalyse",
-            "rLab": "Akademische oder industrielle Forschungseinrichtungen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)"
+            "rLab": "Akademische oder industrielle Forschungseinrichtungen und Lieferfirmen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)"
         },
         "title": "Registrieren",
         "subtitle": "Registrieren Sie sich, um alle Funktionalitäten von LabHive nutzen zu können. Bei Fragen oder Schwierigkeiten wenden Sie sich bitte an <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "Jetzt registrieren",
         "complete": "Registrierung erfolgreich!",
-        "labActivation": "Da Sie sich als Diagnostik- oder Forschungslabor registriert haben, verifizieren wir Ihren Account zusätzlich manuell. Dies kann eine Weile dauern. Wenn Ihr Account von uns verifiziert wurde und einsatzbereit ist, erhalten Sie eine @:(general.email).",
+        "labActivation": "Da Sie sich als Diagnostik-, Forschungslabor oder Lieferfirma registriert haben, verifizieren wir Ihren Account im Interesse des Datenschutzes zusätzlich manuell. Dies kann eine Weile dauern. Wenn Ihr Account von uns verifiziert wurde und einsatzbereit ist, erhalten Sie eine @:(general.email).",
         "prospectiveRole": "Bitte wählen Sie Ihre Nutzergruppe.",
         "yourMail": "Ihre @:general.emailAddress",
         "confirmationMail": "Wir haben einen Link zur Bestätigung der Registrierung an <strong>{mail}</strong> geschickt. Bitte klicken Sie auf diesen Link, um Ihr Konto freizuschalten.",
@@ -191,19 +192,19 @@
         "usergroup": "Nutzergruppe",
         "steps": {
             "consent": {
-                "dataProcessingInformation": "<p>Durch das Abschließen der Registrierung werden Ihre Daten von LabHive verarbeitet. Ihre angegebenen Kontaktinformationen sind nur für registrierte und von uns verifizierte Forschungs- und Diagnostiklabore sichtbar.</p><p>Registrierte Helfer:innen haben keine Möglichkeit auf Suchanfragen von Seiten der Diagnostiklabore zu reagieren, um ein erhöhtes @:general.email Aufkommen für diese zu vermeiden. Als Diagnostiklabor können Sie Helfer:innen über die Suchfunktion finden, deren Kontaktdaten sehen und diese kontaktieren.</p><p>Weitere Informationen finden Sie in unserer <a href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>",
+                "dataProcessingInformation": "<p>Durch das Abschließen der Registrierung werden Ihre Daten von LabHive verarbeitet. Ihre angegebenen Kontaktinformationen sind nur für registrierte und von uns verifizierte Forschungs- und Diagnostiklabore und Lieferfirmen sichtbar.</p><p>Registrierte Helfer:innen haben keine Möglichkeit auf Suchanfragen von Seiten der Diagnostiklabore zu reagieren, um ein erhöhtes @:(general.email)-Aufkommen für diese zu vermeiden. Als Diagnostiklabor können Sie Helfer:innen über die Suchfunktion finden, deren Kontaktdaten sehen und diese kontaktieren.</p><p>Weitere Informationen finden Sie in unserer <a href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>",
                 "title": "Optionale Einwilligungen",
                 "mail": "<p>LabHive kann mir gelegentlich @:(general.email)-Benachrichtigungen über Updates und neue Funktionen der Website schicken.</p><p>Widersprechen Sie dem, erhalten Sie keine @:(general.email)-Benachrichtigungen von uns.</p>",
                 "volunteerDisclaimer": "Ob Sie als Freiwillige:r in Diagnostiklaboren arbeiten dürfen, bzw. freigestellt werden, müssen Sie eigenverantwortlich mit Ihrem Arbeitgeber klären. Wenn Sie von einem Diagnostiklabor angefragt werden, obliegt die arbeitsrechtliche Regelung Ihnen, Ihrem Arbeitgeber und dem betreffenden Diagnostiklabor. LabHive übernimmt hier keine Verantwortung.",
-                "search": "<p>LabHive kann meine Daten zum Zwecke der Zusammenarbeit mit registrierten und verifizierten Diagnostik- und Forschungslaboren, im Rahmen der SARS-CoV-2 Pandemie über die Suchfunktion einsehbar machen.</p><p>Widersprechen Sie dem, ist die Verwendung unserer Plattform nur eingeschränkt möglich, wodurch Sie als Freiwillige:r nicht über die Suche gefunden werden können. Es gibt für Freiwillige keine Möglichkeit, Kontakt zu einem registrierten und verifizierten Diagnostiklabor aufzunehmen.</p><p>Weitere Hinweise finden Sie in unserer <a target=\"_blank\" href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>"
+                "search": "<p>LabHive kann meine Daten zum Zwecke der Zusammenarbeit mit registrierten und verifizierten Diagnostiklaboren im Rahmen der SARS-CoV-2 Pandemie über die Suchfunktion einsehbar machen.</p><p>Widersprechen Sie dem, ist die Verwendung unserer Plattform nur eingeschränkt möglich, wodurch Sie als Freiwillige:r nicht über die Suche gefunden werden können. Es gibt für Freiwillige keine Möglichkeit, Kontakt zu einem registrierten und verifizierten Diagnostiklabor aufzunehmen.</p><p>Weitere Hinweise finden Sie in unserer <a target=\"_blank\" href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>"
             },
             "contact": {
                 "affiliation": "Ihre Affiliation",
                 "contactPerson": "Kontaktperson",
                 "title": "Affiliation & Kontaktperson",
-                "subTitle": "Bitte geben Sie Ihre Kontaktdaten an. <strong>Diese Daten benötigen wir, um Sie verifizieren zu können.</strong> Wir teilen personenbezogene Daten wie Name, @:general.emailAddress und Telefonnummer nur mit anderen verifizierten Diagnostiklaboren und Forschungslaboren.",
+                "subTitle": "Bitte geben Sie Ihre Kontaktdaten an. <strong>Diese Daten benötigen wir, um Sie verifizieren zu können.</strong> Wir teilen personenbezogene Daten wie Name, @:general.emailAddress und Telefonnummer nur mit anderen verifizierten Diagnostik-, Forschungslaboren und Lieferfirmen.",
                 "title_volunteer": "Kontakt & Verfügbarkeit",
-                "subTitle_volunteer": "Bitte geben Sie Ihre Kontaktdaten und aktuelle Verfügbarkeit an. Wir teilen sensible Daten wie Nachname, @:general.emailAddress und Telefonnummer nur mit verifizierten Diagnostik- und Forschungslaboren.",
+                "subTitle_volunteer": "Bitte geben Sie Ihre Kontaktdaten und aktuelle Verfügbarkeit an. Wir teilen sensible Daten wie Nachname, @:general.emailAddress und Telefonnummer nur mit verifizierten Diagnostiklaboren.",
                 "available": "Ja, ich bin derzeit zum Aushelfen verfügbar.",
                 "not_available": "Nein, ich bin derzeit nicht zum Aushelfen verfügbar.",
                 "textfieldPlaceholders": {
@@ -216,15 +217,15 @@
                     "street": "Strasse",
                     "instituteName": "Institut/Universität/Krankenhaus",
                     "instituteWebsite": "Website der Institution",
-                    "labWebsite": "Labor-Webseite",
-                    "labName": "Laborname"
+                    "labWebsite": "Webseite",
+                    "labName": "Institutionsname"
                 }
             },
             "loginInformation": {
                 "title": "Login Informationen",
                 "subTitle": "Bitte geben Sie Ihre @:general.emailAddress an und legen Sie ein Passwort fest.",
                 "textfieldPlaceholders": {
-                    "officialEmail": "E-Mail-Adresse (institutionell)"
+                    "officialEmail": "@:general.emailAddress (institutionell)"
                 }
             },
             "qualification": {
@@ -341,7 +342,7 @@
             "invalid_street": "Ungültige Straße (max. 200 Zeichen)",
             "invalid_phone": "Ungültige Telefonnummer. Bitte in der Form +49931123 oder 12344 eingeben ohne - oder /",
             "invalid_description": "Ungültige Beschreibung (max. 2000 Zeichen)",
-            "invalid_name": "Ungültiger Laborname (max. 200 Zeichen)",
+            "invalid_name": "Ungültiger Institutionsname (max. 200 Zeichen)",
             "invalid_number": "Ungültige Zahl",
             "invalid_search": "Ungültiger Suchparameter",
             "invalid_role": "Ungültiger Suchtyp",
@@ -361,7 +362,7 @@
         "no_results": "Nichts gefunden…",
         "tokenTooOld": "Bitte setzen Sie das Passwort erneut zurück, der Link ist abgelaufen.",
         "contact_support": "Ein Fehler ist aufgetreten, bitte wenden Sie sich an support@labhive.de. Bitte entschuldigen Sie die Umstände!",
-        "user_not_activated": "Der Benutzer ist noch nicht aktiviert. Zur Aktivierung Ihres Accounts müssen Sie die @:general.emailAddress bestätigen. Sollten Sie sich als Labor registriert haben, werden Sie von uns manuell verifiziert. Sobald dies geschehen ist, erhalten Sie von uns eine @:(general.email). Sollte es länger als 2 Werktage dauern, kontaktieren Sie uns bitte unter support@labhive.de.",
+        "user_not_activated": "Der Benutzer ist noch nicht aktiviert. Zur Aktivierung Ihres Accounts müssen Sie die @:general.emailAddress bestätigen. Sollten Sie sich als Labor oder Lieferfirma registriert haben, werden Sie von uns manuell verifiziert. Sobald dies geschehen ist, erhalten Sie von uns eine @:(general.email). Sollte es länger als 2 Werktage dauern, kontaktieren Sie uns bitte unter support@labhive.de.",
         "user_disabled": "Ihr Account wurde von uns deaktiviert. Bei Fragen wenden Sie sich bitte an support@labhive.de.",
         "featureNotAvailableForRole": "Die Funktion ist für Ihre Nutzerrolle nicht verfügbar.",
         "success": "Erfolgreich ausgeführt."
