@@ -5,12 +5,12 @@
         "qVolunteer": "Qualified Volunteer | Qualified Volunteers",
         "rLab": "Research Laboratory | Research Laboratories",
         "volunteer": "Volunteer | Volunteers",
-        "loading": "Please wait...",
+        "loading": "Please wait…",
         "to_login": "Go to Login",
         "noResults": "No results found",
         "save": "Save",
-        "savedSuccessfully": "Saved successfully",
-        "executedSuccessfully": "Executed successfully",
+        "savedSuccessfully": "Saved",
+        "executedSuccessfully": "Executed",
         "required": "Required",
         "password": "Password",
         "language": "Language",
@@ -40,7 +40,7 @@
             "mainTitle": "The digital platform for a strong diagnostic network",
             "selected": "Selected for",
             "sponsoredBy": "Supported by",
-            "subTitle": "Join to find and offer resources for more SARS-CoV-2 tests"
+            "subTitle": "Join to find and offer resources for more SARS-CoV-2 tests."
         },
         "details": {
             "title": "How LabHive works",
@@ -151,7 +151,7 @@
     },
     "profile": {
         "title": "Profile",
-        "updated": "Profile updated successfully",
+        "updated": "Profile updated",
         "offer": {
             "title": "Current Offers",
             "subTitle": "If you can offer resources, you can enter them here. You can always change this later in your profile. Click on “Next” below if you do not have anything to share at present.",
@@ -244,7 +244,7 @@
         "searchInSurroundings": "Search in the surroundings",
         "btn_offers": "Offers",
         "btn_requests": "Requests",
-        "modeTitle": "What do you search for?",
+        "modeTitle": "What are you searching for?",
         "filterOfferTitle": "What is needed?",
         "filterRequestTitle": "Type of request",
         "enterZipcode": "Enter ZIP-Code",
@@ -352,19 +352,19 @@
             "invalid_url": "URL must be shorter than 200 characters.",
             "invalid_location": "Unfortunately we could not verify your address. Please check the address and make sure the spelling is correct."
         },
-        "internal_error": "Something went wrong...",
+        "internal_error": "Something went wrong…",
         "not_authorized": "Not authorized!",
         "bad_request": "@:general.invalidRequest",
         "invalid_password": "Invalid password!",
         "invalid_login": "Invalid login details!",
         "existing_user": "User already exists!",
-        "no_results": "No results were found...",
+        "no_results": "No results were found…",
         "tokenTooOld": "Please reset your password again, the reset link expired.",
         "contact_support": "An error has occurred. Please contact support@labhive.de. We apologize for the inconvenience!",
         "user_not_activated": "The user hasn't been activated yet. Please validate the e-mail address. If you registered as laboratory, you will be manually verified by us. When that has been done, you will receive an e-mail from us. If this takes longer than two working days, please contact us at support@labhive.de.",
         "user_disabled": "Your account was deactivated. In case of questions, please contact support@labhive.de.",
         "featureNotAvailableForRole": "This feature is not available for your user role.",
-        "success": "Executed successfully."
+        "success": "Executed."
     },
     "layout": {
         "staging": "Only for test purposes, does not contain real data.\nLive Version at <a href=\"https://labhive.de\">https://labhive.de</a>",
@@ -377,7 +377,7 @@
         "navbar": {
             "aboutLabhive": "About LabHive",
             "aboutUs": "About The Team",
-            "signOut": "Logout"
+            "signOut": "Log out"
         }
     }
 }
