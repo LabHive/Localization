@@ -41,7 +41,7 @@
     },
     "searchDetails": {
         "notAvailableAnymore_warning": "<p>Denne aksjonen ekskluderer personen fra søkeresultater. En e-post med info om at valget har blitt aktivert for profilen deres vil bli sendt.</p> <p>Innen 3 dager kan de bekrefte eller bestride dette. Om ingenting gjøres i denne tidsperioden, vil profilen ikke lengre være å finne i søket.</p><p>Tusen takk for hjelpen.</p><p>Vil du fortsette?</p>",
-        "notAvailableAnymore": "Ikke tilgjengelig lenger",
+        "notAvailableAnymore": "Rapporter inaktivitet",
         "offers": {
             "equipment": {
                 "title": "Tilbyr @:general.equipment"
@@ -103,9 +103,9 @@
             "testsPerWeek": "Tester per uke i Tyskland",
             "subTitle": "Stigende testkapasitet er nødvendig i kampen mot SARS-CoV-2, men mange steder mangler reagens, materialer, utstyr og personell. Vår plattform fremmer utviklingen av et robust diagnostisk nettverk og muliggjør formålstjenlig tilgang til ressurser for diagnostiske laboratorier. Spre testen, bekjemp viruset!",
             "referenceRegistered": "Registrert på vår plattform",
-            "update_date": "22 Juli 2020",
-            "testNumber": "531571",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-07-22-en.pdf?__blob=publicationFile",
+            "update_date": "6 Januar 2021",
+            "testNumber": "789680",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Jan_2021/2021-01-06-en.pdf?__blob=publicationFile",
             "referenceRKI": "Daglig situasjonsrapport om COVID-18 fra RKI, {date}"
         },
         "details": {
@@ -162,12 +162,12 @@
         "language": "Språk",
         "password": "Passord",
         "required": "Påkrevd",
-        "executedSuccessfully": "Kjørt suksessfult",
-        "savedSuccessfully": "Lagret suksessfult",
+        "executedSuccessfully": "Kjørt",
+        "savedSuccessfully": "Lagret",
         "save": "Lagre",
         "noResults": "Resultatløst",
         "to_login": "Gå til innlogging",
-        "loading": "Vent…",
+        "loading": "Vent …",
         "volunteer": "Frivillig | Frivillige",
         "rLab": "Forskningslaboratorium | Forskningslaboratorier",
         "qVolunteer": "Kvalifisert frivillig | kvalifiserte frivillige",
@@ -261,7 +261,7 @@
             "invalid_search": "Ugyldig søk",
             "invalid_name": "Ugyldig laboratoriumsnavn (maks. 200 tegn)"
         },
-        "internal_error": "Noe gikk galt…",
+        "internal_error": "Noe gikk galt …",
         "existing_user": "Brukeren finnes allerede.",
         "invalid_password": "Ugyldig passord.",
         "no_results": "Resultatløst…",
@@ -339,7 +339,8 @@
             "protocolProduction": "Etablering/opprettelse av lab-protokoller",
             "elisa": "@:checkboxes.skills.elisa",
             "qPCR": "@:checkboxes.skills.qpcr",
-            "rnaExperience_isolation": "@:checkboxes.skills.rnaExperience_isolation"
+            "rnaExperience_isolation": "@:checkboxes.skills.rnaExperience_isolation",
+            "sequencing": "Virussekvensering"
         },
         "equipment": {
             "pcrMasterMix": "PCR-mastermiks",
@@ -351,7 +352,8 @@
             "rtThermocycler": "PCR-maskin for RT",
             "reverseTransKit": "Utstyr for revers transkriptase",
             "qpcrThermocycler": "PCR-maskin for qPCR",
-            "calibratedPipetteSet": "Kalibrering av pipette-sett"
+            "calibratedPipetteSet": "Kalibrering av pipette-sett",
+            "sequencingCapacity": "Virussekvenseringskapasitet"
         }
     },
     "aboutUs": {
