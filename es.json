@@ -2,7 +2,7 @@
     "general": {
         "dCenter": "Laboratorio Diagnóstico | Laboratorios Diagnósticos",
         "rLab": "Laboratorio de Investigación | Laboratorios de Investigación",
-        "loading": "Por favor, espere...",
+        "loading": "Por favor, espere…",
         "to_login": "Iniciar Sesión",
         "noResults": "No se encontraron resultados",
         "save": "Guardar",
@@ -346,12 +346,12 @@
             "invalid_skills": "Habilidades no válidas",
             "invalid_url": "La URL debe ser menor a 200 caracteres."
         },
-        "internal_error": "Ha ocurrido un error...",
+        "internal_error": "Ha ocurrido un error…",
         "not_authorized": "¡No autorizado!",
         "invalid_password": "¡Contraseña no válida!",
         "invalid_login": "¡Información de Login no válida!",
         "existing_user": "¡El Usuario ya existe!",
-        "no_results": "No se encontraron resultados...",
+        "no_results": "No se encontraron resultados…",
         "tokenTooOld": "Porfavor restablezca su contraseña de nuevo, el enlace ha expirado.",
         "user_disabled": "Su cuenta ha sido desactivada. En caso de duda, por favor contacte con support@labhive.de.",
         "featureNotAvailableForRole": "Esta característica no está disponible para su rol de usuario.",
