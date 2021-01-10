@@ -106,7 +106,7 @@
     "searchDetails": {
         "contactDetails": {
             "title": "Contact Details",
-            "not_available": "Contact details are only available to registered diagnostic laboratories, laboratories or suppliers.",
+            "not_available": "Contact details are only available to registered diagnostic or research laboratories, or suppliers.",
             "not_available_rLab": "Contact details are only available to registered diagnostic laboratories."
         },
         "other": {
@@ -146,7 +146,7 @@
     },
     "revokeConsent": {
         "mail": "Receive no updates via email anymore.",
-        "dataProcessing": "Sending my personal data to registered diagnostic laboratories, laboratories and suppliers.",
+        "dataProcessing": "Sending my personal data to registered diagnostic or research laboratories and suppliers.",
         "loginRequired": "Please log in and open the link again.",
         "title": "Revoke consent"
     },
@@ -184,7 +184,7 @@
         "subtitle": "Please register to access all functionalities of LabHive. In case of questions or if you experience other problems, please contact us at <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "submit": "Register Now",
         "complete": "Thank you for your registration!",
-        "labActivation": "Since you registered as diagnostic laboratory, laboratory or supplier, we will verify your account manually. This takes some time, but you will receive an e-mail once verification has taken place.",
+        "labActivation": "Since you registered as diagnostic laboratory, research laboratory or supplier, we will verify your account manually in the interest of data protection. This takes some time, but you will receive an e-mail once verification has taken place.",
         "prospectiveRole": "Please select your user group.",
         "yourMail": "your e-mail address",
         "confirmationMail": "We have sent a link to confirm the registration to <strong>{mail}</strong>. Please click on this link to activate your account.",
@@ -192,11 +192,11 @@
         "usergroup": "User group",
         "steps": {
             "consent": {
-                "dataProcessingInformation": "<p>By completing the registration your data will be processed by LabHive. Your specified contact information is only visible for registered and internally verified research and diagnostic laboratories and suppliers.</p><p>Registered volunteers have no possibility to respond to requests from diagnostic laboratories to prevent an increased e-mail flow. As a diagnostic laboratory you can however find volunteers through the search function, view their contact data and contact them.</p><p>Further information can be found in our <a href=\"/#/privacyPolicy\">privacy policy</a>.</p>",
+                "dataProcessingInformation": "<p>Upon completing the registration your data will be processed by LabHive. Your specified contact information is only visible for registered and internally verified research and diagnostic laboratories and suppliers.</p><p>Registered volunteers have no possibility to respond to requests from diagnostic laboratories to prevent an increased e-mail flow. As a diagnostic laboratory you can however find volunteers through the search function, view their contact data and contact them.</p><p>Further information can be found in our <a href=\"/#/privacyPolicy\">privacy policy</a>.</p>",
                 "title": "Optional Consents",
                 "mail": "<p>LabHive may occasionally send me e-mail notifications about updates and new features of the website.</p><p>If you disagree, you will not receive any e-mail notifications from us.</p>",
                 "volunteerDisclaimer": "Whether you are allowed to work as a volunteer in a diagnostic laboratory or whether you are released from work, you must clarify this with your employer on your own responsibility. If you are requested to work in a diagnostic laboratory, you, your employer and the diagnostic laboratory concerned are responsible for labour law. LabHive does not take any responsibility for this.",
-                "search": "<p>LabHive can share my data with registered and verified diagnostic- and research laboratories and suppliers, in the context of the SARS-CoV-2 pandemic.</p><p>If you disagree, the use of our platform is limited, which means that you as a volunteer cannot be found via the search function. There is no possibility for volunteers to contact a registered and verified diagnostic laboratory.</p><p>You will find further information in our <a target=\"_blank\" href=\"/#/privacyPolicy\">privacy policy</a>.</p>"
+                "search": "<p>LabHive can share my data with registered and verified diagnostic and research laboratories and suppliers, in the context of the SARS-CoV-2 pandemic.</p><p>If you disagree, the use of our platform is limited, which means that you as a volunteer cannot be found via the search function. There is no possibility for volunteers to contact a registered and verified diagnostic laboratory.</p><p>You will find further information in our <a target=\"_blank\" href=\"/#/privacyPolicy\">privacy policy</a>.</p>"
             },
             "contact": {
                 "title": "Affiliation & Contact",
