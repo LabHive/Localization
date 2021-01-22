@@ -66,11 +66,11 @@
         },
         "coverage": {
             "referenceRKI": "Informe diario de situación sobre el COVID-19 por el RKI, {date}",
-            "testNumber": "563553",
+            "testNumber": "1146983",
             "update_date": "29 de Julio de 2020",
             "referenceRegistered": "Registrado en nuestra plataforma",
             "title": "Soporte y capacidad de test",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-07-29-en.pdf?__blob=publicationFile",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Jan_2021/2021-01-20-en.pdf?__blob=publicationFile",
             "testsPerWeek": "Tests por semana en Alemania",
             "subTitle": "Incrementar la capacidad de test es crucial en la lucha contra el SARS-CoV-2, pero a muchos lugares les faltan reactivos, materiales, equipo y personal. Nuestra plataforma promueve el desarrollo de una red robusta de diagnóstico y facilita el acceso eficiente a los recursos para laboratorios diagnósticos. ¡Propague el test, venza al virus!"
         }
