@@ -26,7 +26,7 @@
     "revokeConsent": {
         "title": "Opphev tillatelse",
         "loginRequired": "Logg inn og åpne lenken igjen.",
-        "dataProcessing": "Sender min personlige data til registrert diagnostikk- og forskningslaboratorier og tilbydere.",
+        "dataProcessing": "Sender min personlige data til registrert diagnostikk-, eller forskningslaboratorier og tilbydere.",
         "mail": "Kanseller nyhetsmottak per e-post."
     },
     "login": {
@@ -104,9 +104,9 @@
             "testsPerWeek": "Tester per uke i Tyskland",
             "subTitle": "Stigende testkapasitet er nødvendig i kampen mot SARS-CoV-2, men mange steder mangler reagens, materialer, utstyr og personell. Vår plattform fremmer utviklingen av et robust diagnostisk nettverk og muliggjør formålstjenlig tilgang til ressurser for diagnostiske laboratorier. Spre testen, bekjemp viruset!",
             "referenceRegistered": "Registrert på vår plattform",
-            "update_date": "6 Januar 2021",
-            "testNumber": "789680",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Jan_2021/2021-01-06-en.pdf?__blob=publicationFile",
+            "update_date": "20 Januar 2021",
+            "testNumber": "1146983",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Jan_2021/2021-01-20-en.pdf?__blob=publicationFile",
             "referenceRKI": "Daglig situasjonsrapport om COVID-18 fra RKI, {date}"
         },
         "details": {
@@ -172,13 +172,16 @@
         "volunteer": "Frivillig | Frivillige",
         "rLab": "Laboratorium og tilbyder | Laboratorier og tilbydere",
         "qVolunteer": "Kvalifisert frivillig | kvalifiserte frivillige",
-        "dCenter": "Diagnostiskt laboratorium | Diagnoskiske laboratorier"
+        "dCenter": "Diagnostiskt laboratorium | Diagnoskiske laboratorier",
+        "supplier": "Tilbyder | Tilbydere",
+        "select": "Velg"
     },
     "registration": {
         "descriptions": {
             "dCenter": "Aktive diagnostikklaboratorier som tilbyr SARS-CoV-2-tester nå, inkludert prøvebehandling og -analyse.",
             "rLab": "Akademiske eller industrielle forskningslaboratorium og tilbydere med tilgang til reagenser, materialer, enheter, eller passende laboratoriumsrom (BSL-2/3)",
-            "qVolunteers": "Forskningsstab eller tekniske assistenter med trening og erfaring i bruk av laboratoriumsutstyr, prøveforberedelser eller dataanalyse"
+            "qVolunteers": "Forskningsstab eller tekniske assistenter med trening og erfaring i bruk av laboratoriumsutstyr, prøveforberedelser eller dataanalyse",
+            "supplier": "Tilbydere med tilgang til reagenser, materialer, enheter, eller egnet laboratoriumsrom (BLS-2/3)"
         },
         "subtitle": "Registrer deg for å få alle funksjonene i LabHive. I fall du har spørsmål eller opplever andre problemer, kontakt oss på <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
         "steps": {
@@ -223,16 +226,19 @@
                 "subTitle": "Skriv inn din e-postadresse og sett et passord."
             },
             "consent": {
-                "search": "<p>LabHive kan dele min data med registrerte og bekreftede diagnostikk- og forskningslaboratorium og tilbydere, i tilknytning SARS-CoV-2-pandemien.</p><p>Hvis du motsetter deg dette, vil din bruk av plattformen begrenses, noe som betyr at du som frivillig ikke vil være å finne gjennom søkefunksjonen. Det er ingen mulighet for frivillige å kontakte registrerte og bekreftede diagnostikklaboratorium.</p><p>Videre info er å finne i vår <a target=\"_blank\" href=\"/#/privacyPolicy\">personvernspraksis</a>.</p>",
+                "search": "<p>LabHive kan dele min data med registrerte og bekreftede diagnostikklaboratorium, i tilknytning SARS-CoV-2-pandemien.</p><p>Hvis du motsetter deg dette, vil din bruk av plattformen begrenses, noe som betyr at du som frivillig ikke vil være å finne gjennom søkefunksjonen. Det er ingen mulighet for frivillige å kontakte registrerte og bekreftede diagnostikklaboratorium.</p><p>Videre info er å finne i vår <a target=\"_blank\" href=\"/#/privacyPolicy\">personvernspraksis</a>.</p>",
                 "volunteerDisclaimer": "Hvorvidt du tillates å jobbe som frivillig i et diagnostikklaboratorium, eller om du fritt kan jobbe andre steder. Du må fremforhandle dette med din arbeidsgiver på forhånd, på eget ansvar. Hvis du blir spurt om å jobbe i et diagnostikklaboratorium, vil du, din arbeidsgiver, og diagnostikklaboratoriumet være ansvarlige for arbeidsmiljølovskrav. LabHive har ikke ansvar for dette.",
                 "mail": "<p>LabHive kan sende e-postmerknader nå og da om oppdateringer og nye funksjonen på nettsiden.</p><p>Hvis du motsetter deg dette, vil du ikke motta noen e-postmerknader fra oss.</p>",
                 "title": "Valgfrie samtykker",
-                "dataProcessingInformation": "<p>Ved å fullføre registreringen vil din data bli behandlet av LabHive. Du angitte kontaktinfo er kun synlig for registrerte og internt bekreftede forskning- og diagnostikklaboratorium og tilbydere.</p><p>Registrerte frivillige har ingen muligheter til å besvare forespørsler fra diagnostikklaboratorier for å forhindre økt e-postmengde. Som diagnostikklaboratorium kan du finne frivillige gjennom søkefunksjonen, vise kontaktdataen deres, og kontakte dem.</p><p>Videre info er å finn i vår <a href=\"/#/privacyPolicy\">personvernspraksis</a>.</p>"
+                "dataProcessingInformation": "<p>Ved å fullføre registreringen vil din data bli behandlet av LabHive. Du angitte kontaktinfo er kun synlig for registrerte og internt bekreftede forskning- og diagnostikklaboratorium og tilbydere.</p><p>Registrerte frivillige har ingen muligheter til å besvare forespørsler fra diagnostikklaboratorier for å forhindre økt e-postmengde. Som diagnostikklaboratorium kan du finne frivillige gjennom søkefunksjonen, vise kontaktdataen deres, og kontakte dem.</p><p>Videre info er å finn i vår <a href=\"/#/privacyPolicy\">personvernspraksis</a>.</p>",
+                "dataProcessingInformation2": "<p>Registrerte frivillige vil ikke ha mulighet til å besvare forespørsler fra diagnostikklaboratorium for å forhindre e-postmengden. Som diagnostikklaboratorium kan du finne frivillige med søkefunksjonen, vise deres kontaktdata og kontakte dem.</p>",
+                "dataProcessingInformation1": "<p>Ved fullføring av registrering vil din data bli behandlet av LabHive. Din angitte kontaktinfo er kun synlig for registrerte og internt bekreftede laboratorium.</p>",
+                "dataProcessingInformation3": "<p>Ytterligere info er å finne i vår <a href=\"/#/privacyPolicy\">personvernspraksis</a>.</p>"
             }
         },
         "submit": "Registrer nå",
         "complete": "Takk for registreringen.",
-        "labActivation": "Siden du registrerte deg som diagnostikk-, laboratorium eller tilbyder, vil kontoen bli bekreftet manuelt. Dette kan ta litt tid, men du vil motta en e-post når bekreftelse har funnet sted.",
+        "labActivation": "Siden du registrerte deg som diagnostikk-, forskningslaboratorium eller tilbyder, vil kontoen bli bekreftet manuelt for å beskytte dataen. Dette kan ta litt tid, men du vil motta en e-post når bekreftelse har funnet sted.",
         "prospectiveRole": "Velg din brukeradresse.",
         "yourMail": "din e-postadresse",
         "usergroup": "Brukergruppe",
@@ -265,7 +271,7 @@
         "internal_error": "Noe gikk galt …",
         "existing_user": "Brukeren finnes allerede.",
         "invalid_password": "Ugyldig passord.",
-        "no_results": "Resultatløst…",
+        "no_results": "Resultatløst …",
         "user_not_activated": "Brukerkontoen har ikke blitt aktivert enda. Bekreft e-postadressen. Hvis du er registrert som laboratorium eller tilbyder, vil du bli manuelt bekreftet av oss. Når så er gjort, vil du motta en e-post fra oss. Hvis dette tar mer enn to arbeidsdager, kontakt oss på support@labhive.de",
         "not_authorized": "Ubekreftet!",
         "user_disabled": "Kontoen din har blitt deaktivert. Hvis du har spørsmål, kontakt support@labhive.de",
@@ -359,7 +365,8 @@
     },
     "aboutUs": {
         "title": "Vårt lag",
-        "ourStoryText": "LabHive består av et flerfaglig lag av forskere, programvareutviklere, og databeskyttelseseksperter. Idéen for plattformen oppstod fra to prosjekter i <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a>-hackaton i regi av Tyske myndigheter. Begge lag har frivillig bidratt til dette initiativet, og de har slått lag for å bygge et sterkt diagnostikknettverk."
+        "ourStoryText": "LabHive består av et flerfaglig lag av forskere, programvareutviklere, og databeskyttelseseksperter. Idéen for plattformen oppstod fra to prosjekter i <a style=\"font-weight: 500;\" target=\"_blank\" href=\"https://twitter.com/hashtag/WirVsVirus?src=hashtag_click\">#WirVsVirus</a>-hackaton i regi av Tyske myndigheter. Begge lag har frivillig bidratt til dette initiativet, og de har slått lag for å bygge et sterkt diagnostikknettverk.",
+        "supportersHeadline": "Med støtte fra"
     },
     "updateAvailability": {
         "title": "Oppdatering tilgjengelig",
