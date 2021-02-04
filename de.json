@@ -3,8 +3,7 @@
         "btn_search": "Suche nach Ressourcen",
         "dCenter": "Diagnostiklabor | Diagnostiklabore",
         "qVolunteer": "Qualifizierte:r Freiwillige:r | Qualifizierte Freiwillige",
-        "rLab": "Labor | Labore",
-        "supplier": "Lieferfirma | Lieferfirmen",
+        "rLab": "Labor und Lieferfirma| Labore und Lieferfirmen",
         "volunteer": "Freiwillige:r | Freiwillige",
         "loading": "Bitte warten…",
         "to_login": "Zum Login",
@@ -32,8 +31,7 @@
         "equipment": "Geräte/Materialien",
         "advice": "Beratung/Fachwissen",
         "other": "Andere",
-        "invalidRequest": "Ungültige Anfrage",
-        "select": "Auswählen"
+        "invalidRequest": "Ungültige Anfrage"
     },
     "landingpage": {
         "top": {
@@ -108,7 +106,7 @@
     "searchDetails": {
         "contactDetails": {
             "title": "Kontaktinformationen",
-            "not_available": "Kontaktinformationen sind nur für registrierte Labore sichtbar.",
+            "not_available": "Kontaktinformationen sind nur für registrierte Diagnostik-, bzw. Forschungslabore oder Lieferfirmen sichtbar.",
             "not_available_rLab": "Kontaktinformationen sind nur für registrierte Diagnostiklabore sichtbar."
         },
         "other": {
@@ -130,7 +128,7 @@
                 "title": "Hilfe anzubieten"
             },
             "equipment": {
-                "title": "@:general.equipment anzubieten"
+                "title": "'@:general.equipment anzubieten'"
             }
         },
         "notAvailableAnymore": "Inaktivität melden",
@@ -180,8 +178,7 @@
         "descriptions": {
             "dCenter": "Aktive Diagnostiklabore, die derzeit SARS-CoV-2 Tests anbieten, d.h. Proben verarbeiten und Analysen durchführen",
             "qVolunteers": "Wissenschaftliche Mitarbeiter oder Technische Assistenten mit Ausbildung und Erfahrung in der Anwendung von Laborgeräten, Probenvorbereitung oder Datenanalyse",
-            "rLab": "Akademische oder industrielle Forschungseinrichtungen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)",
-            "supplier": "Lieferfirmen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)"
+            "rLab": "Akademische oder industrielle Forschungseinrichtungen und Lieferfirmen mit Zugang zu Reagenzien, Geräten oder geeigneten Laboren (BSL-2/3)"
         },
         "title": "Registrieren",
         "subtitle": "Registrieren Sie sich, um alle Funktionalitäten von LabHive nutzen zu können. Bei Fragen oder Schwierigkeiten wenden Sie sich bitte an <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
@@ -195,9 +192,7 @@
         "usergroup": "Nutzergruppe",
         "steps": {
             "consent": {
-                "dataProcessingInformation1": "<p>Durch das Abschließen der Registrierung werden Ihre Daten von LabHive verarbeitet. Ihre angegebenen Kontaktinformationen sind nur für registrierte und von uns verifizierte Labore sichtbar.</p>",
-                "dataProcessingInformation2": "<p>Registrierte Helfer:innen haben keine Möglichkeit auf Suchanfragen von Seiten der Diagnostiklabore zu reagieren, um ein erhöhtes @:(general.email)-Aufkommen für diese zu vermeiden. Als Diagnostiklabor können Sie Helfer:innen über die Suchfunktion finden, deren Kontaktdaten sehen und diese kontaktieren.</p>",
-                "dataProcessingInformation3": "<p>Weitere Informationen finden Sie in unserer <a href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>",
+                "dataProcessingInformation": "<p>Durch das Abschließen der Registrierung werden Ihre Daten von LabHive verarbeitet. Ihre angegebenen Kontaktinformationen sind nur für registrierte und von uns verifizierte Forschungs- und Diagnostiklabore und Lieferfirmen sichtbar.</p><p>Registrierte Helfer:innen haben keine Möglichkeit auf Suchanfragen von Seiten der Diagnostiklabore zu reagieren, um ein erhöhtes @:(general.email)-Aufkommen für diese zu vermeiden. Als Diagnostiklabor können Sie Helfer:innen über die Suchfunktion finden, deren Kontaktdaten sehen und diese kontaktieren.</p><p>Weitere Informationen finden Sie in unserer <a href=\"/#/privacyPolicy\">Datenschutzerklärung</a>.</p>",
                 "title": "Optionale Einwilligungen",
                 "mail": "<p>LabHive kann mir gelegentlich @:(general.email)-Benachrichtigungen über Updates und neue Funktionen der Website schicken.</p><p>Widersprechen Sie dem, erhalten Sie keine @:(general.email)-Benachrichtigungen von uns.</p>",
                 "volunteerDisclaimer": "Ob Sie als Freiwillige:r in Diagnostiklaboren arbeiten dürfen, bzw. freigestellt werden, müssen Sie eigenverantwortlich mit Ihrem Arbeitgeber klären. Wenn Sie von einem Diagnostiklabor angefragt werden, obliegt die arbeitsrechtliche Regelung Ihnen, Ihrem Arbeitgeber und dem betreffenden Diagnostiklabor. LabHive übernimmt hier keine Verantwortung.",
@@ -207,7 +202,7 @@
                 "affiliation": "Ihre Affiliation",
                 "contactPerson": "Kontaktperson",
                 "title": "Affiliation & Kontaktperson",
-                "subTitle": "Bitte geben Sie Ihre Kontaktdaten an. <strong>Diese Daten benötigen wir, um Sie verifizieren zu können.</strong> Wir teilen personenbezogene Daten wie Name, @:general.emailAddress und Telefonnummer nur mit anderen verifizierten Laboren.",
+                "subTitle": "Bitte geben Sie Ihre Kontaktdaten an. <strong>Diese Daten benötigen wir, um Sie verifizieren zu können.</strong> Wir teilen personenbezogene Daten wie Name, @:general.emailAddress und Telefonnummer nur mit anderen verifizierten Diagnostik-, Forschungslaboren und Lieferfirmen.",
                 "title_volunteer": "Kontakt & Verfügbarkeit",
                 "subTitle_volunteer": "Bitte geben Sie Ihre Kontaktdaten und aktuelle Verfügbarkeit an. Wir teilen sensible Daten wie Nachname, @:general.emailAddress und Telefonnummer nur mit verifizierten Diagnostiklaboren.",
                 "available": "Ja, ich bin derzeit zum Aushelfen verfügbar.",

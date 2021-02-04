@@ -3,8 +3,7 @@
         "btn_search": "Search for Resources",
         "dCenter": "Diagnostic Laboratory | Diagnostic Laboratories",
         "qVolunteer": "Qualified Volunteer | Qualified Volunteers",
-        "rLab": "Laboratory | Laboratories",
-        "supplier": "Supplier | Suppliers",
+        "rLab": "Laboratory and Supplier | Laboratories and Suppliers",
         "volunteer": "Volunteer | Volunteers",
         "loading": "Please wait…",
         "to_login": "Go to Login",
@@ -32,8 +31,7 @@
         "equipment": "Devices/Materials",
         "advice": "Advice/Know-How",
         "other": "Other",
-        "invalidRequest": "Invalid Request",
-        "select": "Select"
+        "invalidRequest": "Invalid Request"
     },
     "landingpage": {
         "top": {
@@ -108,7 +106,7 @@
     "searchDetails": {
         "contactDetails": {
             "title": "Contact Details",
-            "not_available": "Contact details are only available to registered laboratories.",
+            "not_available": "Contact details are only available to registered diagnostic or research laboratories, or suppliers.",
             "not_available_rLab": "Contact details are only available to registered diagnostic laboratories."
         },
         "other": {
@@ -180,8 +178,7 @@
         "descriptions": {
             "dCenter": "Active diagnostic laboratories that currently offer SARS-CoV-2 tests including sample processing and analysis",
             "qVolunteers": "Scientific staff or technical assistants with training and experience in the use of laboratory equipment, sample preparation or data analysis",
-            "rLab": "Academic or industrial research laboratories with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)",
-            "supplier": "Suppliers with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)"
+            "rLab": "Academic or industrial research laboratories and suppliers with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)"
         },
         "title": "Register",
         "subtitle": "Please register to access all functionalities of LabHive. In case of questions or if you experience other problems, please contact us at <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
@@ -195,9 +192,7 @@
         "usergroup": "User group",
         "steps": {
             "consent": {
-                "dataProcessingInformation1": "<p>Upon completing the registration your data will be processed by LabHive. Your specified contact information is only visible for registered and internally verified laboratories.</p>",
-                "dataProcessingInformation2": "<p>Registered volunteers have no possibility to respond to requests from diagnostic laboratories to prevent an increased e-mail flow. As a diagnostic laboratory you can however find volunteers through the search function, view their contact data and contact them.</p>",
-                "dataProcessingInformation3": "<p>Further information can be found in our <a href=\"/#/privacyPolicy\">privacy policy</a>.</p>",
+                "dataProcessingInformation": "<p>Upon completing the registration your data will be processed by LabHive. Your specified contact information is only visible for registered and internally verified research and diagnostic laboratories and suppliers.</p><p>Registered volunteers have no possibility to respond to requests from diagnostic laboratories to prevent an increased e-mail flow. As a diagnostic laboratory you can however find volunteers through the search function, view their contact data and contact them.</p><p>Further information can be found in our <a href=\"/#/privacyPolicy\">privacy policy</a>.</p>",
                 "title": "Optional Consents",
                 "mail": "<p>LabHive may occasionally send me e-mail notifications about updates and new features of the website.</p><p>If you disagree, you will not receive any e-mail notifications from us.</p>",
                 "volunteerDisclaimer": "Whether you are allowed to work as a volunteer in a diagnostic laboratory or whether you are released from work, you must clarify this with your employer on your own responsibility. If you are requested to work in a diagnostic laboratory, you, your employer and the diagnostic laboratory concerned are responsible for labour law. LabHive does not take any responsibility for this.",
@@ -205,7 +200,7 @@
             },
             "contact": {
                 "title": "Affiliation & Contact",
-                "subTitle": "Please enter your contact details. <strong>We need this data to be able to verify you.</strong> We only share personal data such as name, e-mail address and telephone number with other verified laboratories.",
+                "subTitle": "Please enter your contact details. <strong>We need this data to be able to verify you.</strong> We only share personal data such as name, e-mail address and telephone number with other verified diagnostic and research laboratories and suppliers.",
                 "affiliation": "Your Affiliation",
                 "contactPerson": "Contact Person",
                 "title_volunteer": "Contact & Availability",
