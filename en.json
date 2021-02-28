@@ -181,7 +181,7 @@
             "dCenter": "Active diagnostic laboratories that currently offer SARS-CoV-2 tests including sample processing and analysis",
             "qVolunteers": "Scientific staff or technical assistants with training and experience in the use of laboratory equipment, sample preparation or data analysis",
             "rLab": "Academic or industrial research laboratories with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)",
-            "supplier": "Suppliers with access to reagents, materials, devices, or suitable laboratory space (BSL-2/3)"
+            "supplier": "Suppliers and manufacturers of equipment, materials, reagents, rapid tests or test-related products"
         },
         "title": "Register",
         "subtitle": "Please register to access all functionalities of LabHive. In case of questions or if you experience other problems, please contact us at <a href=\"mailto:info@labhive.de\">info@labhive.de</a>.",
@@ -223,14 +223,16 @@
                     "instituteName": "Institute/University/Hospital",
                     "instituteWebsite": "Website of your Institution",
                     "labWebsite": "Website",
-                    "labName": "Institution Name"
+                    "labName": "Institution Name",
+                    "business": "Company"
                 }
             },
             "loginInformation": {
                 "title": "Login Information",
                 "subTitle": "Please enter your e-mail address and set a password.",
                 "textfieldPlaceholders": {
-                    "officialEmail": "E-mail address (institutional)"
+                    "officialEmail": "E-mail address (institutional)",
+                    "businessEmail": "@:general.emailAddress (business)"
                 }
             },
             "qualification": {
