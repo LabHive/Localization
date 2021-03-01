@@ -66,7 +66,7 @@
         },
         "coverage": {
             "referenceRKI": "Informe diario de situación sobre el COVID-19 por el RKI, {date}",
-            "testNumber": "1146983",
+            "testNumber": "1069784",
             "update_date": "29 de Julio de 2020",
             "referenceRegistered": "Registrado en nuestra plataforma",
             "title": "Soporte y capacidad de test",
