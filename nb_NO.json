@@ -104,9 +104,9 @@
             "testsPerWeek": "Tester per uke i Tyskland",
             "subTitle": "Stigende testkapasitet er nødvendig i kampen mot SARS-CoV-2, men mange steder mangler reagens, materialer, utstyr og personell. Vår plattform fremmer utviklingen av et robust diagnostisk nettverk og muliggjør formålstjenlig tilgang til ressurser for diagnostiske laboratorier. Spre testen, bekjemp viruset!",
             "referenceRegistered": "Registrert på vår plattform",
-            "update_date": "20 Januar 2021",
-            "testNumber": "1146983",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Jan_2021/2021-01-20-en.pdf?__blob=publicationFile",
+            "update_date": "24 Februar 2021",
+            "testNumber": "1069784",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Feb_2021/2021-02-24-en.pdf?__blob=publicationFile",
             "referenceRKI": "Daglig situasjonsrapport om COVID-18 fra RKI, {date}"
         },
         "details": {
@@ -200,7 +200,8 @@
                     "street": "Gate",
                     "labName": "Institusjonsnavn",
                     "instituteWebsite": "Din institusjons nettside",
-                    "instituteName": "Institutt/universitet/sykehus"
+                    "instituteName": "Institutt/universitet/sykehus",
+                    "business": "Selskap"
                 },
                 "subTitle_volunteer": "Angi dine kontaktdetaljer og tilgjengelighet. Vi deler kun sensitiv info, som navnet ditt, e-postadressen, og telefonnummer med bekreftede diagnostikk-laboratorium.",
                 "title_volunteer": "Kontakt og tilgjengelighet",
@@ -221,7 +222,8 @@
             "loginInformation": {
                 "title": "Innloggingsinfo",
                 "textfieldPlaceholders": {
-                    "officialEmail": "E-postadresse (institusjon)"
+                    "officialEmail": "E-postadresse (institusjon)",
+                    "businessEmail": "@:general.emailAddress (selskap)"
                 },
                 "subTitle": "Skriv inn din e-postadresse og sett et passord."
             },
