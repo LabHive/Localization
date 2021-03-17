@@ -68,9 +68,9 @@
         },
         "coverage": {
             "referenceRKI": "Situationsbericht des RKI vom {date} zu COVID-19",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Maerz_2021/2021-03-10-de.pdf?__blob=publicationFile",
-            "testNumber": "1136825",
-            "update_date": "10.03.2021",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Maerz_2021/2021-03-17-de.pdf?__blob=publicationFile",
+            "testNumber": "1248100 ",
+            "update_date": "17.03.2021",
             "referenceRegistered": "Auf unserer Plattform registriert",
             "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Materialien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostiklaboren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
             "testsPerWeek": "Tests pro Woche in Deutschland",
