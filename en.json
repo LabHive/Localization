@@ -68,9 +68,9 @@
         },
         "coverage": {
             "referenceRKI": "Daily situation report about COVID-19 by the RKI, {date}",
-            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Maerz_2021/2021-03-31-en.pdf?__blob=publicationFile",
-            "testNumber": "1401576",
-            "update_date": "March 31st 2021",
+            "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Apr_2021/2021-04-07-en.pdf?__blob=publicationFile",
+            "testNumber": "1149279",
+            "update_date": "April 07th 2021",
             "referenceRegistered": "Registered on our platform",
             "subTitle": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, materials, equipment and personnel. Our platform promotes the development of a strong diagnostic network and facilitates efficient access to resources for diagnostic laboratories. Spread the test, beat the virus!",
             "testsPerWeek": "Tests per Week in Germany",
