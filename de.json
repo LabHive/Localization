@@ -388,5 +388,9 @@
             "aboutUs": "Über das Team",
             "signOut": "Logout"
         }
+    },
+    "testcapacity": {
+        "welcome": "Willkommen zurück,",
+        "overview": "Hier ist Ihre Übersicht"
     }
 }

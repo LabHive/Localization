@@ -388,5 +388,9 @@
             "aboutUs": "About The Team",
             "signOut": "Log out"
         }
+    },
+    "testcapacity": {
+        "welcome": "Welcome back,",
+        "overview": "Here's Your Overview"
     }
 }
