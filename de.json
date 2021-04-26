@@ -391,6 +391,22 @@
     },
     "testcapacity": {
         "welcome": "Willkommen zurück,",
-        "overview": "Hier ist Ihre Übersicht"
+        "overview": "Hier ist Ihre Übersicht",
+        "historyChart": {
+            "title": "Eigene Kapazität und Auslastung",
+            "pcr": "PCR",
+            "antibody": "Antikörper",
+            "lastWeek": "Letzte Woche",
+            "timespan": "gesamter Zeitraum",
+            "capacity": "Kapazität",
+            "usedCapacity": "Durchgeführt",
+            "totalCapacity": "Gesamtkapazität",
+            "testAmount": "Durchgeführte Tests"
+        },
+        "capacityMap": {
+            "title": "Laborübersicht",
+            "pcr": "PCR",
+            "antibody": "Antikörper"
+        }
     }
 }
