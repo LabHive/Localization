@@ -392,6 +392,7 @@
     "testcapacity": {
         "welcome": "Welcome back,",
         "overview": "Here's Your Overview",
+        "testCapacity": "Test Capacity",
         "historyChart": {
             "title": "Your Test Capacity and Utilization",
             "pcr": "PCR",
@@ -408,5 +409,6 @@
             "pcr": "PCR",
             "antibody": "Antibody"
         }
+
     }
 }

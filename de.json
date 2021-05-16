@@ -392,6 +392,7 @@
     "testcapacity": {
         "welcome": "Willkommen zurück,",
         "overview": "Hier ist Ihre Übersicht",
+        "testCapacity": "Testkapazität",
         "historyChart": {
             "title": "Eigene Kapazität und Auslastung",
             "pcr": "PCR",
