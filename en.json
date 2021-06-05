@@ -402,7 +402,16 @@
             "capacity": "Capacity",
             "usedCapacity": "Used Capacity",
             "totalCapacity": "Total Capacity",
-            "testAmount": "Performed Tests"
+            "testAmount": "Performed Tests",
+            "addNewEntry": "Add New Entry",
+            "editBox": "Edit",
+            "tests": "Tests",
+            "backlog": "Backlog",
+            "positiveRate": "Positive Rate",
+            "save": "Save",
+            "cancel": "Cancel",
+            "delete": "Delete"
+            
         },
         "capacityMap": {
             "title": "Total Test Capacity",
