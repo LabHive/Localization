@@ -386,6 +386,7 @@
         "navbar": {
             "aboutLabhive": "Über LabHive",
             "aboutUs": "Über das Team",
+            "testCapacity": "Testkapazität",
             "signOut": "Logout"
         }
     },
