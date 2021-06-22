@@ -393,6 +393,7 @@
     "testcapacity": {
         "welcome": "Willkommen zurück,",
         "overview": "Hier ist Ihre Übersicht",
+        "testCapacity": "Testkapazität",
         "historyChart": {
             "title": "Eigene Kapazität und Auslastung",
             "pcr": "PCR",
@@ -402,7 +403,15 @@
             "capacity": "Kapazität",
             "usedCapacity": "Durchgeführt",
             "totalCapacity": "Gesamtkapazität",
-            "testAmount": "Durchgeführte Tests"
+            "testAmount": "Durchgeführte Tests",
+            "addNewEntry": "Neue Addieren",
+            "editBox": "Bearbeiten",
+            "tests": "Tests",
+            "backlog": "Backlog",
+            "positiveRate": "Positive Rate",
+            "save": "Speicern",
+            "cancel": "Abbrechen",
+            "delete": "Löschen"
         },
         "capacityMap": {
             "title": "Laborübersicht",
