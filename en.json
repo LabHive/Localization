@@ -421,5 +421,14 @@
             "antibody": "Antibody"
         }
 
+    },
+     "totalDataOverview": {
+            "testPerWeek": "Tests per Week, Germany",
+            "qualifiedVolunteers": "Qualified Volunteers",
+            "researchLab": "Research Laboratories",
+            "digData": "Diagnostic Laboratories",
+            "dailySituation": "Daily situation report about COVID-19 by the RKI,",
+            "registeredON": "Registered on our platform"
+
     }
 }

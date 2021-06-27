@@ -419,5 +419,13 @@
             "pcr": "PCR",
             "antibody": "Antikörper"
         }
-    }
+    },
+    "totalDataOverview": {
+       "testPerWeek": "Tests pro Woche, Deutschland",
+       "qualifiedVolunteers": "Qualifizierte Freiwillige",
+       "researchLab": "Forschungslabore",
+       "digData": "Diagnostische Labore",
+       "dailySituation": "Täglicher Lagebericht zu COVID-19 des RKI,",
+       "registeredON": "Auf unserer Plattform registriert "
+}
 }
