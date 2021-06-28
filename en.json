@@ -404,8 +404,11 @@
             "capacity": "Capacity",
             "usedCapacity": "Used Capacity",
             "totalCapacity": "Total Capacity",
-            "testAmount": "Performed Tests",
+            "testAmount": "Performed Tests"
+        },
+        "capacityList": {
             "addNewEntry": "Add New Entry",
+            "date": "Date",
             "editBox": "Edit",
             "tests": "Tests",
             "backlog": "Backlog",

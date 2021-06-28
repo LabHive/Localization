@@ -404,13 +404,16 @@
             "capacity": "Kapazität",
             "usedCapacity": "Durchgeführt",
             "totalCapacity": "Gesamtkapazität",
-            "testAmount": "Durchgeführte Tests",
-            "addNewEntry": "Neue Addieren",
+            "testAmount": "Durchgeführte Tests"
+        },
+        "capacityList": {
+            "addNewEntry": "Neue hinzufügen",
+            "date": "Datum",
             "editBox": "Bearbeiten",
             "tests": "Tests",
-            "backlog": "Backlog",
+            "backlog": "Rückstand",
             "positiveRate": "Positive Rate",
-            "save": "Speicern",
+            "save": "Speichern",
             "cancel": "Abbrechen",
             "delete": "Löschen"
         },
