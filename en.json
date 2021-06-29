@@ -415,7 +415,8 @@
             "positiveRate": "Positive Rate",
             "save": "Save",
             "cancel": "Cancel",
-            "delete": "Delete"
+            "delete": "Delete",
+            "dateExists": "Another entry already exists for this date"
             
         },
         "capacityMap": {

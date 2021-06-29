@@ -415,7 +415,8 @@
             "positiveRate": "Positive Rate",
             "save": "Speichern",
             "cancel": "Abbrechen",
-            "delete": "Löschen"
+            "delete": "Löschen",
+            "dateExists": "Ein Eintrag zu diesem Datum existiert schon."
         },
         "capacityMap": {
             "title": "Laborübersicht",
