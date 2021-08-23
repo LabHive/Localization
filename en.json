@@ -69,8 +69,8 @@
         "coverage": {
             "referenceRKI": "Daily situation report about COVID-19 by the RKI, {date}",
             "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Testzahl.html",
-            "testNumber": "822977",
-            "update_date": "June 16th 2021",
+            "testNumber": "559194",
+            "update_date": "August 19th 2021",
             "referenceRegistered": "Registered on our platform",
             "subTitle": "Increasing test capacity is crucial in the fight against SARS-CoV-2, but many places lack reagents, materials, equipment and personnel. Our platform promotes the development of a strong diagnostic network and facilitates efficient access to resources for diagnostic laboratories. Spread the test, beat the virus!",
             "testsPerWeek": "Tests per Week in Germany",
