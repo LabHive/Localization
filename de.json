@@ -69,8 +69,8 @@
         "coverage": {
             "referenceRKI": "Situationsbericht des RKI vom {date} zu COVID-19",
             "link": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Testzahl.html",
-            "testNumber": "822977",
-            "update_date": "16.06.2021",
+            "testNumber": "559194",
+            "update_date": "19.08.2021",
             "referenceRegistered": "Auf unserer Plattform registriert",
             "subTitle": "Die Testkapazität zu erhöhen ist entscheidend im Kampf gegen SARS-CoV-2. Allerdings fehlt es an vielen Orten an Reagenzien, Materialien, Geräten und Personal. Unsere Plattform fördert den Aufbau eines starken diagnostischen Netzwerks und erleichtert Diagnostiklaboren den effizienten Zugang zu Ressourcen. Spread the test, beat the virus!",
             "testsPerWeek": "Tests pro Woche in Deutschland",
